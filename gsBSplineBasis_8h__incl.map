@@ -1,0 +1,28 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsBSplineBasis.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsBSplineBasis.h">
+<area shape="rect" id="node2" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="635,515,867,541"/>
+<area shape="rect" id="node26" href="$gsConstantBasis_8h.html" title="Provides declaration of a basis of constant functions, consisting of one constant function..." alt="" coords="415,117,605,144"/>
+<area shape="rect" id="node38" href="$gsTensorBasis_8h.html" title="Provides declaration of TensorBasis class. " alt="" coords="1199,117,1385,144"/>
+<area shape="rect" id="node42" href="$gsTensorDomainIterator_8h.html" title="Iterator over the elements of a tensor&#45;structured grid. " alt="" coords="924,117,1175,144"/>
+<area shape="rect" id="node46" href="$gsTensorDomainBoundaryIterator_8h.html" title="Iterator over the boundary elements of a tensor&#45;structured grid. " alt="" coords="647,110,900,151"/>
+<area shape="rect" id="node47" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="1645,208,1821,235"/>
+<area shape="rect" id="node11" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="623,888,761,915"/>
+<area shape="rect" id="node13" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1214,664,1353,691"/>
+<area shape="rect" id="node19" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="649,664,799,691"/>
+<area shape="rect" id="node23" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="823,589,951,616"/>
+<area shape="rect" id="node12" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="612,963,772,989"/>
+<area shape="rect" id="node20" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="605,739,795,765"/>
+<area shape="rect" id="node21" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="747,813,887,840"/>
+<area shape="rect" id="node25" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="1023,664,1189,691"/>
+<area shape="rect" id="node27" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="559,365,747,392"/>
+<area shape="rect" id="node36" href="$gsConstantFunction_8h.html" title="Provides declaration of ConstantFunction class. " alt="" coords="405,208,616,235"/>
+<area shape="rect" id="node28" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="1221,440,1352,467"/>
+<area shape="rect" id="node29" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="840,440,1067,467"/>
+<area shape="rect" id="node35" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="664,440,816,467"/>
+<area shape="rect" id="node37" href="$gsCombinatorics_8h.html" title="Provides combinatorial unitilies. " alt="" coords="557,291,749,317"/>
+<area shape="rect" id="node39" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1488,208,1621,235"/>
+<area shape="rect" id="node40" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1037,291,1195,317"/>
+<area shape="rect" id="node43" href="$gsDomainIterator_8h.html" title="Provides declaration of DomainIterator abstract interface. " alt="" coords="691,208,887,235"/>
+<area shape="rect" id="node45" href="$gsGaussRule_8h.html" title="Provides the Gauss&#45;Legendre quadrature rule. " alt="" coords="912,208,1117,235"/>
+<area shape="rect" id="node44" href="$gsDomain_8h.html" title="Abstracgt Base class representing a domain. i.e. a collection of elements (triangles, rectangles, cubes, simplices. " alt="" coords="773,291,923,317"/>
+<area shape="rect" id="node48" href="$gsKnotIterator_8h.html" title="Provides implementation of knot vector iterators. " alt="" coords="1578,291,1760,317"/>
+</map>

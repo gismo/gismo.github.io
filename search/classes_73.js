@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['selfadjointeigensolver',['SelfAdjointEigenSolver',['http://eigen.tuxfamily.org/dox/classEigen_1_1SelfAdjointEigenSolver.html',1,'Eigen']]],
+  ['shell_5fcoupling',['shell_coupling',['../structgismo_1_1shell__coupling.html',1,'gismo']]],
+  ['sign_5fexpr',['sign_expr',['../classgismo_1_1expr_1_1sign__expr.html',1,'gismo::expr']]],
+  ['simplicialldlt',['SimplicialLDLT',['http://eigen.tuxfamily.org/dox/classEigen_1_1SimplicialLDLT.html',1,'Eigen']]],
+  ['simplicialllt',['SimplicialLLT',['http://eigen.tuxfamily.org/dox/classEigen_1_1SimplicialLLT.html',1,'Eigen']]],
+  ['solver_5fverbosity',['solver_verbosity',['../structgismo_1_1solver__verbosity.html',1,'gismo']]],
+  ['sparselu',['SparseLU',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseLU.html',1,'Eigen']]],
+  ['sparsematrix',['SparseMatrix',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseMatrix.html',1,'Eigen']]],
+  ['sparsematrixbase',['SparseMatrixBase',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseMatrixBase.html',1,'Eigen']]],
+  ['sparseqr',['SparseQR',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseQR.html',1,'Eigen']]],
+  ['sparseselfadjointview',['SparseSelfAdjointView',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseSelfAdjointView.html',1,'Eigen']]],
+  ['sparsevector',['SparseVector',['http://eigen.tuxfamily.org/dox/classEigen_1_1SparseVector.html',1,'Eigen']]],
+  ['spectraops',['SpectraOps',['../classgismo_1_1SpectraOps.html',1,'gismo']]],
+  ['spectraops_3c_20matrixtype_2c_20spectra_3a_3ageigsmode_3a_3aregularinverse_20_3e',['SpectraOps&lt; MatrixType, Spectra::GEigsMode::RegularInverse &gt;',['../classgismo_1_1SpectraOps_3_01MatrixType_00_01Spectra_1_1GEigsMode_1_1RegularInverse_01_4.html',1,'gismo']]],
+  ['spectrashiftops',['SpectraShiftOps',['../classgismo_1_1SpectraShiftOps.html',1,'gismo']]],
+  ['spectrashiftops_3c_20matrixtype_2c_20spectra_3a_3ageigsmode_3a_3abuckling_20_3e',['SpectraShiftOps&lt; MatrixType, Spectra::GEigsMode::Buckling &gt;',['../classgismo_1_1SpectraShiftOps_3_01MatrixType_00_01Spectra_1_1GEigsMode_1_1Buckling_01_4.html',1,'gismo']]],
+  ['stabilizercdr',['stabilizerCDR',['../structgismo_1_1stabilizerCDR.html',1,'gismo']]],
+  ['stress_5fcomponents',['stress_components',['../structgismo_1_1stress__components.html',1,'gismo']]],
+  ['stress_5ftype',['stress_type',['../structgismo_1_1stress__type.html',1,'gismo']]],
+  ['submoduleclass',['submoduleClass',['../classgismo_1_1submoduleClass.html',1,'gismo']]],
+  ['submoduleclass2',['submoduleClass2',['../classgismo_1_1submoduleClass2.html',1,'gismo']]],
+  ['superlu',['SuperLU',['http://eigen.tuxfamily.org/dox/classEigen_1_1SuperLU.html',1,'Eigen']]]
+];

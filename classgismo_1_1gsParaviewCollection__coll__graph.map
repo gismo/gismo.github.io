@@ -1,0 +1,11 @@
+<map id="gsParaviewCollection" name="gsParaviewCollection">
+<area shape="rect" id="node2" href="$classgismo_1_1gsExprEvaluator.html" title="Generic evaluator of isogeometric expressions. " alt="" coords="99,331,265,357"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="182,189,284,216"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsExprEvaluator.html" title="gsExprEvaluator\&lt; real_t \&gt;" alt="" coords="468,280,663,307"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsParaviewDataSet.html" title="This class represents a group of vtk (Paraview) files that refer to one multiPatch, for one timestep. " alt="" coords="322,381,469,408"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsExprHelper.html" title="gsExprHelper\&lt; real_t \&gt;" alt="" coords="523,189,699,216"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsMultiBasis.html" title="gsMultiBasis\&lt; real_t \&gt;" alt="" coords="525,97,696,124"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsFunctionSet.html" title="gsFunctionSet\&lt; real_t \&gt;" alt="" coords="521,5,700,32"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsMultiPatch.html" title="gsMultiPatch\&lt; real_t \&gt;" alt="" coords="331,97,501,124"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsBoxTopology.html" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="368,5,488,32"/>
+</map>

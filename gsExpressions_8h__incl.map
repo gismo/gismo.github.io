@@ -1,0 +1,40 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsExpressions.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsExpressions.h">
+<area shape="rect" id="node2" href="$gsFuncData_8h.html" title="This object is a cache for computed values from an evaluator. " alt="" coords="1275,381,1433,408"/>
+<area shape="rect" id="node25" href="$gsDirichletValues_8h.html" title="The functions compute Dirichlet degrees of freedom using various methods. " alt="" coords="2975,299,3209,325"/>
+<area shape="rect" id="node34" href="$gsMappedBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2090,117,2301,144"/>
+<area shape="rect" id="node50" href="$precomputed__expr_8h.html" title="Defines expression precomputed_expr. " alt="" coords="2735,110,2964,151"/>
+<area shape="rect" id="node3" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1601,555,1788,581"/>
+<area shape="rect" id="node23" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="2291,464,2449,491"/>
+<area shape="rect" id="node4" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3188,637,3319,664"/>
+<area shape="rect" id="node6" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="2807,637,3033,664"/>
+<area shape="rect" id="node12" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="624,637,776,664"/>
+<area shape="rect" id="node13" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="800,637,960,664"/>
+<area shape="rect" id="node14" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="984,637,1179,664"/>
+<area shape="rect" id="node15" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1203,637,1420,664"/>
+<area shape="rect" id="node16" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1445,637,1595,664"/>
+<area shape="rect" id="node17" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="1620,637,1769,664"/>
+<area shape="rect" id="node18" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="1794,637,1960,664"/>
+<area shape="rect" id="node19" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="1985,637,2180,664"/>
+<area shape="rect" id="node20" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2205,637,2397,664"/>
+<area shape="rect" id="node21" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2422,637,2615,664"/>
+<area shape="rect" id="node22" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="2639,637,2781,664"/>
+<area shape="rect" id="node5" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="3188,712,3420,739"/>
+<area shape="rect" id="node24" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="2359,555,2499,581"/>
+<area shape="rect" id="node26" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="3406,381,3564,408"/>
+<area shape="rect" id="node29" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="3199,381,3367,408"/>
+<area shape="rect" id="node31" href="$gsAssemblerOptions_8h.html" title="Provides assembler and solver options. " alt="" coords="2671,381,2927,408"/>
+<area shape="rect" id="node32" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="2951,381,3173,408"/>
+<area shape="rect" id="node27" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="3631,464,3815,491"/>
+<area shape="rect" id="node35" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="2281,381,2460,408"/>
+<area shape="rect" id="node37" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="2495,208,2660,235"/>
+<area shape="rect" id="node42" href="$gsMappedSingleBasis_8h.html" title="Implementation of a piece of the gsMappedBasis. " alt="" coords="2215,201,2420,242"/>
+<area shape="rect" id="node44" href="$gsWeightMapper_8h.html" title="Provides declaration of gsWeightMapper class. " alt="" coords="1397,464,1616,491"/>
+<area shape="rect" id="node46" href="$gsDomainIterator_8h.html" title="Provides declaration of DomainIterator abstract interface. " alt="" coords="1689,299,1884,325"/>
+<area shape="rect" id="node47" href="$gsPiecewiseFunction_8h.html" title="Provides declaration of a gsPiecewiseFunction class. " alt="" coords="1538,208,1755,235"/>
+<area shape="rect" id="node48" href="$gsBasisFun_8h.html" title="Provides definition of the BasisFun class. " alt="" coords="1780,208,1935,235"/>
+<area shape="rect" id="node36" href="$gsProperty_8h_source.html" title="gsMesh2/gsProperty.h" alt="" coords="2104,464,2267,491"/>
+<area shape="rect" id="node38" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="2485,381,2645,408"/>
+<area shape="rect" id="node39" href="$gsMultiBasis_8h.html" title="Provides declaration of MultiBasis class. " alt="" coords="2785,299,2951,325"/>
+<area shape="rect" id="node40" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2124,381,2257,408"/>
+<area shape="rect" id="node43" href="$gsMesh_8h.html" title="Provides declaration of the Mesh class. " alt="" coords="2094,299,2279,325"/>
+</map>

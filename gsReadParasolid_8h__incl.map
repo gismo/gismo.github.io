@@ -1,0 +1,14 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsParasolid/gsReadParasolid.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsParasolid/gsReadParasolid.h">
+<area shape="rect" id="node2" href="$gsXmlUtils_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="1289,109,1428,136"/>
+<area shape="rect" id="node36" href="$gsPKSession_8h.html" title="Manages starting and stopping Parasolid session. " alt="" coords="1452,109,1647,136"/>
+<area shape="rect" id="node3" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="1111,184,1219,211"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="364,259,596,285"/>
+<area shape="rect" id="node23" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="623,557,763,584"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="280,632,419,659"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="821,408,960,435"/>
+<area shape="rect" id="node21" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="441,408,591,435"/>
+<area shape="rect" id="node27" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="719,333,847,360"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="269,707,429,733"/>
+<area shape="rect" id="node22" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="391,483,581,509"/>
+<area shape="rect" id="node29" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="985,408,1151,435"/>
+</map>

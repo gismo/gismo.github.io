@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsFuncCoordinate.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsFuncCoordinate.h">
+<area shape="rect" id="node2" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="2829,109,2981,136"/>
+<area shape="rect" id="node3" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="2705,184,2879,211"/>
+<area shape="rect" id="node4" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2581,267,2768,293"/>
+<area shape="rect" id="node5" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="1163,349,1293,376"/>
+<area shape="rect" id="node32" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="1317,349,1544,376"/>
+<area shape="rect" id="node38" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="2319,349,2471,376"/>
+<area shape="rect" id="node39" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="2495,349,2655,376"/>
+<area shape="rect" id="node40" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="2679,349,2873,376"/>
+<area shape="rect" id="node41" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="2898,349,3115,376"/>
+<area shape="rect" id="node42" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="3139,349,3289,376"/>
+<area shape="rect" id="node43" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="3315,349,3464,376"/>
+<area shape="rect" id="node44" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="3489,349,3655,376"/>
+<area shape="rect" id="node45" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="3680,349,3875,376"/>
+<area shape="rect" id="node46" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="3899,349,4092,376"/>
+<area shape="rect" id="node47" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="4117,349,4309,376"/>
+<area shape="rect" id="node48" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="4334,349,4476,376"/>
+<area shape="rect" id="node6" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="449,424,681,451"/>
+<area shape="rect" id="node15" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="344,797,483,824"/>
+<area shape="rect" id="node17" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="833,573,972,600"/>
+<area shape="rect" id="node23" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="456,573,605,600"/>
+<area shape="rect" id="node28" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="656,499,784,525"/>
+<area shape="rect" id="node16" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="333,872,493,899"/>
+<area shape="rect" id="node24" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="435,648,625,675"/>
+<area shape="rect" id="node25" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="461,723,600,749"/>
+<area shape="rect" id="node30" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="997,573,1163,600"/>
+</map>

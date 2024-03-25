@@ -1,0 +1,31 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIO/gsParaviewCollection.cpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIO/gsParaviewCollection.cpp">
+<area shape="rect" id="node2" href="$gsParaviewCollection_8h.html" title="Provides a helper class to write Paraview collection (.pvd) files. " alt="" coords="1150,109,1356,136"/>
+<area shape="rect" id="node3" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="740,408,972,435"/>
+<area shape="rect" id="node29" href="$gsFileManager_8h.html" title="Utility class for finding files and handling paths. " alt="" coords="809,184,967,211"/>
+<area shape="rect" id="node30" href="$gsParaviewDataSet_8h.html" title="Provides a helper class to write Paraview (.vts) files. " alt="" coords="1462,184,1655,211"/>
+<area shape="rect" id="node12" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="572,797,711,824"/>
+<area shape="rect" id="node14" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="215,573,355,600"/>
+<area shape="rect" id="node20" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="452,573,601,600"/>
+<area shape="rect" id="node26" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="351,491,479,517"/>
+<area shape="rect" id="node13" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="561,872,721,899"/>
+<area shape="rect" id="node21" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="678,648,868,675"/>
+<area shape="rect" id="node22" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1207,723,1347,749"/>
+<area shape="rect" id="node28" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="1037,573,1203,600"/>
+<area shape="rect" id="node31" href="$gsMappedBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2151,408,2363,435"/>
+<area shape="rect" id="node41" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="1195,333,1363,360"/>
+<area shape="rect" id="node43" href="$gsExprHelper_8h.html" title="Generic expressions helper. " alt="" coords="1797,259,2005,285"/>
+<area shape="rect" id="node46" href="$gsExprEvaluator_8h.html" title="Generic expressions evaluator. " alt="" coords="1445,259,1672,285"/>
+<area shape="rect" id="node32" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="1696,573,1875,600"/>
+<area shape="rect" id="node34" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="1679,491,1844,517"/>
+<area shape="rect" id="node35" href="$gsMappedSingleBasis_8h.html" title="Implementation of a piece of the gsMappedBasis. " alt="" coords="1919,483,2124,525"/>
+<area shape="rect" id="node36" href="$gsWeightMapper_8h.html" title="Provides declaration of gsWeightMapper class. " alt="" coords="2303,573,2521,600"/>
+<area shape="rect" id="node37" href="$gsDomainIterator_8h.html" title="Provides declaration of DomainIterator abstract interface. " alt="" coords="1475,573,1671,600"/>
+<area shape="rect" id="node38" href="$gsPiecewiseFunction_8h.html" title="Provides declaration of a gsPiecewiseFunction class. " alt="" coords="2149,491,2365,517"/>
+<area shape="rect" id="node39" href="$gsBasisFun_8h.html" title="Provides definition of the BasisFun class. " alt="" coords="2391,491,2545,517"/>
+<area shape="rect" id="node33" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1337,648,1495,675"/>
+<area shape="rect" id="node44" href="$gsExpressions_8h.html" title="Defines different expressions. " alt="" coords="2005,333,2219,360"/>
+<area shape="rect" id="node45" href="$gsThreaded_8h.html" title="Wrapper for thread&#45;local data members. " alt="" coords="1822,333,1980,360"/>
+<area shape="rect" id="node48" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="1387,333,1597,360"/>
+<area shape="rect" id="node49" href="$gsRemapInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface. " alt="" coords="1643,408,1883,435"/>
+<area shape="rect" id="node50" href="$gsCPPInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface, by means of a Closest Point Projection. " alt="" coords="1907,408,2127,435"/>
+</map>

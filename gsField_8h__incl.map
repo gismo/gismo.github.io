@@ -1,0 +1,35 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsField.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsField.h">
+<area shape="rect" id="node2" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="35,440,208,467"/>
+<area shape="rect" id="node23" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="709,283,869,309"/>
+<area shape="rect" id="node37" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="1317,109,1483,136"/>
+<area shape="rect" id="node40" href="$gsMultiBasis_8h.html" title="Provides declaration of MultiBasis class. " alt="" coords="1197,192,1363,219"/>
+<area shape="rect" id="node47" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="1986,109,2144,136"/>
+<area shape="rect" id="node3" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1554,523,1741,549"/>
+<area shape="rect" id="node4" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="136,605,267,632"/>
+<area shape="rect" id="node5" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="291,605,517,632"/>
+<area shape="rect" id="node11" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1292,605,1444,632"/>
+<area shape="rect" id="node12" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1468,605,1628,632"/>
+<area shape="rect" id="node13" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1652,605,1847,632"/>
+<area shape="rect" id="node14" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1871,605,2088,632"/>
+<area shape="rect" id="node15" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="2113,605,2263,632"/>
+<area shape="rect" id="node16" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2288,605,2437,632"/>
+<area shape="rect" id="node17" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2462,605,2628,632"/>
+<area shape="rect" id="node18" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2653,605,2848,632"/>
+<area shape="rect" id="node19" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2873,605,3065,632"/>
+<area shape="rect" id="node20" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="3090,605,3283,632"/>
+<area shape="rect" id="node21" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3307,605,3449,632"/>
+<area shape="rect" id="node24" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="483,365,635,392"/>
+<area shape="rect" id="node26" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1563,365,1721,392"/>
+<area shape="rect" id="node28" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="811,365,947,392"/>
+<area shape="rect" id="node30" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="971,365,1117,392"/>
+<area shape="rect" id="node32" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="1281,365,1428,392"/>
+<area shape="rect" id="node34" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="659,365,785,392"/>
+<area shape="rect" id="node27" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1690,440,1829,467"/>
+<area shape="rect" id="node38" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="1849,283,2028,309"/>
+<area shape="rect" id="node39" href="$gsProperty_8h_source.html" title="gsMesh2/gsProperty.h" alt="" coords="1797,365,1960,392"/>
+<area shape="rect" id="node41" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="365,283,499,309"/>
+<area shape="rect" id="node42" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="1657,283,1825,309"/>
+<area shape="rect" id="node43" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="1410,283,1632,309"/>
+<area shape="rect" id="node44" href="$gsAssemblerOptions_8h.html" title="Provides assembler and solver options. " alt="" coords="895,283,1151,309"/>
+<area shape="rect" id="node48" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="2103,192,2287,219"/>
+</map>

@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsMaterialMatrixBase.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsMaterialMatrixBase.h">
+<area shape="rect" id="node2" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="2101,133,2275,160"/>
+<area shape="rect" id="node43" href="$gsMaterialMatrixUtils_8h.html" title="Provides material matrix utilities. " alt="" coords="1897,126,2076,167"/>
+<area shape="rect" id="node3" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2094,224,2281,251"/>
+<area shape="rect" id="node4" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3300,307,3431,333"/>
+<area shape="rect" id="node25" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3455,307,3681,333"/>
+<area shape="rect" id="node31" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1117,307,1269,333"/>
+<area shape="rect" id="node32" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1293,307,1453,333"/>
+<area shape="rect" id="node33" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1477,307,1672,333"/>
+<area shape="rect" id="node34" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1697,307,1913,333"/>
+<area shape="rect" id="node35" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1938,307,2088,333"/>
+<area shape="rect" id="node36" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2113,307,2263,333"/>
+<area shape="rect" id="node37" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2287,307,2453,333"/>
+<area shape="rect" id="node38" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2479,307,2673,333"/>
+<area shape="rect" id="node39" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2698,307,2891,333"/>
+<area shape="rect" id="node40" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2915,307,3108,333"/>
+<area shape="rect" id="node41" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3133,307,3275,333"/>
+<area shape="rect" id="node5" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="836,381,1068,408"/>
+<area shape="rect" id="node14" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1208,605,1347,632"/>
+<area shape="rect" id="node16" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="789,531,928,557"/>
+<area shape="rect" id="node20" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="1168,531,1317,557"/>
+<area shape="rect" id="node21" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1077,456,1205,483"/>
+<area shape="rect" id="node15" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="1197,680,1357,707"/>
+<area shape="rect" id="node22" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="953,531,1092,557"/>
+<area shape="rect" id="node44" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="529,224,676,251"/>
+<area shape="rect" id="node45" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="457,307,564,333"/>
+</map>
