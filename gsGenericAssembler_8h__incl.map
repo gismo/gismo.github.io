@@ -1,0 +1,39 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsGenericAssembler.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsGenericAssembler.h">
+<area shape="rect" id="node2" href="$gsAssembler_8h.html" title="Provides generic assembler routines. " alt="" coords="1272,275,1477,301"/>
+<area shape="rect" id="node39" href="$gsLaplacePde_8h.html" title="Describes a Laplace equation. " alt="" coords="2893,275,3059,301"/>
+<area shape="rect" id="node40" href="$gsExpressions_8h.html" title="Defines different expressions. " alt="" coords="2654,275,2868,301"/>
+<area shape="rect" id="node46" href="$gsExprHelper_8h.html" title="Generic expressions helper. " alt="" coords="2471,200,2679,227"/>
+<area shape="rect" id="node48" href="$gsExprAssembler_8h.html" title="Generic expressions matrix assembly. " alt="" coords="2316,117,2551,144"/>
+<area shape="rect" id="node3" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="988,531,1220,557"/>
+<area shape="rect" id="node17" href="$gsBasisRefs_8h.html" title="Small class holding references to a list of gsBasis. " alt="" coords="685,357,845,384"/>
+<area shape="rect" id="node18" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="1348,448,1516,475"/>
+<area shape="rect" id="node21" href="$gsStdVectorRef_8h.html" title="Small wrapper for std::vector. " alt="" coords="653,448,832,475"/>
+<area shape="rect" id="node22" href="$gsMultiBasis_8h.html" title="Provides declaration of MultiBasis class. " alt="" coords="1917,357,2083,384"/>
+<area shape="rect" id="node29" href="$gsDomainIterator_8h.html" title="Provides declaration of DomainIterator abstract interface. " alt="" coords="2881,448,3076,475"/>
+<area shape="rect" id="node30" href="$gsAffineFunction_8h.html" title="Implements an affine function. " alt="" coords="1082,448,1272,475"/>
+<area shape="rect" id="node31" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="858,448,1005,475"/>
+<area shape="rect" id="node32" href="$gsPde_8h.html" title="Base class of descriptions of a PDE problem. " alt="" coords="2522,357,2637,384"/>
+<area shape="rect" id="node26" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="2399,448,2621,475"/>
+<area shape="rect" id="node34" href="$gsQuadRule_8h.html" title="Provides a base class for a quadrature rule. " alt="" coords="5,357,203,384"/>
+<area shape="rect" id="node35" href="$gsSparseSystem_8h.html" title="Class representing a sparse linear system (with dense right&#45;hand side(s)), indexed by sets of degrees..." alt="" coords="870,357,1100,384"/>
+<area shape="rect" id="node36" href="$gsRemapInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface. " alt="" coords="1176,357,1416,384"/>
+<area shape="rect" id="node37" href="$gsCPPInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface, by means of a Closest Point Projection. " alt="" coords="1491,357,1711,384"/>
+<area shape="rect" id="node12" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1311,755,1449,781"/>
+<area shape="rect" id="node13" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1142,680,1281,707"/>
+<area shape="rect" id="node14" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="1307,680,1456,707"/>
+<area shape="rect" id="node15" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1243,605,1371,632"/>
+<area shape="rect" id="node16" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1587,680,1727,707"/>
+<area shape="rect" id="node19" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1934,531,2092,557"/>
+<area shape="rect" id="node23" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="1933,448,2093,475"/>
+<area shape="rect" id="node24" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1540,448,1673,475"/>
+<area shape="rect" id="node25" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="3101,448,3280,475"/>
+<area shape="rect" id="node27" href="$gsAssemblerOptions_8h.html" title="Provides assembler and solver options. " alt="" coords="2119,448,2375,475"/>
+<area shape="rect" id="node33" href="$gsPiecewiseFunction_8h.html" title="Provides declaration of a gsPiecewiseFunction class. " alt="" coords="3305,448,3521,475"/>
+<area shape="rect" id="node41" href="$gsFuncData_8h.html" title="This object is a cache for computed values from an evaluator. " alt="" coords="2662,357,2820,384"/>
+<area shape="rect" id="node42" href="$gsDirichletValues_8h.html" title="The functions compute Dirichlet degrees of freedom using various methods. " alt="" coords="2111,357,2345,384"/>
+<area shape="rect" id="node44" href="$gsMappedBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="3099,357,3311,384"/>
+<area shape="rect" id="node45" href="$precomputed__expr_8h.html" title="Defines expression precomputed_expr. " alt="" coords="2845,350,3075,391"/>
+<area shape="rect" id="node43" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="2646,448,2804,475"/>
+<area shape="rect" id="node47" href="$gsThreaded_8h.html" title="Wrapper for thread&#45;local data members. " alt="" coords="2471,275,2629,301"/>
+<area shape="rect" id="node49" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="915,200,1125,227"/>
+</map>

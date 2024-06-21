@@ -1,0 +1,17 @@
+<map id="gsGeometry&lt; T &gt;" name="gsGeometry&lt; T &gt;">
+<area shape="rect" id="node4" href="$classgismo_1_1gsBSpline.html" title="A B&#45;spline function of one argument, with arbitrary target dimension. " alt="" coords="613,5,753,32"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsBulk.html" title="Abstract base class representing a 4D bulk. " alt="" coords="631,56,735,83"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsConstantFunction.html" title="Class defining a globally constant function. " alt="" coords="589,107,776,133"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsCurve.html" title="Abstract base class representing a curve. " alt="" coords="626,157,739,184"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsHBSpline.html" title="A hierarchical B&#45;Spline function, in d dimensions. " alt="" coords="615,208,750,235"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsLagrangePoly.html" title="The geometry class of a Lagrange Polyomial curve. " alt="" coords="593,259,772,285"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsNurbs.html" title="A NURBS function of one argument, with arbitrary target dimension. " alt="" coords="618,309,747,336"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsSurface.html" title="Abstract base class representing a surface. " alt="" coords="621,360,745,387"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsTensorBSpline.html" title="A tensor product of d B&#45;spline functions, with arbitrary target dimension. " alt="" coords="599,411,766,437"/>
+<area shape="rect" id="node13" href="$classgismo_1_1gsTensorNurbs.html" title="A tensor product Non&#45;Uniform Rational B&#45;spline function (NURBS) of parametric dimension d..." alt="" coords="605,461,760,488"/>
+<area shape="rect" id="node14" href="$classgismo_1_1gsTHBSpline.html" title="A truncated hierarchical B&#45;Spline function, in d dimensions. " alt="" coords="611,512,754,539"/>
+<area shape="rect" id="node15" href="$classgismo_1_1gsVolume.html" title="Provides declaration of Volume abstract interface. " alt="" coords="621,563,745,589"/>
+<area shape="rect" id="node16" href="$classgismo_1_1gsTensorBSpline.html" title="gsTensorBSpline\&lt; domainDim\l+1, T \&gt;" alt="" coords="573,614,792,655"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image. " alt="" coords="206,309,335,336"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="6,309,157,336"/>
+</map>

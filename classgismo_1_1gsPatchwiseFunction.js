@@ -1,0 +1,25 @@
+var classgismo_1_1gsPatchwiseFunction =
+[
+    [ "Ptr", "classgismo_1_1gsPatchwiseFunction.html#a48aeaea779eb9ca9676d8db08e543233", null ],
+    [ "uPtr", "classgismo_1_1gsPatchwiseFunction.html#a9f1ecb4d78192b543e968dac66070460", null ],
+    [ "active", "classgismo_1_1gsPatchwiseFunction.html#aaf3f22d769b39c9156306cc6613bbb34", null ],
+    [ "active_into", "classgismo_1_1gsPatchwiseFunction.html#ae2924f7f66a4a0a2a5a4b2d3c829d1fc", null ],
+    [ "basis", "classgismo_1_1gsPatchwiseFunction.html#a1b31ee8833618267ea996c8d295f1375", null ],
+    [ "clone", "classgismo_1_1gsPatchwiseFunction.html#a2d259b3b8507523368ff96cf099cc3fe", null ],
+    [ "compute", "classgismo_1_1gsPatchwiseFunction.html#a0791227e371575ce872cb6360d236856", null ],
+    [ "deriv", "classgismo_1_1gsPatchwiseFunction.html#aac1a6125ec2a84822f078f060c95dfc8", null ],
+    [ "deriv2", "classgismo_1_1gsPatchwiseFunction.html#a077509d06123c1b38e6096f6a1c64069", null ],
+    [ "deriv2_into", "classgismo_1_1gsPatchwiseFunction.html#acef77f544cafbf7f4694714abd071ed7", null ],
+    [ "deriv_into", "classgismo_1_1gsPatchwiseFunction.html#ace7e41a211c6f0ce892e6fd282f9ae96", null ],
+    [ "domainDim", "classgismo_1_1gsPatchwiseFunction.html#a04011a6ebcdc207d31cb314b81b624df", null ],
+    [ "eval", "classgismo_1_1gsPatchwiseFunction.html#a7d711ed20a33a57f02120fa53000aa40", null ],
+    [ "eval_into", "classgismo_1_1gsPatchwiseFunction.html#a9c67d06925b0013b54667ac8db264482", null ],
+    [ "evalAllDers", "classgismo_1_1gsPatchwiseFunction.html#a374dc094efb40335078a001f81bba033", null ],
+    [ "evalAllDers_into", "classgismo_1_1gsPatchwiseFunction.html#a0423af47dc508e38d80dd62b441fd2ba", null ],
+    [ "function", "classgismo_1_1gsPatchwiseFunction.html#ae0bdbb815cdaa4d5ce24053269e897f7", null ],
+    [ "nPieces", "classgismo_1_1gsPatchwiseFunction.html#a9d0e2f7b0331fee8eef9789f5115a72d", null ],
+    [ "piece", "classgismo_1_1gsPatchwiseFunction.html#a64b9e1590b6073f44f2a00b2fb4535d5", null ],
+    [ "print", "classgismo_1_1gsPatchwiseFunction.html#af289b06f5eb5c7bcf6ae7ef4cc61c520", null ],
+    [ "size", "classgismo_1_1gsPatchwiseFunction.html#a425f757b80e86fd1f2e1ef19b05cfa2f", null ],
+    [ "targetDim", "classgismo_1_1gsPatchwiseFunction.html#a8d04d575264635d0e3c28ae13521ff68", null ]
+];

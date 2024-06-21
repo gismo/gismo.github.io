@@ -1,0 +1,35 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIeti/gsIetiMapper.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIeti/gsIetiMapper.h">
+<area shape="rect" id="node2" href="$gsMultiBasis_8h.html" title="Provides declaration of MultiBasis class. " alt="" coords="1340,184,1505,211"/>
+<area shape="rect" id="node33" href="$gsExprAssembler_8h.html" title="Generic expressions matrix assembly. " alt="" coords="2699,109,2933,136"/>
+<area shape="rect" id="node3" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="601,267,761,293"/>
+<area shape="rect" id="node20" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2277,357,2411,384"/>
+<area shape="rect" id="node22" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="1803,267,1971,293"/>
+<area shape="rect" id="node27" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="1269,267,1448,293"/>
+<area shape="rect" id="node29" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="1022,267,1244,293"/>
+<area shape="rect" id="node31" href="$gsAssemblerOptions_8h.html" title="Provides assembler and solver options. " alt="" coords="1523,267,1779,293"/>
+<area shape="rect" id="node4" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="1608,357,1760,384"/>
+<area shape="rect" id="node9" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1279,357,1437,384"/>
+<area shape="rect" id="node11" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="512,357,648,384"/>
+<area shape="rect" id="node13" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="672,357,819,384"/>
+<area shape="rect" id="node15" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="843,357,989,384"/>
+<area shape="rect" id="node17" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="62,357,188,384"/>
+<area shape="rect" id="node5" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="1948,440,2121,467"/>
+<area shape="rect" id="node6" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2442,523,2629,549"/>
+<area shape="rect" id="node10" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1402,440,1541,467"/>
+<area shape="rect" id="node23" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2435,357,2667,384"/>
+<area shape="rect" id="node28" href="$gsProperty_8h_source.html" title="gsMesh2/gsProperty.h" alt="" coords="1784,357,1947,384"/>
+<area shape="rect" id="node34" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="4481,184,4639,211"/>
+<area shape="rect" id="node37" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="3411,184,3621,211"/>
+<area shape="rect" id="node44" href="$gsExprHelper_8h.html" title="Generic expressions helper. " alt="" coords="2209,184,2417,211"/>
+<area shape="rect" id="node47" href="$gsCPPInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface, by means of a Closest Point Projection. " alt="" coords="2706,184,2925,211"/>
+<area shape="rect" id="node35" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="4580,267,4764,293"/>
+<area shape="rect" id="node38" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="3241,267,3388,293"/>
+<area shape="rect" id="node39" href="$gsGaussRule_8h.html" title="Provides the Gauss&#45;Legendre quadrature rule. " alt="" coords="3413,267,3619,293"/>
+<area shape="rect" id="node40" href="$gsLobattoRule_8h.html" title="Provides the Gauss&#45;Lobatto quadrature rule. " alt="" coords="3643,267,3857,293"/>
+<area shape="rect" id="node41" href="$gsNewtonCotesRule_8h.html" title="Provides the Newton&#45;Cotes quadrature rule. " alt="" coords="3882,259,4093,301"/>
+<area shape="rect" id="node42" href="$gsPatchRule_8h.html" title="Provides patch&#45;wise quadrature rule. " alt="" coords="4119,267,4319,293"/>
+<area shape="rect" id="node43" href="$gsOverIntegrateRule_8h.html" title="Over&#45;integrates a Gauss&#45;Legendre or Gauss&#45;Lobatto rule. " alt="" coords="3002,259,3216,301"/>
+<area shape="rect" id="node45" href="$gsExpressions_8h.html" title="Defines different expressions. " alt="" coords="1995,267,2209,293"/>
+<area shape="rect" id="node46" href="$gsThreaded_8h.html" title="Wrapper for thread&#45;local data members. " alt="" coords="2234,267,2392,293"/>
+<area shape="rect" id="node48" href="$gsAffineFunction_8h.html" title="Implements an affine function. " alt="" coords="2787,267,2977,293"/>
+</map>
