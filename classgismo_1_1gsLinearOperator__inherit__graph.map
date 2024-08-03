@@ -1,0 +1,14 @@
+<map id="gsLinearOperator&lt; T &gt;" name="gsLinearOperator&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsAdditiveOp.html" title="Generic preconditioner which applies an arbitrary linear operator to the residual. " alt="" coords="247,5,393,32"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBlockOp.html" title="Simple class create a block operator structure. " alt="" coords="255,56,385,83"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsIdentityOp.html" title="Identity operator. " alt="" coords="249,107,391,133"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsKroneckerOp.html" title="Class for representing a Kronecker product of operators of type gsLinearOperator. ..." alt="" coords="241,157,399,184"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsLinearLambdaOp.html" title="Wrapper that allows to use lambdas as a gsLinearOperator. " alt="" coords="227,208,413,235"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsPreconditionerOp.html" title="Simple abstract class for perconditioners. " alt="" coords="227,259,413,285"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsProductOp.html" title="Class for representing the product of objects of type gsLinearOperator as gsLinearOperator. " alt="" coords="249,309,391,336"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsScaledOp.html" title="Allows an operator to be multiplied with a scalar. " alt="" coords="252,360,388,387"/>
+<area shape="rect" id="node13" href="$classgismo_1_1gsSumOp.html" title="Class for representing the sum of objects of type gsLinearOperator as gsLinearOperator. " alt="" coords="259,411,381,437"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsCompositePrecOp.html" title="This class represents the composition of preconditioners of type gsPreconditionerOp. " alt="" coords="475,208,666,235"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsMultiGridOp.html" title="Multigrid preconditioner. " alt="" coords="495,259,647,285"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsPreconditionerFromOp.html" title="Simple class allowing to construct a preconditioner from a linear operator. " alt="" coords="461,309,680,336"/>
+</map>

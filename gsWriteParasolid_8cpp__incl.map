@@ -1,0 +1,29 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsParasolid/gsWriteParasolid.cpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsParasolid/gsWriteParasolid.cpp">
+<area shape="rect" id="node2" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="621,723,811,749"/>
+<area shape="rect" id="node7" href="$gsWriteParasolid_8h.html" title="Provides declaration of gsWriteParasolid functions. " alt="" coords="169,109,388,136"/>
+<area shape="rect" id="node28" href="$gsWriteParasolid_8hpp.html" title="Provides implementation of gsWriteParasolid function. " alt="" coords="1222,109,1457,136"/>
+<area shape="rect" id="node3" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1162,797,1301,824"/>
+<area shape="rect" id="node4" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="612,872,751,899"/>
+<area shape="rect" id="node9" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="777,499,1009,525"/>
+<area shape="rect" id="node21" href="$gsTHBSplineBasis_8h.html" title="Provides declaration of THBSplineBasis class. " alt="" coords="780,184,1007,211"/>
+<area shape="rect" id="node27" href="$gsPKSession_8h.html" title="Manages starting and stopping Parasolid session. " alt="" coords="307,267,501,293"/>
+<area shape="rect" id="node18" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1270,648,1409,675"/>
+<area shape="rect" id="node19" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="641,648,791,675"/>
+<area shape="rect" id="node20" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1203,573,1331,600"/>
+<area shape="rect" id="node22" href="$gsHTensorBasis_8h.html" title="Provides definition of HTensorBasis abstract interface. " alt="" coords="1014,267,1225,293"/>
+<area shape="rect" id="node25" href="$gsTHBSpline_8h.html" title="Provides declaration of THBSplineBasis class. " alt="" coords="797,267,989,293"/>
+<area shape="rect" id="node23" href="$gsBSplineBasis_8h.html" title="Provides declaration of BSplineBasis class. " alt="" coords="1055,349,1245,376"/>
+<area shape="rect" id="node24" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="1063,424,1239,451"/>
+<area shape="rect" id="node29" href="$gsFrustrum_8h.html" title="Defines the Parasolud frustrim. " alt="" coords="1960,184,2144,211"/>
+<area shape="rect" id="node38" href="$gsReadParasolid_8h.html" title="Provides declaration of gsReadParasolid functions. " alt="" coords="148,184,367,211"/>
+<area shape="rect" id="node40" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="2805,184,2971,211"/>
+<area shape="rect" id="node43" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="2592,424,2739,451"/>
+<area shape="rect" id="node47" href="$gsTensorBSpline_8h.html" title="Represents a tensor&#45;product B&#45;spline patch. " alt="" coords="2584,184,2781,211"/>
+<area shape="rect" id="node48" href="$gsBSpline_8h.html" title="Represents a B&#45;spline curve/function with one parameter. " alt="" coords="1352,267,1507,293"/>
+<area shape="rect" id="node49" href="$gsMesh_8h.html" title="Provides declaration of the Mesh class. " alt="" coords="1403,184,1588,211"/>
+<area shape="rect" id="node50" href="$gsWriteParaview_8h.html" title="Provides declaration of functions writing Paraview files. " alt="" coords="1361,424,1535,451"/>
+<area shape="rect" id="node39" href="$gsXmlUtils_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="144,267,283,293"/>
+<area shape="rect" id="node41" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="2913,349,3092,376"/>
+<area shape="rect" id="node42" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="2585,349,2745,376"/>
+<area shape="rect" id="node45" href="$gsMultiBasis_8h.html" title="Provides declaration of MultiBasis class. " alt="" coords="2920,267,3085,293"/>
+</map>
