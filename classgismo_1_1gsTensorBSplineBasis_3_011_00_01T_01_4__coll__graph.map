@@ -1,0 +1,6 @@
+<map id="gsTensorBSplineBasis&lt; 1, T &gt;" name="gsTensorBSplineBasis&lt; 1, T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsTensorBasis.html" title="Abstract base class for tensor product bases. " alt="" coords="20,173,188,200"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain..." alt="" coords="5,83,115,109"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="65,5,215,32"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain..." alt="" coords="139,83,249,109"/>
+</map>

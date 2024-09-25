@@ -1,0 +1,7 @@
+<map id="gsHBoxCheck&lt; d, T &gt;" name="gsHBoxCheck&lt; d, T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsLargerErrCompare.html" title="Checks if the error of a gsHBox is larger than a threshold. " alt="" coords="245,5,400,46"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsMaxLvlCompare.html" title="Checks if the level of a gsHBox is smaller than a maximum level. " alt="" coords="225,71,421,97"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsMinLvlCompare.html" title="Checks if the level of a gsHBox is bigger than a minimum level. " alt="" coords="227,121,419,148"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsOverlapCompare.html" title="Checks if the coarsening neighborhood of a box is empty and if it overlaps with a refinement mask..." alt="" coords="222,172,423,199"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsSmallerErrCompare.html" title="Checks if the error of a gsHBox is smaller than a threshold. " alt="" coords="241,223,405,265"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gsThinShellAssembler&lt; d, T, bending &gt;" name="gsThinShellAssembler&lt; d, T, bending &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsThinShellAssemblerBase.html" title="Base class for the gsThinShellAssembler. " alt="" coords="289,5,525,32"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsSparseMatrix.html" title="gsSparseMatrix\&lt; T \&gt;" alt="" coords="5,91,165,117"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsExprAssembler.html" title="gsExprAssembler\&lt; T \&gt;" alt="" coords="320,261,493,288"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="353,119,461,145"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T \&gt;" alt="" coords="27,217,143,244"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsExprEvaluator.html" title="Generic evaluator of isogeometric expressions. " alt="" coords="323,385,490,412"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="34,324,137,351"/>
+</map>

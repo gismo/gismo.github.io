@@ -1,0 +1,13 @@
+<map id="gsOptim&lt; T &gt;" name="gsOptim&lt; T &gt;">
+<area shape="rect" id="node3" href="$classgismo_1_1gsOptimBFGS.html" title="Binding to Optim&#39;s BFGS solver. " alt="" coords="359,5,508,32"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsOptimCG.html" title="Binding to Optim&#39;s CG solver. " alt="" coords="366,56,501,83"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsOptimDE.html" title="Binding to Optim&#39;s DE solver. " alt="" coords="367,107,500,133"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsOptimGD.html" title="Binding to Optim&#39;s GD solver. " alt="" coords="366,157,501,184"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsOptimLBFGS.html" title="Binding to Optim&#39;s LBFGS solver. " alt="" coords="355,208,511,235"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsOptimNM.html" title="Binding to Optim&#39;s NM solver. " alt="" coords="365,259,501,285"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsOptimPSO.html" title="Binding to Optim&#39;s PSO solver. " alt="" coords="363,309,504,336"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsOptimSUMT.html" title="Binding to Optim&#39;s SUMT solver. " alt="" coords="357,360,509,387"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsOptimizer.html" title="Class defining an optimizer. " alt="" coords="5,183,144,209"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsOptimDEPRMM.html" title="Binding to Optim&#39;s DEPRMM solver. " alt="" coords="561,107,733,133"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsOptimPSODV.html" title="Binding to Optim&#39;s PSODV solver. " alt="" coords="567,309,727,336"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsParametrization.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsParametrization.h">
+<area shape="rect" id="node2" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1651,349,1839,376"/>
+<area shape="rect" id="node37" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="3346,349,3493,376"/>
+<area shape="rect" id="node43" href="$gsHalfEdgeMesh_8h.html" title="Provides declaration of the gsHalfEdgeMesh class. " alt="" coords="2275,110,2473,151"/>
+<area shape="rect" id="node3" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="17,424,148,451"/>
+<area shape="rect" id="node20" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="172,424,399,451"/>
+<area shape="rect" id="node26" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1173,424,1325,451"/>
+<area shape="rect" id="node27" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1349,424,1509,451"/>
+<area shape="rect" id="node28" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1533,424,1728,451"/>
+<area shape="rect" id="node29" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1753,424,1969,451"/>
+<area shape="rect" id="node30" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1994,424,2144,451"/>
+<area shape="rect" id="node31" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2169,424,2319,451"/>
+<area shape="rect" id="node32" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2343,424,2509,451"/>
+<area shape="rect" id="node33" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2535,424,2729,451"/>
+<area shape="rect" id="node34" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2754,424,2947,451"/>
+<area shape="rect" id="node35" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2971,424,3164,451"/>
+<area shape="rect" id="node36" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3189,424,3331,451"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="3149,499,3381,525"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="3485,723,3624,749"/>
+<area shape="rect" id="node14" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="3370,648,3509,675"/>
+<area shape="rect" id="node15" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="3535,648,3684,675"/>
+<area shape="rect" id="node16" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="3508,573,3636,600"/>
+<area shape="rect" id="node17" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="3709,648,3848,675"/>
+<area shape="rect" id="node38" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="3562,424,3669,451"/>
+<area shape="rect" id="node44" href="$gsMesh_8h.html" title="Provides declaration of the Mesh class. " alt="" coords="2169,200,2353,227"/>
+<area shape="rect" id="node45" href="$gsMeshElement_8h.html" title="Provides gsMeshElement class &#45; a vertex, edge, face or cell of a gsMesh. " alt="" coords="2177,349,2415,376"/>
+<area shape="rect" id="node46" href="$gsVertex_8h.html" title="Provides gsVertex class for a vertex of a gsMesh. " alt="" coords="1783,275,1976,301"/>
+<area shape="rect" id="node47" href="$gsFace_8h.html" title="Provides gsFace class for a face of a gsMesh. " alt="" coords="2001,275,2180,301"/>
+<area shape="rect" id="node48" href="$gsEdge_8h.html" title="Provides gsEdge class for an edge of a gsMesh. " alt="" coords="2205,275,2387,301"/>
+</map>

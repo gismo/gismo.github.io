@@ -1,0 +1,8 @@
+<map id="boundaryInterface" name="boundaryInterface">
+<area shape="rect" id="node2" href="$structgismo_1_1patchSide.html" title="Struct which represents a certain side of a patch. " alt="" coords="267,9,354,36"/>
+<area shape="rect" id="node3" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box. " alt="" coords="56,5,131,32"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; bool \&gt;" alt="" coords="243,64,379,91"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size. " alt="" coords="6,57,181,98"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; index_t \&gt;" alt="" coords="233,121,389,148"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size. " alt="" coords="12,122,175,163"/>
+</map>

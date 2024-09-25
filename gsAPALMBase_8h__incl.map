@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsStructuralAnalysis/src/gsALMSolvers/gsAPALMBase.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsStructuralAnalysis/src/gsALMSolvers/gsAPALMBase.h">
+<area shape="rect" id="node2" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1824,320,2011,347"/>
+<area shape="rect" id="node41" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="2716,231,2863,257"/>
+<area shape="rect" id="node47" href="$gsALMBase_8h.html" title="Base class to perform the arc length method to solve a nonlinear equation system. ..." alt="" coords="1826,126,2055,167"/>
+<area shape="rect" id="node3" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="2206,395,2337,421"/>
+<area shape="rect" id="node24" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="2361,395,2587,421"/>
+<area shape="rect" id="node30" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="23,395,175,421"/>
+<area shape="rect" id="node31" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="199,395,359,421"/>
+<area shape="rect" id="node32" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="383,395,578,421"/>
+<area shape="rect" id="node33" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="603,395,819,421"/>
+<area shape="rect" id="node34" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="844,395,994,421"/>
+<area shape="rect" id="node35" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="1019,395,1169,421"/>
+<area shape="rect" id="node36" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="1193,395,1359,421"/>
+<area shape="rect" id="node37" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="1385,395,1579,421"/>
+<area shape="rect" id="node38" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="1604,395,1797,421"/>
+<area shape="rect" id="node39" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="1821,395,2014,421"/>
+<area shape="rect" id="node40" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="2039,395,2181,421"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2769,469,3001,496"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="3321,693,3459,720"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="2413,619,2553,645"/>
+<area shape="rect" id="node19" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="2663,619,2813,645"/>
+<area shape="rect" id="node20" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="2521,544,2649,571"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="3310,768,3470,795"/>
+<area shape="rect" id="node21" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="3375,619,3514,645"/>
+<area shape="rect" id="node42" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="3413,395,3521,421"/>
+<area shape="rect" id="node48" href="$gsStructuralAnalysisTypes_8h.html" title="Provides a status object and typedefs. " alt="" coords="1739,216,1953,272"/>
+</map>

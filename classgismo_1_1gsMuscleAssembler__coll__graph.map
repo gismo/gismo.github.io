@@ -1,0 +1,13 @@
+<map id="gsMuscleAssembler&lt; T &gt;" name="gsMuscleAssembler&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsElasticityAssembler.html" title="Assembles the stiffness matrix and the right&#45;hand side vector for linear and nonlinear elasticity for..." alt="" coords="171,523,375,549"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver..." alt="" coords="183,437,359,464"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="199,352,343,379"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsSparseSystem.html" title="gsSparseSystem\&lt; T \&gt;" alt="" coords="239,261,407,288"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsSparseMatrix.html" title="gsSparseMatrix\&lt; T \&gt;" alt="" coords="5,99,165,125"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T \&gt;" alt="" coords="386,99,501,125"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; index_t \&gt;" alt="" coords="206,99,361,125"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size. " alt="" coords="203,6,365,47"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="111,261,213,288"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; T \&gt;" alt="" coords="402,523,517,549"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T, _Rows,\l 1, _Options \&gt;" alt="" coords="383,430,537,471"/>
+</map>

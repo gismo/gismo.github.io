@@ -1,0 +1,6 @@
+<map id="gsPreconditionerOp&lt; T &gt;" name="gsPreconditionerOp&lt; T &gt;">
+<area shape="rect" id="node3" href="$classgismo_1_1gsCompositePrecOp.html" title="This class represents the composition of preconditioners of type gsPreconditionerOp. " alt="" coords="5,155,195,181"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsMultiGridOp.html" title="Multigrid preconditioner. " alt="" coords="220,155,372,181"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsPreconditionerFromOp.html" title="Simple class allowing to construct a preconditioner from a linear operator. " alt="" coords="396,155,615,181"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsLinearOperator.html" title="Simple abstract class for discrete operators. " alt="" coords="210,5,381,32"/>
+</map>
