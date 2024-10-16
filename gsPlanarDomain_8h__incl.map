@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsPlanarDomain.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsPlanarDomain.h">
+<area shape="rect" id="node4" href="$gsCurveLoop_8h.html" title="Interface for gsCurveLoop class, representing a loop of curves, in anticlockwise order. " alt="" coords="679,200,875,227"/>
+<area shape="rect" id="node41" href="$gsTemplate_8h.html" title="Provides definition of gsTemplate class. " alt="" coords="1237,117,1424,144"/>
+<area shape="rect" id="node5" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="1843,283,1979,309"/>
+<area shape="rect" id="node20" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="645,283,877,309"/>
+<area shape="rect" id="node6" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="2033,365,2193,392"/>
+<area shape="rect" id="node7" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="1864,440,2016,467"/>
+<area shape="rect" id="node11" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1382,440,1540,467"/>
+<area shape="rect" id="node15" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="2040,440,2187,467"/>
+<area shape="rect" id="node16" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="2211,440,2357,467"/>
+<area shape="rect" id="node17" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="2382,440,2508,467"/>
+<area shape="rect" id="node8" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="1975,515,2148,541"/>
+<area shape="rect" id="node9" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1967,589,2155,616"/>
+<area shape="rect" id="node12" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1201,589,1340,616"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1008,664,1147,691"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="997,739,1157,765"/>
+<area shape="rect" id="node29" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="367,440,507,467"/>
+<area shape="rect" id="node34" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="973,440,1123,467"/>
+<area shape="rect" id="node37" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="829,365,957,392"/>
+<area shape="rect" id="node35" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="1175,515,1365,541"/>
+<area shape="rect" id="node39" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="531,440,697,467"/>
+<area shape="rect" id="node42" href="$gsBoxTopology_8h.html" title="Provides declaration of the BoxTopology class. " alt="" coords="1241,200,1420,227"/>
+<area shape="rect" id="node44" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="2155,200,2313,227"/>
+<area shape="rect" id="node47" href="$gsNurbsCreator_8h.html" title="Provides declaration of the NurbsCreator struct. " alt="" coords="915,200,1105,227"/>
+<area shape="rect" id="node43" href="$gsProperty_8h_source.html" title="gsMesh2/gsProperty.h" alt="" coords="1144,283,1307,309"/>
+<area shape="rect" id="node45" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="2032,283,2216,309"/>
+</map>

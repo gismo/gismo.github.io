@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsRationalBasis.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsRationalBasis.h">
+<area shape="rect" id="node2" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1512,109,1645,136"/>
+<area shape="rect" id="node49" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1669,184,1827,211"/>
+<area shape="rect" id="node3" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="1471,184,1644,211"/>
+<area shape="rect" id="node4" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1558,267,1745,293"/>
+<area shape="rect" id="node5" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="2939,349,3069,376"/>
+<area shape="rect" id="node31" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3093,349,3320,376"/>
+<area shape="rect" id="node37" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="756,349,908,376"/>
+<area shape="rect" id="node38" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="932,349,1092,376"/>
+<area shape="rect" id="node39" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1116,349,1311,376"/>
+<area shape="rect" id="node40" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1335,349,1552,376"/>
+<area shape="rect" id="node41" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1577,349,1727,376"/>
+<area shape="rect" id="node42" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="1752,349,1901,376"/>
+<area shape="rect" id="node43" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="1926,349,2092,376"/>
+<area shape="rect" id="node44" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2117,349,2312,376"/>
+<area shape="rect" id="node45" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2337,349,2529,376"/>
+<area shape="rect" id="node46" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2554,349,2747,376"/>
+<area shape="rect" id="node47" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="2771,349,2913,376"/>
+<area shape="rect" id="node6" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="3145,424,3377,451"/>
+<area shape="rect" id="node15" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="3664,797,3803,824"/>
+<area shape="rect" id="node17" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="3526,573,3665,600"/>
+<area shape="rect" id="node23" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="3025,573,3175,600"/>
+<area shape="rect" id="node28" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="3321,499,3449,525"/>
+<area shape="rect" id="node16" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="3653,872,3813,899"/>
+<area shape="rect" id="node24" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="3043,648,3233,675"/>
+<area shape="rect" id="node25" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="3382,723,3521,749"/>
+</map>

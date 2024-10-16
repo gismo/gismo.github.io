@@ -1,0 +1,28 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsQuadRule.hpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsQuadRule.hpp">
+<area shape="rect" id="node2" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="2817,109,2975,136"/>
+<area shape="rect" id="node50" href="$gsCombinatorics_8h.html" title="Provides combinatorial unitilies. " alt="" coords="2595,109,2787,136"/>
+<area shape="rect" id="node3" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2597,192,2784,219"/>
+<area shape="rect" id="node48" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="2809,192,2993,219"/>
+<area shape="rect" id="node4" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="1163,275,1293,301"/>
+<area shape="rect" id="node31" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3977,275,4204,301"/>
+<area shape="rect" id="node37" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1795,275,1947,301"/>
+<area shape="rect" id="node38" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1971,275,2131,301"/>
+<area shape="rect" id="node39" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="2155,275,2349,301"/>
+<area shape="rect" id="node40" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="2374,275,2591,301"/>
+<area shape="rect" id="node41" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="2615,275,2765,301"/>
+<area shape="rect" id="node42" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2791,275,2940,301"/>
+<area shape="rect" id="node43" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2965,275,3131,301"/>
+<area shape="rect" id="node44" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="3156,275,3351,301"/>
+<area shape="rect" id="node45" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="3375,275,3568,301"/>
+<area shape="rect" id="node46" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="3593,275,3785,301"/>
+<area shape="rect" id="node47" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3810,275,3952,301"/>
+<area shape="rect" id="node5" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="449,349,681,376"/>
+<area shape="rect" id="node14" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="344,723,483,749"/>
+<area shape="rect" id="node16" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="833,499,972,525"/>
+<area shape="rect" id="node22" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="456,499,605,525"/>
+<area shape="rect" id="node27" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="656,424,784,451"/>
+<area shape="rect" id="node15" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="333,797,493,824"/>
+<area shape="rect" id="node23" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="435,573,625,600"/>
+<area shape="rect" id="node24" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="461,648,600,675"/>
+<area shape="rect" id="node29" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="997,499,1163,525"/>
+</map>

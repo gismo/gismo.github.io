@@ -1,0 +1,6 @@
+<map id="gsBarrierPatch&lt; d, T &gt;" name="gsBarrierPatch&lt; d, T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="5,99,112,125"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; T, d \&gt;" alt="" coords="137,99,268,125"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T, _Rows,\l 1, _Options \&gt;" alt="" coords="125,6,280,47"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="387,99,489,125"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsKnotVector.hpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsKnotVector.hpp">
+<area shape="rect" id="node2" href="$gsBase64_8h_source.html" title="gsIO/gsBase64.h" alt="" coords="825,408,956,435"/>
+<area shape="rect" id="node15" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="433,333,540,360"/>
+<area shape="rect" id="node35" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="1488,109,1664,136"/>
+<area shape="rect" id="node3" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1137,557,1276,584"/>
+<area shape="rect" id="node9" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="923,483,1073,509"/>
+<area shape="rect" id="node16" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="1616,408,1848,435"/>
+<area shape="rect" id="node27" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1422,707,1561,733"/>
+<area shape="rect" id="node23" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1596,781,1735,808"/>
+<area shape="rect" id="node25" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="1652,557,1801,584"/>
+<area shape="rect" id="node29" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1541,483,1669,509"/>
+<area shape="rect" id="node24" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="1585,856,1745,883"/>
+<area shape="rect" id="node26" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="1467,632,1657,659"/>
+<area shape="rect" id="node30" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="1461,557,1627,584"/>
+<area shape="rect" id="node36" href="$gsDomain_8h.html" title="Abstracgt Base class representing a domain. i.e. a collection of elements (triangles, rectangles, cubes, simplices. " alt="" coords="1741,184,1891,211"/>
+<area shape="rect" id="node49" href="$gsKnotIterator_8h.html" title="Provides implementation of knot vector iterators. " alt="" coords="1227,184,1409,211"/>
+<area shape="rect" id="node37" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1722,259,1909,285"/>
+<area shape="rect" id="node38" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="2472,333,2603,360"/>
+<area shape="rect" id="node39" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="2627,333,2853,360"/>
+<area shape="rect" id="node45" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1651,333,1803,360"/>
+<area shape="rect" id="node46" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1827,333,1987,360"/>
+<area shape="rect" id="node47" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="2011,333,2205,360"/>
+<area shape="rect" id="node48" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="2230,333,2447,360"/>
+</map>

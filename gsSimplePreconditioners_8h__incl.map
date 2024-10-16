@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsSolver/gsSimplePreconditioners.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsSolver/gsSimplePreconditioners.h">
+<area shape="rect" id="node2" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1682,275,1869,301"/>
+<area shape="rect" id="node42" href="$gsPreconditioner_8h.html" title="Simple abstract class for (discrete) linear preconditioners. " alt="" coords="2319,117,2521,144"/>
+<area shape="rect" id="node3" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="2664,349,2795,376"/>
+<area shape="rect" id="node25" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="2819,349,3045,376"/>
+<area shape="rect" id="node31" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="481,349,633,376"/>
+<area shape="rect" id="node32" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="657,349,817,376"/>
+<area shape="rect" id="node33" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="841,349,1036,376"/>
+<area shape="rect" id="node34" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1061,349,1277,376"/>
+<area shape="rect" id="node35" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1302,349,1452,376"/>
+<area shape="rect" id="node36" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="1477,349,1627,376"/>
+<area shape="rect" id="node37" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="1651,349,1817,376"/>
+<area shape="rect" id="node38" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="1843,349,2037,376"/>
+<area shape="rect" id="node39" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2062,349,2255,376"/>
+<area shape="rect" id="node40" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2279,349,2472,376"/>
+<area shape="rect" id="node41" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="2497,349,2639,376"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2828,424,3060,451"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="3217,648,3356,675"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="2774,573,2913,600"/>
+<area shape="rect" id="node20" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="2989,573,3139,600"/>
+<area shape="rect" id="node21" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="3000,499,3128,525"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="3207,723,3367,749"/>
+<area shape="rect" id="node22" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="3163,573,3303,600"/>
+<area shape="rect" id="node43" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="3241,275,3388,301"/>
+<area shape="rect" id="node49" href="$gsLinearOperator_8h.html" title="Simple abstract class for (discrete) linear operators. " alt="" coords="2317,200,2523,227"/>
+<area shape="rect" id="node44" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="3395,349,3503,376"/>
+</map>

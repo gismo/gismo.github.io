@@ -1,0 +1,13 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIO/gsFileData.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsIO/gsFileData.h">
+<area shape="rect" id="node5" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="1329,109,1436,136"/>
+<area shape="rect" id="node35" href="$gsFileManager_8h.html" title="Utility class for finding files and handling paths. " alt="" coords="883,109,1041,136"/>
+<area shape="rect" id="node6" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="584,184,816,211"/>
+<area shape="rect" id="node24" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1049,483,1188,509"/>
+<area shape="rect" id="node15" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="673,557,812,584"/>
+<area shape="rect" id="node17" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="578,333,717,360"/>
+<area shape="rect" id="node22" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="793,333,943,360"/>
+<area shape="rect" id="node28" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="905,259,1033,285"/>
+<area shape="rect" id="node16" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="663,632,823,659"/>
+<area shape="rect" id="node23" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="814,408,1004,435"/>
+<area shape="rect" id="node30" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="1117,333,1283,360"/>
+</map>
