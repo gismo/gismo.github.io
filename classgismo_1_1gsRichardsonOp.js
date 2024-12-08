@@ -1,0 +1,28 @@
+var classgismo_1_1gsRichardsonOp =
+[
+    [ "Base", "classgismo_1_1gsRichardsonOp.html#af126ded4ff7300e5bf5b737720301679", null ],
+    [ "BasePtr", "classgismo_1_1gsRichardsonOp.html#acf6fbe83ce68f9b4df92c53f03215a3e", null ],
+    [ "Ptr", "classgismo_1_1gsRichardsonOp.html#a622de726de66b67e923fd9176dd15181", null ],
+    [ "T", "classgismo_1_1gsRichardsonOp.html#abb42ac4ed1da2db07ae20ac77027da21", null ],
+    [ "uPtr", "classgismo_1_1gsRichardsonOp.html#a6db681a003eaa7620a5e421a3ce943d1", null ],
+    [ "gsRichardsonOp", "classgismo_1_1gsRichardsonOp.html#a246d3b2b8357df41e036610ddd901063", null ],
+    [ "gsRichardsonOp", "classgismo_1_1gsRichardsonOp.html#a1640e1ba8aa6e2fcc3df2efdc24b08fb", null ],
+    [ "apply", "classgismo_1_1gsRichardsonOp.html#a64622bed13366e5cb7cb043c504d1fc3", null ],
+    [ "cols", "classgismo_1_1gsRichardsonOp.html#aa0f1796902c9ad383ba037c6216e2aff", null ],
+    [ "estimateLargestEigenvalueOfPreconditionedSystem", "classgismo_1_1gsRichardsonOp.html#a07a37fa1ef41881ee5a411f5134a799c", null ],
+    [ "getDamping", "classgismo_1_1gsRichardsonOp.html#a9ca9602b3d6ee0001ff233bb3ecced58", null ],
+    [ "matrix", "classgismo_1_1gsRichardsonOp.html#afaf9cb14b4317939f27778f987d66343", null ],
+    [ "matrixPtr", "classgismo_1_1gsRichardsonOp.html#a5717c9632d6121ef94f2634e4b673498", null ],
+    [ "numOfSweeps", "classgismo_1_1gsRichardsonOp.html#af94ecad085e38c36eb7662008e600f13", null ],
+    [ "rows", "classgismo_1_1gsRichardsonOp.html#af1bd18ed0d2b99c1f1dcaac8a827c2ee", null ],
+    [ "setDamping", "classgismo_1_1gsRichardsonOp.html#a7edb7738288ce2539d39d31fb111603f", null ],
+    [ "setNumOfSweeps", "classgismo_1_1gsRichardsonOp.html#a27fb1b22169ec08f0ac8766443ecafba", null ],
+    [ "setOptions", "classgismo_1_1gsRichardsonOp.html#ac08d3df9c39d7a0e92c1a32438429157", null ],
+    [ "step", "classgismo_1_1gsRichardsonOp.html#ac4281bd6628b397e2676090acd5cde63", null ],
+    [ "stepT", "classgismo_1_1gsRichardsonOp.html#a0c103705a80352788bb636d037376f31", null ],
+    [ "underlyingOp", "classgismo_1_1gsRichardsonOp.html#ad290cdfe7e2604a64fb166e929687ac4", null ],
+    [ "makeRichardsonOp", "classgismo_1_1gsRichardsonOp.html#a6be55fe290aa8821c3a175d862ec9391", null ],
+    [ "makeRichardsonOp", "classgismo_1_1gsRichardsonOp.html#a2eba56ad99381b48ef6e52b2397f480c", null ],
+    [ "m_expr", "classgismo_1_1gsRichardsonOp.html#a92b248e50ce2d41f8331581502dad4ae", null ],
+    [ "m_mat", "classgismo_1_1gsRichardsonOp.html#a2aabf276510b25b08cf133073a081a52", null ]
+];

@@ -1,0 +1,26 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsOptimizer/gsOptimizer.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsOptimizer/gsOptimizer.h">
+<area shape="rect" id="node2" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1755,184,1943,211"/>
+<area shape="rect" id="node43" href="$gsOptProblem_8h.html" title="Provides declaration of an optimization problem. " alt="" coords="1977,109,2185,136"/>
+<area shape="rect" id="node45" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="3282,184,3429,211"/>
+<area shape="rect" id="node3" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="2355,259,2485,285"/>
+<area shape="rect" id="node26" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="2509,259,2736,285"/>
+<area shape="rect" id="node32" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="172,259,324,285"/>
+<area shape="rect" id="node33" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="348,259,508,285"/>
+<area shape="rect" id="node34" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="532,259,727,285"/>
+<area shape="rect" id="node35" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="751,259,968,285"/>
+<area shape="rect" id="node36" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="993,259,1143,285"/>
+<area shape="rect" id="node37" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="1168,259,1317,285"/>
+<area shape="rect" id="node38" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="1342,259,1508,285"/>
+<area shape="rect" id="node39" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="1533,259,1728,285"/>
+<area shape="rect" id="node40" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="1753,259,1945,285"/>
+<area shape="rect" id="node41" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="1970,259,2163,285"/>
+<area shape="rect" id="node42" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="2187,259,2329,285"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2789,333,3021,360"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="3291,557,3429,584"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="2727,483,2867,509"/>
+<area shape="rect" id="node21" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="2943,483,3092,509"/>
+<area shape="rect" id="node22" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="2841,408,2969,435"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="3280,632,3440,659"/>
+<area shape="rect" id="node23" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="3345,483,3484,509"/>
+<area shape="rect" id="node46" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="3394,259,3501,285"/>
+</map>

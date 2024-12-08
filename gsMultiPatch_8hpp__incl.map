@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsMultiPatch.hpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsCore/gsMultiPatch.hpp">
+<area shape="rect" id="node2" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1995,192,2128,219"/>
+<area shape="rect" id="node29" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="713,109,873,136"/>
+<area shape="rect" id="node41" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="2449,192,2617,219"/>
+<area shape="rect" id="node43" href="$gsAffineFunction_8h.html" title="Implements an affine function. " alt="" coords="1659,109,1849,136"/>
+<area shape="rect" id="node45" href="$gsCombinatorics_8h.html" title="Provides combinatorial unitilies. " alt="" coords="1116,275,1308,301"/>
+<area shape="rect" id="node46" href="$gsSurfMesh_8h.html" title="Half edge mesh structure. " alt="" coords="1871,275,2041,301"/>
+<area shape="rect" id="node49" href="$gsTensorBasis_8h.html" title="Provides declaration of TensorBasis class. " alt="" coords="2065,109,2252,136"/>
+<area shape="rect" id="node3" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="1623,275,1796,301"/>
+<area shape="rect" id="node27" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="2337,275,2495,301"/>
+<area shape="rect" id="node4" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1739,357,1927,384"/>
+<area shape="rect" id="node5" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="1147,440,1277,467"/>
+<area shape="rect" id="node20" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="1632,440,1859,467"/>
+<area shape="rect" id="node6" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2205,515,2437,541"/>
+<area shape="rect" id="node15" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="2311,739,2449,765"/>
+<area shape="rect" id="node16" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="2485,664,2624,691"/>
+<area shape="rect" id="node17" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="2311,664,2460,691"/>
+<area shape="rect" id="node18" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="2483,589,2611,616"/>
+<area shape="rect" id="node19" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="2719,664,2859,691"/>
+<area shape="rect" id="node30" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="1351,192,1503,219"/>
+<area shape="rect" id="node32" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="443,192,579,219"/>
+<area shape="rect" id="node34" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="603,192,749,219"/>
+<area shape="rect" id="node36" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="1072,192,1219,219"/>
+<area shape="rect" id="node38" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="177,192,303,219"/>
+<area shape="rect" id="node47" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="2571,440,2679,467"/>
+<area shape="rect" id="node48" href="$gsProperty_8h_source.html" title="gsMesh2/gsProperty.h" alt="" coords="1811,515,1973,541"/>
+</map>

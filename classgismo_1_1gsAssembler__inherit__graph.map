@@ -1,0 +1,15 @@
+<map id="gsAssembler&lt; T &gt;" name="gsAssembler&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver..." alt="" coords="207,120,383,147"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBiharmonicAssembler.html" title="Implementation of a homogeneous Biharmonic Assembler. " alt="" coords="440,5,659,32"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsGenericAssembler.html" title="Assembles mass and stiffness matrices and right&#45;hand sides on a given domain. " alt="" coords="197,171,392,197"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsHeatEquation.html" title="Constructs the assembler for the discretized isogeometric heat equation. " alt="" coords="213,221,376,248"/>
+<area shape="rect" id="node13" href="$classgismo_1_1gsPoissonAssembler.html" title="Implementation of an (multiple right&#45;hand side) Poisson assembler. " alt="" coords="197,284,392,311"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsElasticityAssembler.html" title="Assembles the stiffness matrix and the right&#45;hand side vector for linear and nonlinear elasticity for..." alt="" coords="447,56,651,83"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsElTimeIntegrator.html" title="Time integation for equations of dynamic elasticity with implicit schemes. " alt="" coords="457,107,641,133"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsMassAssembler.html" title="Assembles the mass matrix and right&#45;hand side vector for linear and nonlinear elasticity for 2D plain..." alt="" coords="461,157,638,184"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsNsAssembler.html" title="TODO: write. " alt="" coords="469,208,630,235"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsNsTimeIntegrator.html" title="Time integation for incompressible Navier&#45;Stokes equations. " alt="" coords="455,259,644,285"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsMuscleAssembler.html" title="Assembler for incompressible nonlinear elasticity problem with a muscle material model. The material model is based on the paper by M.H.Gfrerer and B.Simeon &quot;Fiber&#45;based modeling and simulation of skeletal muscles&quot;. " alt="" coords="709,31,899,57"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsThermoAssembler.html" title="Assembles stiffness and mass matrices and right&#45;hand side vector for linear and nonlinear elasticity ..." alt="" coords="707,81,901,108"/>
+<area shape="rect" id="node14" href="$classgismo_1_1gsCDRAssembler.html" title="Implementation of an (multiple righ&#45;hand side) Poisson solver. " alt="" coords="464,309,635,336"/>
+</map>

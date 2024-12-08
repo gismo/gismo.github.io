@@ -1,0 +1,22 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsCurveLoop.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsModeling/gsCurveLoop.h">
+<area shape="rect" id="node3" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="189,117,325,144"/>
+<area shape="rect" id="node9" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="670,589,902,616"/>
+<area shape="rect" id="node4" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="415,200,576,227"/>
+<area shape="rect" id="node5" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="937,275,1089,301"/>
+<area shape="rect" id="node41" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="696,349,854,376"/>
+<area shape="rect" id="node42" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="422,275,569,301"/>
+<area shape="rect" id="node44" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="593,275,740,301"/>
+<area shape="rect" id="node46" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="1270,275,1396,301"/>
+<area shape="rect" id="node6" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="1170,349,1344,376"/>
+<area shape="rect" id="node7" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="748,432,936,459"/>
+<area shape="rect" id="node8" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="1162,515,1293,541"/>
+<area shape="rect" id="node34" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="329,515,556,541"/>
+<area shape="rect" id="node18" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="745,963,884,989"/>
+<area shape="rect" id="node20" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="199,739,338,765"/>
+<area shape="rect" id="node25" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="678,739,828,765"/>
+<area shape="rect" id="node31" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="570,664,698,691"/>
+<area shape="rect" id="node19" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="734,1037,894,1064"/>
+<area shape="rect" id="node26" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="626,813,816,840"/>
+<area shape="rect" id="node27" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="503,888,642,915"/>
+<area shape="rect" id="node33" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available. " alt="" coords="852,739,1018,765"/>
+</map>

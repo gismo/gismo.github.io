@@ -1,0 +1,15 @@
+<map id="gsOptimizer&lt; T &gt;" name="gsOptimizer&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsGradientDescent.html" title="This class describes the gradient descent method. " alt="" coords="192,81,376,108"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsIpOpt.html" title="Class defining an optimization problem. " alt="" coords="229,132,339,159"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsOptim.html" title="Base class for the Optim wrapper. " alt="" coords="227,183,341,209"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsOptimBFGS.html" title="Binding to Optim&#39;s BFGS solver. " alt="" coords="428,5,577,32"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsOptimCG.html" title="Binding to Optim&#39;s CG solver. " alt="" coords="435,56,570,83"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsOptimDE.html" title="Binding to Optim&#39;s DE solver. " alt="" coords="436,107,569,133"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsOptimGD.html" title="Binding to Optim&#39;s GD solver. " alt="" coords="435,157,570,184"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsOptimLBFGS.html" title="Binding to Optim&#39;s LBFGS solver. " alt="" coords="425,208,581,235"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsOptimNM.html" title="Binding to Optim&#39;s NM solver. " alt="" coords="435,259,571,285"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsOptimPSO.html" title="Binding to Optim&#39;s PSO solver. " alt="" coords="432,309,573,336"/>
+<area shape="rect" id="node14" href="$classgismo_1_1gsOptimSUMT.html" title="Binding to Optim&#39;s SUMT solver. " alt="" coords="427,360,579,387"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsOptimDEPRMM.html" title="Binding to Optim&#39;s DEPRMM solver. " alt="" coords="630,107,802,133"/>
+<area shape="rect" id="node13" href="$classgismo_1_1gsOptimPSODV.html" title="Binding to Optim&#39;s PSODV solver. " alt="" coords="636,309,796,336"/>
+</map>
