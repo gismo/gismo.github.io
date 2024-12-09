@@ -1,0 +1,5 @@
+<map id="gsGenericTensorBasis&lt; d, T &gt;" name="gsGenericTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsTensorBasis.html" title="Abstract base class for tensor product bases. " alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain..." alt="" coords="34,80,144,107"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="14,5,164,32"/>
+</map>

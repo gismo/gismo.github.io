@@ -1,0 +1,37 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsElasticity/gsVisitorNavierStokes.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsElasticity/gsVisitorNavierStokes.h">
+<area shape="rect" id="node2" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="939,109,1149,136"/>
+<area shape="rect" id="node45" href="$gsFuncData_8h.html" title="This object is a cache for computed values from an evaluator. " alt="" coords="2491,283,2649,309"/>
+<area shape="rect" id="node46" href="$gsBasePde_8h.html" title="IMHO, a useless class, but it is necessary to use the gsAssembler class. Contains proper information ..." alt="" coords="2267,109,2451,136"/>
+<area shape="rect" id="node3" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="762,283,909,309"/>
+<area shape="rect" id="node12" href="$gsGaussRule_8h.html" title="Provides the Gauss&#45;Legendre quadrature rule. " alt="" coords="941,192,1147,219"/>
+<area shape="rect" id="node34" href="$gsLobattoRule_8h.html" title="Provides the Gauss&#45;Lobatto quadrature rule. " alt="" coords="551,192,765,219"/>
+<area shape="rect" id="node36" href="$gsNewtonCotesRule_8h.html" title="Provides the Newton&#45;Cotes quadrature rule. " alt="" coords="1410,185,1621,226"/>
+<area shape="rect" id="node38" href="$gsPatchRule_8h.html" title="Provides patch&#45;wise quadrature rule. " alt="" coords="279,192,479,219"/>
+<area shape="rect" id="node42" href="$gsOverIntegrateRule_8h.html" title="Over&#45;integrates a Gauss&#45;Legendre or Gauss&#45;Lobatto rule. " alt="" coords="1171,185,1385,226"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="260,589,492,616"/>
+<area shape="rect" id="node10" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="782,365,889,392"/>
+<area shape="rect" id="node11" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1295,440,1435,467"/>
+<area shape="rect" id="node13" href="$gsQuadRule_8h.html" title="Provides a base class for a quadrature rule. " alt="" coords="1178,283,1376,309"/>
+<area shape="rect" id="node14" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1990,440,2177,467"/>
+<area shape="rect" id="node15" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="439,515,569,541"/>
+<area shape="rect" id="node16" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="1780,515,2007,541"/>
+<area shape="rect" id="node22" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="2781,515,2933,541"/>
+<area shape="rect" id="node23" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="2957,515,3117,541"/>
+<area shape="rect" id="node24" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="3141,515,3336,541"/>
+<area shape="rect" id="node25" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="3361,515,3577,541"/>
+<area shape="rect" id="node26" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="3602,515,3752,541"/>
+<area shape="rect" id="node27" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="593,515,743,541"/>
+<area shape="rect" id="node28" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="767,515,933,541"/>
+<area shape="rect" id="node29" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="959,515,1153,541"/>
+<area shape="rect" id="node30" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="1178,515,1371,541"/>
+<area shape="rect" id="node31" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="1395,515,1588,541"/>
+<area shape="rect" id="node32" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="1613,515,1755,541"/>
+<area shape="rect" id="node39" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="137,365,313,392"/>
+<area shape="rect" id="node40" href="$gsBSplineBasis_8h.html" title="Provides declaration of BSplineBasis class. " alt="" coords="5,283,195,309"/>
+<area shape="rect" id="node43" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1401,283,1535,309"/>
+<area shape="rect" id="node44" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1845,365,2003,392"/>
+<area shape="rect" id="node47" href="$gsPde_8h.html" title="Base class of descriptions of a PDE problem. " alt="" coords="2145,192,2260,219"/>
+<area shape="rect" id="node50" href="$gsPiecewiseFunction_8h.html" title="Provides declaration of a gsPiecewiseFunction class. " alt="" coords="2250,283,2467,309"/>
+<area shape="rect" id="node48" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="1813,283,2035,309"/>
+<area shape="rect" id="node49" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="2060,283,2225,309"/>
+</map>

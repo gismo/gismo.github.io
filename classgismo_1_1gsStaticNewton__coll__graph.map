@@ -1,0 +1,7 @@
+<map id="gsStaticNewton&lt; T &gt;" name="gsStaticNewton&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsStaticBase.html" title="Base class for static solvers. " alt="" coords="144,248,288,275"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsVector.html" title="gsVector\&lt; T \&gt;" alt="" coords="25,99,140,125"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T, _Rows,\l 1, _Options \&gt;" alt="" coords="5,6,160,47"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="183,99,285,125"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsSparseMatrix.html" title="gsSparseMatrix\&lt; T \&gt;" alt="" coords="312,248,472,275"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="gsBSplineBasis&lt; T &gt;" name="gsBSplineBasis&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsTensorBSplineBasis_3_011_00_01T_01_4.html" title="A univariate B&#45;spline basis. " alt="" coords="8,230,171,271"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsTensorBasis.html" title="Abstract base class for tensor product bases. " alt="" coords="5,155,173,181"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain..." alt="" coords="34,80,144,107"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="14,5,164,32"/>
+</map>

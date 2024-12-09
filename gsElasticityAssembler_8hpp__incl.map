@@ -1,0 +1,42 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsElasticity/gsElasticityAssembler.hpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsElasticity/gsElasticityAssembler.hpp">
+<area shape="rect" id="node2" href="$gsElasticityAssembler_8h.html" title="Provides linear and nonlinear elasticity systems for 2D plain strain and 3D continua. " alt="" coords="1187,110,1363,151"/>
+<area shape="rect" id="node38" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="1685,117,1843,144"/>
+<area shape="rect" id="node11" href="$gsBaseUtils_8h.html" title="Provides several simple utility and naming classes. " alt="" coords="799,299,989,325"/>
+<area shape="rect" id="node41" href="$gsGeoUtils_8h.html" title="Provides isogeometric meshing and modelling routines. " alt="" coords="2917,299,3101,325"/>
+<area shape="rect" id="node42" href="$gsBasePde_8h.html" title="IMHO, a useless class, but it is necessary to use the gsAssembler class. Contains proper information ..." alt="" coords="2749,208,2933,235"/>
+<area shape="rect" id="node43" href="$gsVisitorLinearElasticity_8h.html" title="Visitor class for volumetric integration of the linear elasticity system. " alt="" coords="2541,110,2739,151"/>
+<area shape="rect" id="node47" href="$gsVisitorMixedLinearElasticity_8h.html" title="Visitor class for volumetric integration of the mixed linear elasticity system. " alt="" coords="2319,110,2516,151"/>
+<area shape="rect" id="node48" href="$gsVisitorMixedNonLinearElasticity_8h.html" title="Visitor class for volumetric integration of the mixed nonlinear elasticity system. " alt="" coords="2764,110,2961,151"/>
+<area shape="rect" id="node49" href="$gsVisitorNonLinearElasticity_8h.html" title="Element visitor for nonlinear elasticity for 2D plain strain and 3D continua. " alt="" coords="2111,110,2295,151"/>
+<area shape="rect" id="node50" href="$gsVisitorElasticityNeumann_8h.html" title="Visitor class for the surface load integration. " alt="" coords="1868,110,2087,151"/>
+<area shape="rect" id="node3" href="$gsBaseAssembler_8h.html" title="Base class for assemblers of gsElasticity. " alt="" coords="1438,208,1665,235"/>
+<area shape="rect" id="node10" href="$gsElasticityFunctions_8h.html" title="Provides useful classes derived from gsFunction which can be used for visualization or coupling..." alt="" coords="1187,201,1363,242"/>
+<area shape="rect" id="node4" href="$gsAssembler_8h.html" title="Provides generic assembler routines. " alt="" coords="1891,299,2096,325"/>
+<area shape="rect" id="node5" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="1919,381,2067,408"/>
+<area shape="rect" id="node6" href="$gsPde_8h.html" title="Base class of descriptions of a PDE problem. " alt="" coords="2585,381,2700,408"/>
+<area shape="rect" id="node7" href="$gsMultiPatch_8h.html" title="Provides declaration of the MultiPatch class. " alt="" coords="2543,456,2708,483"/>
+<area shape="rect" id="node8" href="$gsPiecewiseFunction_8h.html" title="Provides declaration of a gsPiecewiseFunction class. " alt="" coords="2733,456,2949,483"/>
+<area shape="rect" id="node12" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="719,381,857,408"/>
+<area shape="rect" id="node14" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="910,456,1049,483"/>
+<area shape="rect" id="node15" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="932,381,1060,408"/>
+<area shape="rect" id="node16" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1438,381,1596,408"/>
+<area shape="rect" id="node13" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="708,456,868,483"/>
+<area shape="rect" id="node17" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1423,456,1611,483"/>
+<area shape="rect" id="node18" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="5,531,136,557"/>
+<area shape="rect" id="node19" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="160,531,387,557"/>
+<area shape="rect" id="node25" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1161,531,1313,557"/>
+<area shape="rect" id="node26" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1337,531,1497,557"/>
+<area shape="rect" id="node27" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1521,531,1716,557"/>
+<area shape="rect" id="node28" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1741,531,1957,557"/>
+<area shape="rect" id="node29" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1982,531,2132,557"/>
+<area shape="rect" id="node30" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2157,531,2307,557"/>
+<area shape="rect" id="node31" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2331,531,2497,557"/>
+<area shape="rect" id="node32" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2523,531,2717,557"/>
+<area shape="rect" id="node33" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2742,531,2935,557"/>
+<area shape="rect" id="node34" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2959,531,3152,557"/>
+<area shape="rect" id="node35" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3177,531,3319,557"/>
+<area shape="rect" id="node39" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="1691,208,1875,235"/>
+<area shape="rect" id="node44" href="$gsVisitorElUtils_8h.html" title="Tensor operations for elasticity. " alt="" coords="2555,201,2725,242"/>
+<area shape="rect" id="node45" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="2136,208,2347,235"/>
+<area shape="rect" id="node46" href="$gsFuncData_8h.html" title="This object is a cache for computed values from an evaluator. " alt="" coords="2371,208,2529,235"/>
+</map>

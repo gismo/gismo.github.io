@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsSolver/gsPreconditioner.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsSolver/gsPreconditioner.h">
+<area shape="rect" id="node2" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="571,184,719,211"/>
+<area shape="rect" id="node31" href="$gsLinearOperator_8h.html" title="Simple abstract class for (discrete) linear operators. " alt="" coords="683,109,888,136"/>
+<area shape="rect" id="node3" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="1195,333,1427,360"/>
+<area shape="rect" id="node26" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="499,259,607,285"/>
+<area shape="rect" id="node12" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1644,707,1783,733"/>
+<area shape="rect" id="node14" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1638,483,1777,509"/>
+<area shape="rect" id="node20" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="1233,483,1383,509"/>
+<area shape="rect" id="node24" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1512,408,1640,435"/>
+<area shape="rect" id="node13" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="1633,781,1793,808"/>
+<area shape="rect" id="node21" href="$gsTemplateTools_8h.html" title="Utilities related to template programming. " alt="" coords="1202,557,1392,584"/>
+<area shape="rect" id="node22" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1294,632,1433,659"/>
+<area shape="rect" id="node32" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2105,184,2292,211"/>
+<area shape="rect" id="node33" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3736,259,3867,285"/>
+<area shape="rect" id="node34" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3485,259,3712,285"/>
+<area shape="rect" id="node40" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1303,259,1455,285"/>
+<area shape="rect" id="node41" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1479,259,1639,285"/>
+<area shape="rect" id="node42" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1663,259,1857,285"/>
+<area shape="rect" id="node43" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1882,259,2099,285"/>
+<area shape="rect" id="node44" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="2123,259,2273,285"/>
+<area shape="rect" id="node45" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2299,259,2448,285"/>
+<area shape="rect" id="node46" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2473,259,2639,285"/>
+<area shape="rect" id="node47" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2664,259,2859,285"/>
+<area shape="rect" id="node48" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2883,259,3076,285"/>
+<area shape="rect" id="node49" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="3101,259,3293,285"/>
+<area shape="rect" id="node50" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3318,259,3460,285"/>
+</map>
