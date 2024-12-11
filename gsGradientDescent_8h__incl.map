@@ -1,0 +1,27 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsOptimizer/gsGradientDescent.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsOptimizer/gsGradientDescent.h">
+<area shape="rect" id="node2" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2006,259,2193,285"/>
+<area shape="rect" id="node41" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="1041,184,1188,211"/>
+<area shape="rect" id="node47" href="$gsOptimizer_8h.html" title="This file is part of the G+Smo library. " alt="" coords="1935,109,2129,136"/>
+<area shape="rect" id="node48" href="$gsOptProblem_8h.html" title="Provides declaration of an optimization problem. " alt="" coords="2066,184,2275,211"/>
+<area shape="rect" id="node3" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3300,333,3431,360"/>
+<area shape="rect" id="node24" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3455,333,3681,360"/>
+<area shape="rect" id="node30" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1117,333,1269,360"/>
+<area shape="rect" id="node31" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1293,333,1453,360"/>
+<area shape="rect" id="node32" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1477,333,1672,360"/>
+<area shape="rect" id="node33" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1697,333,1913,360"/>
+<area shape="rect" id="node34" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1938,333,2088,360"/>
+<area shape="rect" id="node35" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2113,333,2263,360"/>
+<area shape="rect" id="node36" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2287,333,2453,360"/>
+<area shape="rect" id="node37" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2479,333,2673,360"/>
+<area shape="rect" id="node38" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2698,333,2891,360"/>
+<area shape="rect" id="node39" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2915,333,3108,360"/>
+<area shape="rect" id="node40" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3133,333,3275,360"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="836,408,1068,435"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1208,632,1347,659"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="789,557,928,584"/>
+<area shape="rect" id="node19" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="1168,557,1317,584"/>
+<area shape="rect" id="node20" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1077,483,1205,509"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="1197,707,1357,733"/>
+<area shape="rect" id="node21" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="953,557,1092,584"/>
+<area shape="rect" id="node42" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="457,333,564,360"/>
+</map>

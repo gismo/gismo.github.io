@@ -1,0 +1,30 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsMaterialMatrixXml.hpp" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsMaterialMatrixXml.hpp">
+<area shape="rect" id="node3" href="$gsFunctionExpr_8h.html" title="Provides declaration of FunctionExpr class. " alt="" coords="726,125,905,152"/>
+<area shape="rect" id="node36" href="$gsXmlGenericUtils_8hpp.html" title="Provides implementation of generic XML functions. " alt="" coords="1169,125,1372,152"/>
+<area shape="rect" id="node4" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="544,365,696,392"/>
+<area shape="rect" id="node5" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="192,440,365,467"/>
+<area shape="rect" id="node6" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1601,523,1788,549"/>
+<area shape="rect" id="node7" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3189,605,3320,632"/>
+<area shape="rect" id="node16" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="5,605,232,632"/>
+<area shape="rect" id="node22" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1007,605,1159,632"/>
+<area shape="rect" id="node23" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1183,605,1343,632"/>
+<area shape="rect" id="node24" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1367,605,1561,632"/>
+<area shape="rect" id="node25" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1586,605,1803,632"/>
+<area shape="rect" id="node26" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="1827,605,1977,632"/>
+<area shape="rect" id="node27" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2003,605,2152,632"/>
+<area shape="rect" id="node28" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2177,605,2343,632"/>
+<area shape="rect" id="node29" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2368,605,2563,632"/>
+<area shape="rect" id="node30" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2587,605,2780,632"/>
+<area shape="rect" id="node31" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="2805,605,2997,632"/>
+<area shape="rect" id="node32" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3022,605,3164,632"/>
+<area shape="rect" id="node8" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="2967,680,3199,707"/>
+<area shape="rect" id="node37" href="$gsConstantFunction_8h.html" title="Provides declaration of ConstantFunction class. " alt="" coords="1573,208,1784,235"/>
+<area shape="rect" id="node38" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="1255,291,1416,317"/>
+<area shape="rect" id="node50" href="$gsCombinatorics_8h.html" title="Provides combinatorial unitilies. " alt="" coords="2057,440,2249,467"/>
+<area shape="rect" id="node39" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1610,365,1768,392"/>
+<area shape="rect" id="node41" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="1793,365,1929,392"/>
+<area shape="rect" id="node43" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="817,365,964,392"/>
+<area shape="rect" id="node45" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="988,365,1135,392"/>
+<area shape="rect" id="node47" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="1159,365,1285,392"/>
+<area shape="rect" id="node40" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1517,440,1656,467"/>
+</map>

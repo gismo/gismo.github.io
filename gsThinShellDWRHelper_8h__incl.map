@@ -1,0 +1,40 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsThinShellDWRHelper.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/optional/gsKLShell/src/gsThinShellDWRHelper.h">
+<area shape="rect" id="node2" href="$gsThinShellAssemblerDWR_8h.html" title="Provides DWR assembly routines for the Kirchhoff&#45;Love shell. " alt="" coords="4265,110,4452,151"/>
+<area shape="rect" id="node3" href="$gsThinShellAssembler_8h.html" title="Provides linear and nonlinear assemblers for thin shells. " alt="" coords="3447,201,3633,242"/>
+<area shape="rect" id="node4" href="$gsMaterialMatrixBase_8h.html" title="Provides a base class for material matrices. " alt="" coords="3982,563,4161,605"/>
+<area shape="rect" id="node12" href="$gsThinShellFunctions_8h.html" title="Provides evaluation function for stresses. " alt="" coords="3784,291,3971,333"/>
+<area shape="rect" id="node11" href="$gsMaterialMatrixContainer_8h.html" title="Provides a container for material matrices for thin shells. " alt="" coords="3739,473,3919,514"/>
+<area shape="rect" id="node45" href="$gsPointLoads_8h.html" title="Provides a simple container for point loads on multi&#45;patch domains. " alt="" coords="3053,299,3216,325"/>
+<area shape="rect" id="node34" href="$gsExprAssembler_8h.html" title="Generic expressions matrix assembly. " alt="" coords="1540,389,1775,416"/>
+<area shape="rect" id="node46" href="$gsExprEvaluator_8h.html" title="Generic expressions evaluator. " alt="" coords="364,389,591,416"/>
+<area shape="rect" id="node5" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="3295,744,3468,771"/>
+<area shape="rect" id="node8" href="$gsMaterialMatrixUtils_8h.html" title="Provides material matrix utilities. " alt="" coords="3675,654,3855,695"/>
+<area shape="rect" id="node6" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="1950,827,2137,853"/>
+<area shape="rect" id="node9" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="1858,744,2005,771"/>
+<area shape="rect" id="node13" href="$gsThinShellUtils_8h.html" title="Utilities for gsThinShellAssembler. Mainly expressions. " alt="" coords="2409,473,2596,514"/>
+<area shape="rect" id="node23" href="$gsMaterialMatrixEval_8h.html" title="Provides an evaluator for material matrices for thin shells. " alt="" coords="4073,382,4252,423"/>
+<area shape="rect" id="node26" href="$gsMaterialMatrixIntegrate_8h.html" title="Provides an evaluator for material matrices for thin shells. " alt="" coords="4277,382,4456,423"/>
+<area shape="rect" id="node28" href="$gsMaterialMatrixLinear_8h.html" title="Provides linear material matrices. " alt="" coords="3138,473,3317,514"/>
+<area shape="rect" id="node32" href="$gsMaterialMatrixNonlinear_8h.html" title="Provides hyperelastic material matrices. " alt="" coords="3483,473,3663,514"/>
+<area shape="rect" id="node14" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2803,661,2936,688"/>
+<area shape="rect" id="node15" href="$gsFuncData_8h.html" title="This object is a cache for computed values from an evaluator. " alt="" coords="3194,661,3352,688"/>
+<area shape="rect" id="node16" href="$gsDofMapper_8h.html" title="Provides the gsDofMapper class for re&#45;indexing DoFs. " alt="" coords="2419,571,2587,597"/>
+<area shape="rect" id="node17" href="$gsBoundaryConditions_8h.html" title="Provides gsBoundaryConditions class. " alt="" coords="2611,571,2833,597"/>
+<area shape="rect" id="node18" href="$gsPointGrid_8h.html" title="Provides functions to generate structured point data. " alt="" coords="1374,571,1532,597"/>
+<area shape="rect" id="node21" href="$gsAssemblerOptions_8h.html" title="Provides assembler and solver options. " alt="" coords="2139,571,2395,597"/>
+<area shape="rect" id="node22" href="$gsExpressions_8h.html" title="Defines different expressions. " alt="" coords="1899,571,2113,597"/>
+<area shape="rect" id="node19" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="1361,661,1545,688"/>
+<area shape="rect" id="node24" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="4187,661,4339,688"/>
+<area shape="rect" id="node29" href="$gsMaterialMatrixBaseDim_8h.html" title="Base class with dimension in template; used for metric computations. " alt="" coords="3369,563,3548,605"/>
+<area shape="rect" id="node30" href="$gsThreaded_8h.html" title="Wrapper for thread&#45;local data members. " alt="" coords="3011,661,3169,688"/>
+<area shape="rect" id="node35" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="968,480,1179,507"/>
+<area shape="rect" id="node41" href="$gsExprHelper_8h.html" title="Generic expressions helper. " alt="" coords="1757,480,1965,507"/>
+<area shape="rect" id="node42" href="$gsCPPInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface, by means of a Closest Point Projection. " alt="" coords="367,480,587,507"/>
+<area shape="rect" id="node36" href="$gsGaussRule_8h.html" title="Provides the Gauss&#45;Legendre quadrature rule. " alt="" coords="617,571,823,597"/>
+<area shape="rect" id="node37" href="$gsLobattoRule_8h.html" title="Provides the Gauss&#45;Lobatto quadrature rule. " alt="" coords="847,571,1061,597"/>
+<area shape="rect" id="node38" href="$gsNewtonCotesRule_8h.html" title="Provides the Newton&#45;Cotes quadrature rule. " alt="" coords="1086,563,1297,605"/>
+<area shape="rect" id="node39" href="$gsPatchRule_8h.html" title="Provides patch&#45;wise quadrature rule. " alt="" coords="393,571,593,597"/>
+<area shape="rect" id="node40" href="$gsOverIntegrateRule_8h.html" title="Over&#45;integrates a Gauss&#45;Legendre or Gauss&#45;Lobatto rule. " alt="" coords="1609,563,1823,605"/>
+<area shape="rect" id="node43" href="$gsAffineFunction_8h.html" title="Implements an affine function. " alt="" coords="127,571,317,597"/>
+<area shape="rect" id="node48" href="$gsRemapInterface_8h.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface. " alt="" coords="103,480,343,507"/>
+</map>

@@ -1,0 +1,28 @@
+var classgismo_1_1gsJacobiOp =
+[
+    [ "Base", "classgismo_1_1gsJacobiOp.html#af126ded4ff7300e5bf5b737720301679", null ],
+    [ "BasePtr", "classgismo_1_1gsJacobiOp.html#acf6fbe83ce68f9b4df92c53f03215a3e", null ],
+    [ "Ptr", "classgismo_1_1gsJacobiOp.html#a476f9a5cf0e56c2da455340ca80f2fed", null ],
+    [ "T", "classgismo_1_1gsJacobiOp.html#abb42ac4ed1da2db07ae20ac77027da21", null ],
+    [ "uPtr", "classgismo_1_1gsJacobiOp.html#aa2b10d945f869a1c118c5b5d2ddbcc5e", null ],
+    [ "gsJacobiOp", "classgismo_1_1gsJacobiOp.html#ac54963da4e8561edd941c71cfc11e5d2", null ],
+    [ "gsJacobiOp", "classgismo_1_1gsJacobiOp.html#a4a5b9edb75e4571bf362437439adba98", null ],
+    [ "apply", "classgismo_1_1gsJacobiOp.html#a64622bed13366e5cb7cb043c504d1fc3", null ],
+    [ "cols", "classgismo_1_1gsJacobiOp.html#aa0f1796902c9ad383ba037c6216e2aff", null ],
+    [ "estimateLargestEigenvalueOfPreconditionedSystem", "classgismo_1_1gsJacobiOp.html#a07a37fa1ef41881ee5a411f5134a799c", null ],
+    [ "getDamping", "classgismo_1_1gsJacobiOp.html#a9ca9602b3d6ee0001ff233bb3ecced58", null ],
+    [ "matrix", "classgismo_1_1gsJacobiOp.html#afaf9cb14b4317939f27778f987d66343", null ],
+    [ "matrixPtr", "classgismo_1_1gsJacobiOp.html#a5717c9632d6121ef94f2634e4b673498", null ],
+    [ "numOfSweeps", "classgismo_1_1gsJacobiOp.html#af94ecad085e38c36eb7662008e600f13", null ],
+    [ "rows", "classgismo_1_1gsJacobiOp.html#af1bd18ed0d2b99c1f1dcaac8a827c2ee", null ],
+    [ "setDamping", "classgismo_1_1gsJacobiOp.html#a7edb7738288ce2539d39d31fb111603f", null ],
+    [ "setNumOfSweeps", "classgismo_1_1gsJacobiOp.html#a27fb1b22169ec08f0ac8766443ecafba", null ],
+    [ "setOptions", "classgismo_1_1gsJacobiOp.html#ac08d3df9c39d7a0e92c1a32438429157", null ],
+    [ "step", "classgismo_1_1gsJacobiOp.html#ac4281bd6628b397e2676090acd5cde63", null ],
+    [ "stepT", "classgismo_1_1gsJacobiOp.html#a0c103705a80352788bb636d037376f31", null ],
+    [ "underlyingOp", "classgismo_1_1gsJacobiOp.html#ad290cdfe7e2604a64fb166e929687ac4", null ],
+    [ "makeJacobiOp", "classgismo_1_1gsJacobiOp.html#aaa0dc6f89a1d31fc667bed259512bb9b", null ],
+    [ "makeJacobiOp", "classgismo_1_1gsJacobiOp.html#ae3c53d966a5f16134f321ea4ad5e66b6", null ],
+    [ "m_expr", "classgismo_1_1gsJacobiOp.html#a92b248e50ce2d41f8331581502dad4ae", null ],
+    [ "m_mat", "classgismo_1_1gsJacobiOp.html#a2aabf276510b25b08cf133073a081a52", null ]
+];

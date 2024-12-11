@@ -1,0 +1,15 @@
+<map id="gsSurfMesh::Edge_container" name="gsSurfMesh::Edge_container">
+<area shape="rect" id="node2" href="$classgismo_1_1gsSurfMesh_1_1Edge__iterator.html" title="Edge_iterator" alt="" coords="576,315,685,341"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsSurfMesh.html" title="A halfedge data structure for polygonal meshes. " alt="" coords="382,253,479,280"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title="Face_property\&lt; bool \&gt;" alt="" coords="49,5,220,32"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title="Vertex_property\&lt; Normal \&gt;" alt="" coords="33,56,237,83"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title="Face_property\&lt; Normal \&gt;" alt="" coords="39,107,230,133"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title="Vertex_property\&lt; gismo\l::gsSurfMesh::Vertex_connectivity \&gt;" alt="" coords="6,158,263,199"/>
+<area shape="rect" id="node8" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title="Vertex_property\&lt; Point \&gt;" alt="" coords="40,224,229,251"/>
+<area shape="rect" id="node9" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title="Face_property\&lt; gismo\l::gsSurfMesh::Face_connectivity \&gt;" alt="" coords="13,275,257,317"/>
+<area shape="rect" id="node10" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title="Vertex_property\&lt; bool \&gt;" alt="" coords="43,341,227,368"/>
+<area shape="rect" id="node11" href="$classgismo_1_1gsSurfMesh_1_1Halfedge__property.html" title="Halfedge_property\&lt;\l gismo::gsSurfMesh::\lHalfedge_connectivity \&gt;" alt="" coords="43,392,226,448"/>
+<area shape="rect" id="node12" href="$classgismo_1_1gsSurfMesh_1_1Edge__property.html" title="Edge_property\&lt; bool \&gt;" alt="" coords="47,472,222,499"/>
+<area shape="rect" id="node13" href="$structgismo_1_1gsSurfMesh_1_1Edge.html" title="Edge" alt="" coords="403,399,458,425"/>
+<area shape="rect" id="node14" href="$classgismo_1_1gsSurfMesh_1_1Base__handle.html" title="Base_handle" alt="" coords="82,523,187,549"/>
+</map>

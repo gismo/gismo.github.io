@@ -1,0 +1,5 @@
+<map id="gsMuscleAssembler&lt; T &gt;" name="gsMuscleAssembler&lt; T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsElasticityAssembler.html" title="Assembles the stiffness matrix and the right&#45;hand side vector for linear and nonlinear elasticity for..." alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver..." alt="" coords="19,80,195,107"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="35,5,179,32"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsTensorNurbsBasis.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsNurbs/gsTensorNurbsBasis.h">
+<area shape="rect" id="node2" href="$gsNurbs_8h.html" title="Represents a NURBS curve/function with one parameter. " alt="" coords="1592,109,1736,136"/>
+<area shape="rect" id="node34" href="$gsNurbsBasis_8h.html" title="Represents a NURBS basis with one parameter. " alt="" coords="1457,184,1636,211"/>
+<area shape="rect" id="node35" href="$gsRationalBasis_8h.html" title="Provides declaration of RationalBasis class. " alt="" coords="1375,349,1561,376"/>
+<area shape="rect" id="node45" href="$gsTensorBSplineBasis_8h.html" title="Provides declaration of TensorBSplineBasis abstract interface. " alt="" coords="540,184,772,211"/>
+<area shape="rect" id="node48" href="$gsTensorTools_8h.html" title="Utility functions related to tensor&#45;structured objects. " alt="" coords="2275,424,2460,451"/>
+<area shape="rect" id="node3" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2117,573,2304,600"/>
+<area shape="rect" id="node26" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface. " alt="" coords="507,349,668,376"/>
+<area shape="rect" id="node39" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="1585,349,1761,376"/>
+<area shape="rect" id="node43" href="$gsBoehm_8h.html" title="Boehm&#39;s algorithm for knot insertion. " alt="" coords="1791,267,1943,293"/>
+<area shape="rect" id="node4" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo. " alt="" coords="3879,648,4009,675"/>
+<area shape="rect" id="node9" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library. " alt="" coords="3497,648,3724,675"/>
+<area shape="rect" id="node15" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects. " alt="" coords="1315,648,1467,675"/>
+<area shape="rect" id="node16" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects. " alt="" coords="1491,648,1651,675"/>
+<area shape="rect" id="node17" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects. " alt="" coords="1675,648,1869,675"/>
+<area shape="rect" id="node18" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it. " alt="" coords="1894,648,2111,675"/>
+<area shape="rect" id="node19" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class. " alt="" coords="2135,648,2285,675"/>
+<area shape="rect" id="node20" href="$gsVector_8h.html" title="Provides declaration of Vector class. " alt="" coords="2311,648,2460,675"/>
+<area shape="rect" id="node21" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects. " alt="" coords="2485,648,2651,675"/>
+<area shape="rect" id="node22" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class. " alt="" coords="2676,648,2871,675"/>
+<area shape="rect" id="node23" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen) " alt="" coords="2895,648,3088,675"/>
+<area shape="rect" id="node24" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers " alt="" coords="3113,648,3305,675"/>
+<area shape="rect" id="node25" href="$gsPoint_8h.html" title="Provides declaration of Point class. " alt="" coords="3330,648,3472,675"/>
+<area shape="rect" id="node5" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="240,723,472,749"/>
+<area shape="rect" id="node27" href="$gsFunction_8h.html" title="Provides declaration of Function abstract interface. " alt="" coords="93,424,245,451"/>
+<area shape="rect" id="node28" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1310,499,1468,525"/>
+<area shape="rect" id="node29" href="$gsCurve_8h.html" title="Provides declaration of Curve abstract interface. " alt="" coords="269,424,405,451"/>
+<area shape="rect" id="node30" href="$gsSurface_8h.html" title="Provides declaration of Surface abstract interface. " alt="" coords="429,424,576,451"/>
+<area shape="rect" id="node31" href="$gsVolume_8h.html" title="Provides declaration of Volume abstract interface. " alt="" coords="600,424,747,451"/>
+<area shape="rect" id="node32" href="$gsBulk_8h.html" title="Provides declaration of a 4D bulk. " alt="" coords="771,424,897,451"/>
+<area shape="rect" id="node37" href="$gsBSplineBasis_8h.html" title="Provides declaration of BSplineBasis class. " alt="" coords="1162,267,1352,293"/>
+<area shape="rect" id="node36" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="1323,424,1456,451"/>
+<area shape="rect" id="node38" href="$gsTensorBasis_8h.html" title="Provides declaration of TensorBasis class. " alt="" coords="1164,349,1351,376"/>
+<area shape="rect" id="node40" href="$gsDomain_8h.html" title="Abstracgt Base class representing a domain. i.e. a collection of elements (triangles, rectangles, cubes, simplices. " alt="" coords="1973,499,2123,525"/>
+<area shape="rect" id="node41" href="$gsKnotIterator_8h.html" title="Provides implementation of knot vector iterators. " alt="" coords="1582,424,1764,451"/>
+<area shape="rect" id="node46" href="$gsTensorBSpline_8h.html" title="Represents a tensor&#45;product B&#45;spline patch. " alt="" coords="489,267,687,293"/>
+<area shape="rect" id="node49" href="$gsCombinatorics_8h.html" title="Provides combinatorial unitilies. " alt="" coords="2299,499,2491,525"/>
+<area shape="rect" id="node50" href="$gsGridIterator_8h.html" title="Provides iteration over integer or numeric points in a (hyper&#45;)cube. " alt="" coords="2515,499,2699,525"/>
+</map>

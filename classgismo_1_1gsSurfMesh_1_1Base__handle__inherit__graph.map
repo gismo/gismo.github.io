@@ -1,0 +1,6 @@
+<map id="gsSurfMesh::Base_handle" name="gsSurfMesh::Base_handle">
+<area shape="rect" id="node2" href="$structgismo_1_1gsSurfMesh_1_1Edge.html" title="Edge" alt="" coords="5,80,59,107"/>
+<area shape="rect" id="node3" href="$structgismo_1_1gsSurfMesh_1_1Face.html" title="Face" alt="" coords="84,80,135,107"/>
+<area shape="rect" id="node4" href="$structgismo_1_1gsSurfMesh_1_1Halfedge.html" title="Halfedge" alt="" coords="159,80,240,107"/>
+<area shape="rect" id="node5" href="$structgismo_1_1gsSurfMesh_1_1Vertex.html" title="Vertex" alt="" coords="265,80,329,107"/>
+</map>
