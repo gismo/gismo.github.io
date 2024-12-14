@@ -1,0 +1,6 @@
+<map id="gsHTensorBasis&lt; d, T &gt;" name="gsHTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="node4" href="$classgismo_1_1gsHBSplineBasis.html" title="A hierarchical B&#45;spline basis of parametric dimension d. " alt="" coords="5,229,189,256"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsTHBSplineBasis.html" title="Truncated hierarchical B&#45;spline basis. " alt="" coords="214,229,407,256"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain..." alt="" coords="149,80,259,107"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="129,5,279,32"/>
+</map>

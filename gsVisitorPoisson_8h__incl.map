@@ -1,0 +1,30 @@
+<map id="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsVisitorPoisson.h" name="/builds/builds/&#45;Lqsz3Ct/0/gismo/gismo/src/gsAssembler/gsVisitorPoisson.h">
+<area shape="rect" id="node2" href="$gsQuadrature_8h.html" title="Creates a variety of quadrature rules. " alt="" coords="2743,109,2953,136"/>
+<area shape="rect" id="node3" href="$gsOptionList_8h.html" title="Provides a list of labeled parameters/options that can be set and accessed easily. " alt="" coords="1182,283,1329,309"/>
+<area shape="rect" id="node25" href="$gsGaussRule_8h.html" title="Provides the Gauss&#45;Legendre quadrature rule. " alt="" coords="2623,456,2828,483"/>
+<area shape="rect" id="node30" href="$gsLobattoRule_8h.html" title="Provides the Gauss&#45;Lobatto quadrature rule. " alt="" coords="3503,192,3717,219"/>
+<area shape="rect" id="node32" href="$gsNewtonCotesRule_8h.html" title="Provides the Newton&#45;Cotes quadrature rule. " alt="" coords="3183,185,3395,226"/>
+<area shape="rect" id="node34" href="$gsPatchRule_8h.html" title="Provides patch&#45;wise quadrature rule. " alt="" coords="2060,192,2260,219"/>
+<area shape="rect" id="node50" href="$gsOverIntegrateRule_8h.html" title="Over&#45;integrates a Gauss&#45;Legendre or Gauss&#45;Lobatto rule. " alt="" coords="3037,366,3251,407"/>
+<area shape="rect" id="node4" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs. " alt="" coords="1140,456,1372,483"/>
+<area shape="rect" id="node20" href="$gsXml_8h.html" title="Provides declaration of input/output XML utilities struct. " alt="" coords="589,373,696,400"/>
+<area shape="rect" id="node13" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo. " alt="" coords="1228,696,1367,723"/>
+<area shape="rect" id="node15" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo. " alt="" coords="1407,621,1547,648"/>
+<area shape="rect" id="node17" href="$gsMemory_8h.html" title="Provides utility function related to memory management. " alt="" coords="891,621,1040,648"/>
+<area shape="rect" id="node18" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks. " alt="" coords="1192,539,1320,565"/>
+<area shape="rect" id="node14" href="$gsConfigExt_8h_source.html" title="gsCore/gsConfigExt.h" alt="" coords="1217,771,1377,797"/>
+<area shape="rect" id="node19" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes. " alt="" coords="1179,621,1319,648"/>
+<area shape="rect" id="node26" href="$gsQuadRule_8h.html" title="Provides a base class for a quadrature rule. " alt="" coords="2910,539,3108,565"/>
+<area shape="rect" id="node27" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra. " alt="" coords="2411,621,2599,648"/>
+<area shape="rect" id="node35" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines. " alt="" coords="1503,373,1679,400"/>
+<area shape="rect" id="node39" href="$gsBSplineBasis_8h.html" title="Provides declaration of BSplineBasis class. " alt="" coords="2065,283,2255,309"/>
+<area shape="rect" id="node36" href="$gsDomain_8h.html" title="Abstracgt Base class representing a domain. i.e. a collection of elements (triangles, rectangles, cubes, simplices. " alt="" coords="1911,456,2060,483"/>
+<area shape="rect" id="node37" href="$gsKnotIterator_8h.html" title="Provides implementation of knot vector iterators. " alt="" coords="1703,456,1885,483"/>
+<area shape="rect" id="node40" href="$gsConstantBasis_8h.html" title="Provides declaration of a basis of constant functions, consisting of one constant function..." alt="" coords="2770,373,2960,400"/>
+<area shape="rect" id="node41" href="$gsTensorBasis_8h.html" title="Provides declaration of TensorBasis class. " alt="" coords="1703,373,1889,400"/>
+<area shape="rect" id="node46" href="$gsTensorDomainIterator_8h.html" title="Iterator over the elements of a tensor&#45;structured grid. " alt="" coords="2167,373,2417,400"/>
+<area shape="rect" id="node47" href="$gsTensorDomainBoundaryIterator_8h.html" title="Iterator over the boundary elements of a tensor&#45;structured grid. " alt="" coords="2441,366,2695,407"/>
+<area shape="rect" id="node42" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface. " alt="" coords="2204,456,2337,483"/>
+<area shape="rect" id="node44" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries. " alt="" coords="1965,539,2123,565"/>
+<area shape="rect" id="node43" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis, gsGeometry and gsFunctions. " alt="" coords="2419,539,2592,565"/>
+</map>

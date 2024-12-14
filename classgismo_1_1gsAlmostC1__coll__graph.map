@@ -1,0 +1,8 @@
+<map id="gsAlmostC1&lt; d, T &gt;" name="gsAlmostC1&lt; d, T &gt;">
+<area shape="rect" id="node2" href="$classgismo_1_1gsDPatchBase.html" title="Constructs the D&#45;Patch, from which the transformation matrix can be called. " alt="" coords="301,109,469,136"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsBoxTopology.html" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsSparseMatrix.html" title="gsSparseMatrix\&lt; T \&gt;" alt="" coords="149,5,309,32"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="334,5,441,32"/>
+<area shape="rect" id="node6" href="$classgismo_1_1gsMatrix.html" title="gsMatrix\&lt; T \&gt;" alt="" coords="467,5,583,32"/>
+<area shape="rect" id="node7" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them. ..." alt="" coords="607,5,709,32"/>
+</map>

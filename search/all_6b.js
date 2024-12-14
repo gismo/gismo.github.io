@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['k_5frefine',['k_refine',['../classgismo_1_1gsTensorBSplineBasis.html#a0939401c8a9d0384e04894c1f9e928ce',1,'gismo::gsTensorBSplineBasis']]],
+  ['kernel',['kernel',['../classgismo_1_1gsJITCompiler.html#ae9b9bbb3ed125d334d06af283bcba67a',1,'gismo::gsJITCompiler']]],
+  ['khatrirao',['khatriRao',['../classgismo_1_1gsMatrix.html#a8030619c73d80856c8755192fda5441c',1,'gismo::gsMatrix']]],
+  ['kineticenergy',['kineticEnergy',['../classgismo_1_1gsStaticDR.html#ac33bfefd2406bf338ea7aaea527ec53d',1,'gismo::gsStaticDR']]],
+  ['kirchhoff_2dlove_5fexample_2ecpp',['kirchhoff-Love_example.cpp',['../kirchhoff-Love_example.html',1,'Examples']]],
+  ['kirchhoff_2dlove_5fexample2_2ecpp',['kirchhoff-Love_example2.cpp',['../kirchhoff-Love__example2_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fmultipatch_5fbuckling_5fexample_2ecpp',['kirchhoff-Love_multipatch_buckling_example.cpp',['../kirchhoff-Love__multipatch__buckling__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fmultipatch_5fexample_2ecpp',['kirchhoff-Love_multipatch_example.cpp',['../kirchhoff-Love__multipatch__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fmultipatch_5fpost_2dbuckling_5fexample_2ecpp',['kirchhoff-Love_multipatch_post-buckling_example.cpp',['../kirchhoff-Love__multipatch__post-buckling__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fmultipatch_5fvibration_5fexample_2ecpp',['kirchhoff-Love_multipatch_vibration_example.cpp',['../kirchhoff-Love__multipatch__vibration__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fmultipatch_5fvibration_5fexample_5fxml_2ecpp',['kirchhoff-Love_multipatch_vibration_example_XML.cpp',['../kirchhoff-Love__multipatch__vibration__example__XML_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fweak_5fmultipatch_5fexample_2ecpp',['kirchhoff-Love_weak_multipatch_example.cpp',['../kirchhoff-Love__weak__multipatch__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fweak_5fmultipatch_5fpost_2dbuckling_5fexample_2ecpp',['kirchhoff-Love_weak_multipatch_post-buckling_example.cpp',['../kirchhoff-Love__weak__multipatch__post-buckling__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_5fweak_5fmultipatch_5fvibration_5fexample_2ecpp',['kirchhoff-Love_weak_multipatch_vibration_example.cpp',['../kirchhoff-Love__weak__multipatch__vibration__example_8cpp.html',1,'']]],
+  ['kirchhoff_2dlove_20shell_20module',['Kirchhoff-Love shell module',['../group__KLShell.html',1,'']]],
+  ['klu',['KLU',['../structgismo_1_1trilinos_1_1solver_1_1AmesosSolvers.html#a97f905ac94bfebd46e50e32c7389e6ebaa4df9f7c381653f83870289aac67b477',1,'gismo::trilinos::solver::AmesosSolvers']]],
+  ['knot',['knot',['../classgismo_1_1gsHTensorBasis.html#a18e0eb65cdd0644372c41a9a28abe0cf',1,'gismo::gsHTensorBasis']]],
+  ['knotintersection',['knotIntersection',['../classgismo_1_1gsKnotVector.html#a28d65e10b0c6482a2e72bd63efac514d',1,'gismo::gsKnotVector']]],
+  ['knotmatrixtobasis',['knotMatrixToBasis',['../namespacegismo.html#aa3df80693601a413c1acd2601c9a2d1c',1,'gismo']]],
+  ['knots',['knots',['../classgismo_1_1gsBSpline.html#a6463a944deae5f4ccbf8c9ed307d161f',1,'gismo::gsBSpline::knots(const int i=0)'],['../classgismo_1_1gsBSpline.html#af90f71c189ad36eee30d9e0fa3a6e705',1,'gismo::gsBSpline::knots(const int i=0) const '],['../classgismo_1_1gsTensorBSplineBasis_3_011_00_01T_01_4.html#af1e06461c278dfbf4cfcb72cff828ea6',1,'gismo::gsTensorBSplineBasis&lt; 1, T &gt;::knots()'],['../classgismo_1_1gsNurbs.html#ad8cd947ba5f48eb548d63b0184887eef',1,'gismo::gsNurbs::knots()'],['../classgismo_1_1gsNurbs.html#adcb07c9a66c0a8a1ec577e49a39baeaf',1,'gismo::gsNurbs::knots() const '],['../classgismo_1_1gsTensorBSpline.html#ac4a290cea9db40d7dd2b85c031d07468',1,'gismo::gsTensorBSpline::knots(const int i)'],['../classgismo_1_1gsTensorBSpline.html#a6510573bfd428527ac2bfe1fa3d9ce1a',1,'gismo::gsTensorBSpline::knots(const int i) const '],['../classgismo_1_1gsTensorNurbs.html#a6510573bfd428527ac2bfe1fa3d9ce1a',1,'gismo::gsTensorNurbs::knots()']]],
+  ['knotstovector',['knotsToVector',['../namespacegismo.html#af3e96c0575947a5da3b9eb746d5f05e8',1,'gismo']]],
+  ['knotsuntilspan',['knotsUntilSpan',['../classgismo_1_1gsKnotVector.html#a83d98928d30e6b8c551e98ee099a5e33',1,'gismo::gsKnotVector']]],
+  ['knotunion',['knotUnion',['../classgismo_1_1gsKnotVector.html#a16f002d1ca16ec13d1311a58c50acbce',1,'gismo::gsKnotVector']]],
+  ['knotvector_5fexample_2ecpp',['knotVector_example.cpp',['../knotVector_example.html',1,'Examples']]],
+  ['kron',['kron',['../classgismo_1_1gsMatrix.html#ab8760c1f26ed2a42db44ea7cf5840a1f',1,'gismo::gsMatrix::kron()'],['../classgismo_1_1gsSparseMatrix.html#abdbec51c1a3983a962ab639f4d016dda',1,'gismo::gsSparseMatrix::kron()']]]
+];
