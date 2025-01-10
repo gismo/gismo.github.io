@@ -1,0 +1,9 @@
+<map id="gsGradientMethod&lt; T &gt;" name="gsGradientMethod&lt; T &gt;">
+<area shape="rect" id="Node000001" title="The gradient method." alt="" coords="152,211,332,236"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsIterativeSolver.html" title="Abstract class for iterative solvers." alt="" coords="21,93,191,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,125,230,209,227,213,128,129"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsLinearOperator.html" title=" " alt="" coords="5,5,207,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,45,109,93,103,93,103,45"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="215,93,362,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="281,132,249,212,244,210,276,130"/>
+</map>

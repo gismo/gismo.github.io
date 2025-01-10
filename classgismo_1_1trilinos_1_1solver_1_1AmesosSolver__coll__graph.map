@@ -1,0 +1,7 @@
+<map id="AmesosSolver" name="AmesosSolver">
+<area shape="rect" id="Node000001" title="Amesos solver class." alt="" coords="26,152,141,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1trilinos_1_1solver_1_1AbstractDirectSolver.html" title="Abstract direct solver base class." alt="" coords="5,79,161,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,118,86,152,81,152,81,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1trilinos_1_1solver_1_1AbstractSolver.html" title="Abstract solver base class." alt="" coords="25,5,142,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,44,86,79,81,79,81,44"/>
+</map>

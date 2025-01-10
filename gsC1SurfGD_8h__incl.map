@@ -1,0 +1,7 @@
+<map id="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/optional/gsUnstructuredSplines/src/gsC1SurfGD.h" name="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/optional/gsUnstructuredSplines/src/gsC1SurfGD.h">
+<area shape="rect" id="Node000001" title="Compute the gluing data for one interface." alt="" coords="49,5,221,89"/>
+<area shape="rect" id="Node000002" href="$gsC1SurfGluingDataAssembler_8h_source.html" title=" " alt="" coords="5,137,265,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,90,138,124,133,124,133,90"/>
+<area shape="rect" id="Node000003" href="$gsC1SurfGluingDataVisitor_8h.html" title="Visitor for the Gluing Data." alt="" coords="19,225,252,265"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,178,138,211,133,211,133,178"/>
+</map>

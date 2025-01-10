@@ -1,0 +1,7 @@
+<map id="gsMultiPatch&lt; T &gt;" name="gsMultiPatch&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Container class for a set of geometry patches and their topology, that is, the interface connections ..." alt="" coords="74,79,217,104"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBoxTopology.html" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="5,5,125,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,38,134,76,130,80,86,42"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="150,5,301,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,42,160,80,157,76,201,38"/>
+</map>

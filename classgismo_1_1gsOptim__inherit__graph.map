@@ -1,0 +1,25 @@
+<map id="gsOptim&lt; T &gt;" name="gsOptim&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Base class for the Optim wrapper." alt="" coords="192,179,307,204"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptimBFGS.html" title="Binding to Optim&#39;s BFGS solver." alt="" coords="358,5,509,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,165,295,102,322,69,353,40,374,28,377,33,356,44,325,72,300,105,264,168"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsOptimCG.html" title="Binding to Optim&#39;s CG solver." alt="" coords="366,55,501,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,166,304,127,353,89,378,78,381,82,356,94,308,131,271,170"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsOptimDE.html" title="Binding to Optim&#39;s DE solver." alt="" coords="367,104,500,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="285,170,354,138,386,127,388,132,356,143,287,175"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsOptimGD.html" title="Binding to Optim&#39;s GD solver." alt="" coords="366,153,501,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="320,179,365,173,366,178,321,184"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsOptimLBFGS.html" title="Binding to Optim&#39;s LBFGS solver." alt="" coords="355,203,512,228"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="321,198,355,202,354,208,320,203"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsOptimNM.html" title="Binding to Optim&#39;s NM solver." alt="" coords="365,252,502,277"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="288,208,356,238,388,249,386,254,354,243,286,213"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsOptimPSO.html" title="Binding to Optim&#39;s PSO solver." alt="" coords="363,301,504,327"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="272,213,308,251,356,288,381,299,378,304,353,292,305,255,268,217"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsOptimSUMT.html" title="Binding to Optim&#39;s SUMT solver." alt="" coords="357,351,510,376"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="264,215,300,277,326,309,356,337,377,348,374,353,353,342,322,313,295,280,260,218"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsOptimizer.html" title="Class defining an optimizer." alt="" coords="5,179,144,204"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,189,192,189,192,194,158,194"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsOptimDEPRMM.html" title="Binding to Optim&#39;s DEPRMM solver." alt="" coords="560,104,735,129"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="514,114,560,114,560,119,514,119"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsOptimPSODV.html" title="Binding to Optim&#39;s PSODV solver." alt="" coords="567,301,727,327"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="518,311,567,311,567,317,518,317"/>
+</map>

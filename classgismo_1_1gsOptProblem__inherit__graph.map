@@ -1,0 +1,7 @@
+<map id="gsOptProblem&lt; T &gt;" name="gsOptProblem&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Class defining an optimization problem." alt="" coords="124,5,276,31"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunctionAdaptor.html" title="Adaptor to see a given gsFunction as (the objective of) an unconstrained optimization problem." alt="" coords="5,79,187,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,41,115,81,112,76,170,36"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptProblemStatic.html" title="A class representing a static optimization problem." alt="" coords="211,79,400,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,36,290,76,287,81,227,41"/>
+</map>

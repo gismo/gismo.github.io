@@ -1,0 +1,9 @@
+<map id="gsMaterialMatrixLinear&lt; dim, T &gt;" name="gsMaterialMatrixLinear&lt; dim, T &gt;">
+<area shape="rect" id="Node000001" title="This class defines a linear material." alt="" coords="20,257,193,297"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMaterialMatrixBaseDim.html" title="This class defines the base class for material matrices." alt="" coords="11,168,203,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,222,109,257,104,257,104,222"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMaterialMatrixBase.html" title="This class defines the base class for material matrices." alt="" coords="5,93,208,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,132,109,168,104,168,104,132"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="55,5,158,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,45,109,93,104,93,104,45"/>
+</map>

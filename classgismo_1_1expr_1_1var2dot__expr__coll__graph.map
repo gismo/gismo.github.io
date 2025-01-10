@@ -1,0 +1,9 @@
+<map id="var2dot_expr&lt; E1, E2, E3 &gt;" name="var2dot_expr&lt; E1, E2, E3 &gt;">
+<area shape="rect" id="Node000001" title="Second variation of the surface normal times a vector." alt="" coords="35,285,202,325"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,95,155,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,133,118,284,112,286,82,134"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="179,95,327,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,134,210,194,163,263,142,287,138,283,159,260,205,191,239,131"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="175,5,331,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="256,59,256,94,251,94,251,59"/>
+</map>

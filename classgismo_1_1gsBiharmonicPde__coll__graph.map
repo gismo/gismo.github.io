@@ -1,0 +1,9 @@
+<map id="gsBiharmonicPde&lt; T &gt;" name="gsBiharmonicPde&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A Biharmonic PDE." alt="" coords="5,257,179,283"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPde.html" title="Abstract class representing a PDE (partial differential equation)." alt="" coords="43,183,141,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,222,95,257,89,257,89,222"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="9,95,175,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,134,95,182,89,182,89,134"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="14,5,170,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,59,95,94,89,94,89,59"/>
+</map>

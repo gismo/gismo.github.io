@@ -1,0 +1,23 @@
+<map id="gsRemapInterface&lt; T &gt;" name="gsRemapInterface&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Provides a mapping between the corresponding sides of two patches sharing an interface." alt="" coords="888,85,1067,111"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="555,17,685,43"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="700,42,910,83,909,88,699,48"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="213,5,364,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="378,19,554,25,554,30,377,24"/>
+<area shape="rect" id="Node000004" href="$structgismo_1_1boundaryInterface.html" title="Struct which represents an interface between two patches." alt="" coords="549,91,691,116"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="705,99,888,97,888,102,705,105"/>
+<area shape="rect" id="Node000005" href="$structgismo_1_1patchSide.html" title="Struct which represents a certain side of a patch." alt="" coords="245,55,332,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="346,71,549,93,549,98,346,76"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="46,47,121,72"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="134,59,245,63,245,68,134,64"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="211,104,367,129"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="381,114,525,110,549,108,549,114,525,115,381,120"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,97,161,137"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="175,114,210,114,210,119,175,119"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="221,160,357,185"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="370,162,446,152,525,135,588,114,590,119,526,141,447,157,371,168"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,161,161,201"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="175,174,220,173,220,178,176,180"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="561,145,679,171"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="692,154,775,148,863,134,906,122,945,108,947,113,908,127,865,139,776,153,693,159"/>
+</map>

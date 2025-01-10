@@ -1,0 +1,23 @@
+<map id="gsThinShellAssembler&lt; d, T, bending &gt;" name="gsThinShellAssembler&lt; d, T, bending &gt;">
+<area shape="rect" id="Node000001" title="Assembles the system matrix and vectors for 2D and 3D shell problems, including geometric nonlinearit..." alt="" coords="693,161,860,201"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsThinShellAssemblerBase.html" title="Base class for the gsThinShellAssembler." alt="" coords="316,5,552,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="567,21,620,33,671,54,702,77,729,106,767,159,762,162,725,109,699,81,668,59,618,38,565,26"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="379,55,489,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="503,65,584,74,628,84,670,98,719,127,757,159,754,163,716,131,668,103,627,89,584,80,502,71"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsExprAssembler.html" title=" " alt="" coords="347,232,521,257"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="516,227,669,198,693,194,694,199,670,203,517,232"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="49,141,151,167"/>
+<area shape="poly" id="edge12_Node000001_Node000005" title=" " alt="" coords="165,145,219,142,346,138,445,138,543,145,670,158,693,161,692,167,669,163,543,150,444,144,346,143,219,147,165,151"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="155,168,219,187,381,229,379,235,218,193,153,173"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsExprEvaluator.html" title="Generic evaluator of isogeometric expressions." alt="" coords="351,168,517,193"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="165,156,350,171,350,177,165,162"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="19,307,181,332"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="195,319,272,317,362,311,458,300,551,281,605,264,656,242,740,198,743,203,658,247,606,269,553,286,459,305,363,317,273,322,195,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="171,301,376,255,377,260,172,306"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsFiberMatrix.html" title=" " alt="" coords="5,232,195,257"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="209,242,347,242,347,247,209,247"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="41,377,159,403"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="172,396,252,401,348,400,451,390,502,379,551,365,585,350,618,331,677,285,724,238,758,199,762,203,728,242,680,289,621,335,588,355,553,370,503,385,452,395,348,406,252,406,172,401"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="145,370,291,309,406,255,408,260,293,314,147,375"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="531,178,693,178,693,183,531,183"/>
+</map>

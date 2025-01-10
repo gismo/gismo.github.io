@@ -1,0 +1,13 @@
+<map id="gsSquaredDistance&lt; T &gt;" name="gsSquaredDistance&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Squared distance function from a fixed point to a gsGeometry." alt="" coords="159,183,344,208"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="23,95,154,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,124,230,180,228,185,121,129"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,13,156,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,51,90,94,85,95,81,52"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="193,95,309,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,134,254,182,249,182,249,134"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="180,5,336,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="258,59,255,95,250,94,253,59"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="334,95,451,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="364,129,272,185,269,180,361,125"/>
+</map>
