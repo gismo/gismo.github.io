@@ -1,0 +1,15 @@
+<map id="gsDPatch&lt; d, T &gt;" name="gsDPatch&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Constructs the D&#45;Patch, from which the transformation matrix can be called." alt="" coords="321,183,457,208"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsDPatchBase.html" title="Constructs the D&#45;Patch, from which the transformation matrix can be called." alt="" coords="305,108,473,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="392,148,392,182,387,182,387,148"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBoxTopology.html" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="5,5,125,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,36,139,60,189,81,247,97,306,108,305,113,246,103,187,87,136,65,93,40"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="150,5,311,31"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="256,37,317,82,364,106,361,110,315,86,253,41"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="336,5,445,31"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="393,45,392,108,387,108,388,45"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="471,5,588,31"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="526,45,517,67,502,86,480,101,457,110,454,106,478,96,498,82,512,64,521,43"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="613,5,715,31"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="645,43,618,66,585,86,530,105,474,116,473,111,528,100,583,82,615,62,642,39"/>
+</map>

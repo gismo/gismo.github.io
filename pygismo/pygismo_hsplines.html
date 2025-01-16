@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HSplines module &mdash; pygismo 25.01.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=4ef8d3b9"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="I/O module" href="pygismo_io.html" />
+    <link rel="prev" title="Core module" href="pygismo_core.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            pygismo
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                25.01.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pygismo_core.html">Core module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">HSplines module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.deriv2_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.deriv2_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.deriv_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.deriv_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.domainDim"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.domainDim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.eval_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.eval_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.refineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.refineElements()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.size"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.uniformRefine"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.uniformRefine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2.unrefineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline2.unrefineElements()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.deriv2_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.deriv2_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.deriv_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.deriv_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.domainDim"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.domainDim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.eval_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.eval_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.refineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.refineElements()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.size"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.uniformRefine"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.uniformRefine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3.unrefineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline3.unrefineElements()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.deriv2_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.deriv2_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.deriv_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.deriv_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.domainDim"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.domainDim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.eval_into"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.eval_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.refineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.refineElements()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.size"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.uniformRefine"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.uniformRefine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4.unrefineElements"><code class="docutils literal notranslate"><span class="pre">gsHBSpline4.unrefineElements()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSplineBasis2"><code class="docutils literal notranslate"><span class="pre">gsHBSplineBasis2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSplineBasis3"><code class="docutils literal notranslate"><span class="pre">gsHBSplineBasis3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHBSplineBasis4"><code class="docutils literal notranslate"><span class="pre">gsHBSplineBasis4</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis2</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2.refine"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis2.refine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2.tensorLevel"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis2.tensorLevel()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis3</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3.refine"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis3.refine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3.tensorLevel"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis3.tensorLevel()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis4</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4.refine"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis4.refine()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4.tensorLevel"><code class="docutils literal notranslate"><span class="pre">gsHTensorBasis4.tensorLevel()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSpline2"><code class="docutils literal notranslate"><span class="pre">gsTHBSpline2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSpline3"><code class="docutils literal notranslate"><span class="pre">gsTHBSpline3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSpline4"><code class="docutils literal notranslate"><span class="pre">gsTHBSpline4</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSplineBasis2"><code class="docutils literal notranslate"><span class="pre">gsTHBSplineBasis2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSplineBasis3"><code class="docutils literal notranslate"><span class="pre">gsTHBSplineBasis3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.hsplines.gsTHBSplineBasis4"><code class="docutils literal notranslate"><span class="pre">gsTHBSplineBasis4</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_io.html">I/O module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_matrix.html">Matrix module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_modelling.html">Modelling module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_msplines.html">Mapped Splines module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_nurbs.html">NURBS module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_pde.html">PDE module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pygismo</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">HSplines module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/pygismo_hsplines.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pygismo.hsplines">
+<span id="hsplines-module"></span><h1>HSplines module<a class="headerlink" href="#module-pygismo.hsplines" title="Link to this heading"></a></h1>
+<p>G+Smo (Geometry + Simulation Modules): MSplines module</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSpline2</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.deriv2_into">
+<span class="sig-name descname"><span class="pre">deriv2_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.deriv2_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the second derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.deriv_into">
+<span class="sig-name descname"><span class="pre">deriv_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.deriv_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.domainDim">
+<span class="sig-name descname"><span class="pre">domainDim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.domainDim" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.eval_into">
+<span class="sig-name descname"><span class="pre">eval_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.eval_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the values into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.refineElements">
+<span class="sig-name descname"><span class="pre">refineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><span class="pre">pygismo.core.gsGeometry</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.refineElements" title="Link to this definition"></a></dt>
+<dd><p>Refines the geometry given elements</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.uniformRefine">
+<span class="sig-name descname"><span class="pre">uniformRefine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">numKnots</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mul</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.uniformRefine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis uniformly</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline2.unrefineElements">
+<span class="sig-name descname"><span class="pre">unrefineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline2" title="pygismo.hsplines.gsHBSpline2"><span class="pre">pygismo.hsplines.gsHBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline2.unrefineElements" title="Link to this definition"></a></dt>
+<dd><p>Unrefines the basis given elements</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSpline3</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.deriv2_into">
+<span class="sig-name descname"><span class="pre">deriv2_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.deriv2_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the second derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.deriv_into">
+<span class="sig-name descname"><span class="pre">deriv_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.deriv_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.domainDim">
+<span class="sig-name descname"><span class="pre">domainDim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.domainDim" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.eval_into">
+<span class="sig-name descname"><span class="pre">eval_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.eval_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the values into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.refineElements">
+<span class="sig-name descname"><span class="pre">refineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><span class="pre">pygismo.core.gsGeometry</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.refineElements" title="Link to this definition"></a></dt>
+<dd><p>Refines the geometry given elements</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.uniformRefine">
+<span class="sig-name descname"><span class="pre">uniformRefine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">numKnots</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mul</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.uniformRefine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis uniformly</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline3.unrefineElements">
+<span class="sig-name descname"><span class="pre">unrefineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline3" title="pygismo.hsplines.gsHBSpline3"><span class="pre">pygismo.hsplines.gsHBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline3.unrefineElements" title="Link to this definition"></a></dt>
+<dd><p>Unrefines the basis given elements</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSpline4</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.deriv2_into">
+<span class="sig-name descname"><span class="pre">deriv2_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.deriv2_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the second derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.deriv_into">
+<span class="sig-name descname"><span class="pre">deriv_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.deriv_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the derivatives into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.domainDim">
+<span class="sig-name descname"><span class="pre">domainDim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.domainDim" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.eval_into">
+<span class="sig-name descname"><span class="pre">eval_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.eval_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the values into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.refineElements">
+<span class="sig-name descname"><span class="pre">refineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><span class="pre">pygismo.core.gsGeometry</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.refineElements" title="Link to this definition"></a></dt>
+<dd><p>Refines the geometry given elements</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the domain dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.uniformRefine">
+<span class="sig-name descname"><span class="pre">uniformRefine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">numKnots</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mul</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dir</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">-1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.uniformRefine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis uniformly</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSpline4.unrefineElements">
+<span class="sig-name descname"><span class="pre">unrefineElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHBSpline4" title="pygismo.hsplines.gsHBSpline4"><span class="pre">pygismo.hsplines.gsHBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSpline4.unrefineElements" title="Link to this definition"></a></dt>
+<dd><p>Unrefines the basis given elements</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSplineBasis2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSplineBasis2</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSplineBasis2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2" title="pygismo.hsplines.gsHTensorBasis2"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis2</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSplineBasis3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSplineBasis3</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSplineBasis3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3" title="pygismo.hsplines.gsHTensorBasis3"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis3</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHBSplineBasis4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHBSplineBasis4</span></span><a class="headerlink" href="#pygismo.hsplines.gsHBSplineBasis4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4" title="pygismo.hsplines.gsHTensorBasis4"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis4</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHTensorBasis2</span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis2.refine">
+<span class="sig-name descname"><span class="pre">refine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2" title="pygismo.hsplines.gsHTensorBasis2"><span class="pre">pygismo.hsplines.gsHTensorBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis2.refine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis given a box</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis2.tensorLevel">
+<span class="sig-name descname"><span class="pre">tensorLevel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2" title="pygismo.hsplines.gsHTensorBasis2"><span class="pre">pygismo.hsplines.gsHTensorBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorBSplineBasis&lt;2,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis2.tensorLevel" title="Link to this definition"></a></dt>
+<dd><p>Returns the tensor basis on level i</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHTensorBasis3</span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis3.refine">
+<span class="sig-name descname"><span class="pre">refine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3" title="pygismo.hsplines.gsHTensorBasis3"><span class="pre">pygismo.hsplines.gsHTensorBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis3.refine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis given a box</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis3.tensorLevel">
+<span class="sig-name descname"><span class="pre">tensorLevel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3" title="pygismo.hsplines.gsHTensorBasis3"><span class="pre">pygismo.hsplines.gsHTensorBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorBSplineBasis&lt;3,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis3.tensorLevel" title="Link to this definition"></a></dt>
+<dd><p>Returns the tensor basis on level i</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsHTensorBasis4</span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis4.refine">
+<span class="sig-name descname"><span class="pre">refine</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4" title="pygismo.hsplines.gsHTensorBasis4"><span class="pre">pygismo.hsplines.gsHTensorBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis4.refine" title="Link to this definition"></a></dt>
+<dd><p>Refines the basis given a box</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsHTensorBasis4.tensorLevel">
+<span class="sig-name descname"><span class="pre">tensorLevel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4" title="pygismo.hsplines.gsHTensorBasis4"><span class="pre">pygismo.hsplines.gsHTensorBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorBSplineBasis&lt;4,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.hsplines.gsHTensorBasis4.tensorLevel" title="Link to this definition"></a></dt>
+<dd><p>Returns the tensor basis on level i</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSpline2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSpline2</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSpline2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSpline3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSpline3</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSpline3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSpline4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSpline4</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSpline4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSplineBasis2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSplineBasis2</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSplineBasis2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis2" title="pygismo.hsplines.gsHTensorBasis2"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis2</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSplineBasis3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSplineBasis3</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSplineBasis3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis3" title="pygismo.hsplines.gsHTensorBasis3"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis3</span></code></a></p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.hsplines.gsTHBSplineBasis4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.hsplines.</span></span><span class="sig-name descname"><span class="pre">gsTHBSplineBasis4</span></span><a class="headerlink" href="#pygismo.hsplines.gsTHBSplineBasis4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pygismo.hsplines.gsHTensorBasis4" title="pygismo.hsplines.gsHTensorBasis4"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsHTensorBasis4</span></code></a></p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pygismo_core.html" class="btn btn-neutral float-left" title="Core module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pygismo_io.html" class="btn btn-neutral float-right" title="I/O module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+      <span class="lastupdated">Last updated on Jan 16, 2025.
+      </span></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

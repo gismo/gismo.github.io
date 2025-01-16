@@ -1,0 +1,11 @@
+<map id="gsMultiGridOp&lt; T &gt;" name="gsMultiGridOp&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Multigrid preconditioner." alt="" coords="119,183,273,208"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPreconditionerOp.html" title="Simple abstract class for perconditioners." alt="" coords="5,95,192,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,127,184,180,181,184,120,131"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsLinearOperator.html" title="Simple abstract class for discrete operators." alt="" coords="13,13,185,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,52,101,95,96,95,96,52"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="217,95,373,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,131,211,184,208,180,269,127"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="217,5,373,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="297,59,297,94,292,94,292,59"/>
+</map>

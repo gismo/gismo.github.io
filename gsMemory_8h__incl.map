@@ -1,0 +1,17 @@
+<map id="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsCore/gsMemory.h" name="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsCore/gsMemory.h">
+<area shape="rect" id="Node000001" title="Provides utility function related to memory management." alt="" coords="197,5,379,75"/>
+<area shape="rect" id="Node000002" href="$gsTemplateTools_8h.html" title="Utilities related to template programming." alt="" coords="114,123,305,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,77,230,114,226,110,258,73"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="329,123,407,148"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="319,73,351,110,347,114,315,77"/>
+<area shape="rect" id="Node000003" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="15,196,155,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,150,119,191,116,187,188,146"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="179,196,239,221"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="212,148,212,182,207,182,207,148"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="263,196,342,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="226,146,278,185,275,190,223,150"/>
+<area shape="rect" id="Node000004" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="16,269,155,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,222,88,256,83,256,83,222"/>
+<area shape="rect" id="Node000005" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="5,343,165,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="88,295,88,329,83,329,83,295"/>
+</map>

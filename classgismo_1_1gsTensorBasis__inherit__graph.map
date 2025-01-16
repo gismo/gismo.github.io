@@ -1,0 +1,17 @@
+<map id="gsTensorBasis&lt; d, T &gt;" name="gsTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Abstract base class for tensor product bases." alt="" coords="363,109,531,134"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsTensorBSplineBasis.html" title=" " alt="" coords="579,5,742,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="484,100,578,55,606,43,608,48,580,60,486,105"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsGenericTensorBasis.html" title="Class for a quasi&#45;tensor B&#45;spline basis." alt="" coords="579,69,743,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="544,104,578,99,579,104,545,109"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsTensorBSplineBasis.html" title="A tensor product B&#45;spline basis." alt="" coords="579,133,742,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="545,133,579,139,579,144,544,139"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsTensorBSplineBasis_3_011_00_01T_01_4.html" title="A univariate B&#45;spline basis." alt="" coords="579,197,742,237"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="486,138,580,183,608,195,606,200,578,188,484,143"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="204,109,315,134"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,119,363,119,363,124,329,124"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,109,156,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="170,119,204,119,204,124,170,124"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsBSplineBasis.html" title="A univariate B&#45;spline basis." alt="" coords="791,205,949,230"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="756,215,790,215,790,220,756,220"/>
+</map>

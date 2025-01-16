@@ -1,0 +1,28 @@
+<map id="gsParaviewCollection" name="gsParaviewCollection">
+<area shape="rect" id="Node000001" title="This class is used to create a Paraview .pvd (collection) file." alt="" coords="127,471,288,496"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsExprEvaluator.html" title="Generic evaluator of isogeometric expressions." alt="" coords="5,333,172,359"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,372,97,390,104,407,121,427,141,443,182,468,180,473,138,448,117,430,100,409,91,391,87,373"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="184,196,287,221"/>
+<area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="235,235,211,471,206,470,230,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,219,142,230,117,247,104,268,96,291,91,333,86,333,90,290,99,265,113,243,140,225,170,214"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsParaviewDataSet.html" title="This class represents a group of vtk (Paraview) files that refer to one multiPatch,..." alt="" coords="285,383,433,408"/>
+<area shape="poly" id="edge14_Node000004_Node000003" title=" " alt="" coords="253,231,354,381,349,384,249,234"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsExprEvaluator.html" title=" " alt="" coords="437,284,631,309"/>
+<area shape="poly" id="edge13_Node000008_Node000003" title=" " alt="" coords="257,229,276,245,298,258,367,279,437,290,436,295,366,285,296,262,273,249,254,233"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,417,229,473,227,468,326,413"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMultiPatch.html" title=" " alt="" coords="296,93,468,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="386,132,389,212,383,310,375,351,366,383,361,382,370,349,378,309,383,211,381,132"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsBoxTopology.html" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="442,5,562,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="476,41,400,95,397,91,473,37"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsMultiBasis.html" title=" " alt="" coords="696,93,868,119"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="541,34,631,67,725,91,723,96,629,72,539,39"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="591,5,741,31"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="661,45,653,59,641,72,469,96,468,91,638,67,648,56,656,43"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="694,37,768,91,765,95,691,41"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="502,318,381,385,379,380,500,314"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsExprHelper.html" title=" " alt="" coords="494,196,670,221"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="571,235,543,285,538,282,567,232"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="748,127,606,198,603,194,746,123"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsFunctionSet.html" title=" " alt="" coords="492,93,672,119"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="585,133,585,196,579,196,579,133"/>
+</map>

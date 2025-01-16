@@ -1,0 +1,7 @@
+<map id="gsLegendreBasis&lt; T &gt;" name="gsLegendreBasis&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A univariate Legendre basis." alt="" coords="5,152,176,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="35,79,146,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,118,93,152,88,152,88,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="15,5,166,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,44,93,79,88,79,88,44"/>
+</map>

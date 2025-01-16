@@ -1,0 +1,37 @@
+<map id="gsLinearOperator&lt; T &gt;" name="gsLinearOperator&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Simple abstract class for discrete operators." alt="" coords="5,335,177,361"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPreconditionerOp.html" title=" " alt="" coords="239,97,411,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,321,119,283,146,236,181,188,224,147,244,135,246,140,227,151,185,192,150,239,123,286,105,324"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsAdditiveOp.html" title="Generic preconditioner which applies an arbitrary linear operator to the residual." alt="" coords="252,162,399,187"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="105,322,153,259,186,225,224,196,251,184,253,189,227,201,189,229,157,262,109,325"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsBlockOp.html" title="Simple class create a block operator structure." alt="" coords="261,211,390,237"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="114,324,162,284,224,246,260,233,261,238,226,250,166,288,117,328"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsIdentityOp.html" title="Identity operator." alt="" coords="254,261,397,286"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="135,328,225,295,266,284,267,289,226,300,136,333"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsKroneckerOp.html" title="Class for representing a Kronecker product of operators of type gsLinearOperator." alt="" coords="246,310,405,335"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="191,335,245,329,246,334,192,340"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsLinearLambdaOp.html" title="Wrapper that allows to use lambdas as a gsLinearOperator." alt="" coords="225,359,425,385"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="191,356,225,359,225,364,191,361"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsPreconditionerOp.html" title="Simple abstract class for perconditioners." alt="" coords="232,409,419,434"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="139,363,226,393,271,406,270,411,225,399,137,368"/>
+<area shape="rect" id="Node000016" href="$classgismo_1_1gsProductOp.html" title="Class for representing the product of objects of type gsLinearOperator as gsLinearOperator." alt="" coords="254,458,397,483"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="117,368,166,407,226,444,257,455,255,460,224,449,163,411,114,372"/>
+<area shape="rect" id="Node000017" href="$classgismo_1_1gsScaledOp.html" title="Allows an operator to be multiplied with a scalar." alt="" coords="257,507,393,533"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="110,371,157,433,190,466,227,494,258,507,256,512,224,498,186,470,153,437,106,374"/>
+<area shape="rect" id="Node000018" href="$classgismo_1_1gsSumOp.html" title="Class for representing the sum of objects of type gsLinearOperator as gsLinearOperator." alt="" coords="264,557,387,582"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="105,373,123,411,149,458,184,504,227,543,245,553,264,560,263,565,243,558,224,548,180,508,145,460,118,414,100,375"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsGaussSeidelOp.html" title="Gauss&#45;Seidel preconditioner." alt="" coords="475,5,701,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,89,472,55,510,43,512,48,474,60,386,94"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsIncompleteLUOp.html" title="Incomplete LU with thresholding preconditioner." alt="" coords="487,69,689,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="425,104,486,97,487,103,425,109"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsJacobiOp.html" title="Jacobi preconditioner." alt="" coords="490,134,686,159"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="425,126,490,133,490,138,425,131"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsRichardsonOp.html" title="Richardson preconditioner." alt="" coords="473,183,703,209"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="405,139,426,147,474,168,520,181,519,186,472,173,424,152,404,144"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsCompositePrecOp.html" title="This class represents the composition of preconditioners of type gsPreconditionerOp." alt="" coords="493,359,683,385"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="407,403,519,382,520,387,408,409"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsMultiGridOp.html" title="Multigrid preconditioner." alt="" coords="511,409,665,434"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="432,419,511,419,511,424,432,424"/>
+<area shape="rect" id="Node000015" href="$classgismo_1_1gsPreconditionerFromOp.html" title="Simple class allowing to construct a preconditioner from a linear operator." alt="" coords="478,458,698,483"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="408,434,520,455,519,461,407,439"/>
+</map>

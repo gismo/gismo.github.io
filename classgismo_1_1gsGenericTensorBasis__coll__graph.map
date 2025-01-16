@@ -1,0 +1,12 @@
+<map id="gsGenericTensorBasis&lt; d, T &gt;" name="gsGenericTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Class for a quasi&#45;tensor B&#45;spline basis." alt="" coords="45,243,209,283"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsTensorBasis.html" title="Abstract base class for tensor product bases." alt="" coords="43,168,211,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,207,130,243,125,243,125,207"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="5,80,116,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,115,120,166,116,169,76,118"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="52,5,203,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="109,43,73,81,70,78,105,39"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="140,80,251,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="150,39,186,78,182,81,146,43"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="180,118,139,169,135,166,175,115"/>
+</map>

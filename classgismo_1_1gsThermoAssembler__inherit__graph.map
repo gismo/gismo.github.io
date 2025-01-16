@@ -1,0 +1,9 @@
+<map id="gsThermoAssembler&lt; T &gt;" name="gsThermoAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Assembles stiffness and mass matrices and right&#45;hand side vector for linear and nonlinear elasticity ..." alt="" coords="10,225,205,251"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsElasticityAssembler.html" title="Assembles the stiffness matrix and the right&#45;hand side vector for linear and nonlinear elasticity for..." alt="" coords="5,152,209,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,191,110,225,105,225,105,191"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver...." alt="" coords="19,79,195,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,118,110,152,105,152,105,118"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="35,5,179,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
+</map>

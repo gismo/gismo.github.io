@@ -1,0 +1,7 @@
+<map id="gsGaussSeidelOp&lt; MatrixType, ordering &gt;" name="gsGaussSeidelOp&lt; MatrixType, ordering &gt;">
+<area shape="rect" id="Node000001" title="Gauss&#45;Seidel preconditioner." alt="" coords="5,167,232,207"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPreconditionerOp.html" title=" " alt="" coords="33,79,205,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,133,121,166,116,166,116,133"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsLinearOperator.html" title="Simple abstract class for discrete operators." alt="" coords="33,5,205,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,44,121,79,116,79,116,44"/>
+</map>

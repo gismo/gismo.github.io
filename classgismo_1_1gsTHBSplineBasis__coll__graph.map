@@ -1,0 +1,13 @@
+<map id="gsTHBSplineBasis&lt; d, T &gt;" name="gsTHBSplineBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Truncated hierarchical B&#45;spline basis." alt="" coords="85,257,278,283"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsHTensorBasis.html" title="Class representing a (scalar) hierarchical tensor basis of functions ." alt="" coords="5,169,184,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,202,171,255,167,259,114,206"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="39,87,150,113"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,126,97,169,92,169,92,126"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="19,5,170,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,44,97,87,92,87,92,44"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="208,169,333,195"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="251,206,196,259,192,255,247,202"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="193,80,349,120"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="273,134,273,169,268,169,268,134"/>
+</map>

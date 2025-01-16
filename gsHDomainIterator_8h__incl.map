@@ -1,0 +1,120 @@
+<map id="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsHSplines/gsHDomainIterator.h" name="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsHSplines/gsHDomainIterator.h">
+<area shape="rect" id="Node000001" title="Provides declaration of iterator of hierarchical domain." alt="" coords="1193,5,1403,75"/>
+<area shape="rect" id="Node000002" href="$gsHDomain_8h.html" title="Provides declaration of the HDomain class." alt="" coords="943,379,1130,405"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1215,77,1181,98,1151,124,1128,154,1108,186,1077,253,1056,317,1044,366,1039,365,1051,315,1072,251,1103,183,1123,150,1147,121,1177,94,1212,72"/>
+<area shape="rect" id="Node000050" href="$gsKdNode_8h.html" title="Provides declaration of the tree node." alt="" coords="347,548,523,573"/>
+<area shape="poly" id="edge37_Node000001_Node000050" title=" " alt="" coords="1253,77,1225,104,1198,136,1178,174,1172,194,1170,215,1170,393,1171,453,1164,478,1143,502,1118,510,1065,518,902,533,537,557,537,551,902,528,1064,512,1117,505,1141,498,1159,476,1166,453,1165,393,1165,215,1167,193,1173,172,1193,133,1221,100,1250,73"/>
+<area shape="rect" id="Node000054" href="$gsTensorBSplineBasis_8h.html" title="Provides declaration of TensorBSplineBasis abstract interface." alt="" coords="1382,123,1614,148"/>
+<area shape="poly" id="edge38_Node000001_Node000054" title=" " alt="" coords="1371,72,1462,114,1460,119,1369,77"/>
+<area shape="rect" id="Node000078" href="$gsDomainIterator_8h.html" title="Provides declaration of DomainIterator abstract interface." alt="" coords="1928,379,2124,405"/>
+<area shape="poly" id="edge68_Node000001_Node000078" title=" " alt="" coords="1403,41,1505,52,1563,62,1622,77,1681,97,1738,123,1792,155,1840,194,1853,210,1861,227,1866,259,1871,290,1877,306,1889,322,1928,352,1971,372,1969,377,1925,357,1885,326,1873,309,1866,292,1861,259,1856,228,1849,213,1836,198,1789,159,1736,127,1679,102,1620,82,1562,67,1505,57,1402,46"/>
+<area shape="rect" id="Node000003" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra." alt="" coords="1799,548,1987,573"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1069,402,1210,448,1302,475,1396,497,1498,516,1602,530,1785,549,1785,554,1602,536,1498,521,1395,503,1300,480,1208,454,1068,407"/>
+<area shape="rect" id="Node000049" href="$gsHDomainLeafIter_8h.html" title="Provides declaration of HDomainLeafIter class." alt="" coords="334,460,537,500"/>
+<area shape="poly" id="edge25_Node000002_Node000049" title=" " alt="" coords="957,407,551,465,550,460,956,402"/>
+<area shape="rect" id="Node000052" href="$gsBoundary_8h.html" title="Provides structs and classes related to interfaces and boundaries." alt="" coords="1407,467,1565,493"/>
+<area shape="poly" id="edge33_Node000002_Node000052" title=" " alt="" coords="1097,402,1413,462,1412,467,1096,407"/>
+<area shape="rect" id="Node000053" title=" " alt="" coords="855,467,1130,493"/>
+<area shape="poly" id="edge36_Node000002_Node000053" title=" " alt="" coords="1033,406,1007,456,1003,454,1028,404"/>
+<area shape="rect" id="Node000004" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo." alt="" coords="491,621,622,647"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1799,566,1305,580,975,598,636,624,636,619,975,592,1305,575,1798,561"/>
+<area shape="rect" id="Node000032" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library." alt="" coords="813,621,1041,647"/>
+<area shape="poly" id="edge8_Node000003_Node000032" title=" " alt="" coords="1798,571,1055,624,1055,619,1798,565"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="1066,621,1173,647"/>
+<area shape="poly" id="edge9_Node000003_Node000033" title=" " alt="" coords="1799,570,1528,589,1359,604,1187,624,1186,619,1359,599,1527,584,1798,565"/>
+<area shape="rect" id="Node000034" title=" " alt="" coords="1197,621,1316,647"/>
+<area shape="poly" id="edge10_Node000003_Node000034" title=" " alt="" coords="1799,573,1588,594,1330,624,1329,618,1587,588,1798,568"/>
+<area shape="rect" id="Node000035" title=" " alt="" coords="1340,621,1461,647"/>
+<area shape="poly" id="edge11_Node000003_Node000035" title=" " alt="" coords="1811,576,1475,624,1474,619,1810,571"/>
+<area shape="rect" id="Node000036" title=" " alt="" coords="1486,621,1625,647"/>
+<area shape="poly" id="edge12_Node000003_Node000036" title=" " alt="" coords="1839,576,1624,621,1623,616,1838,571"/>
+<area shape="rect" id="Node000037" title=" " alt="" coords="1649,621,1792,647"/>
+<area shape="poly" id="edge13_Node000003_Node000037" title=" " alt="" coords="1866,576,1762,618,1760,614,1864,571"/>
+<area shape="rect" id="Node000038" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects." alt="" coords="1816,621,1969,647"/>
+<area shape="poly" id="edge14_Node000003_Node000038" title=" " alt="" coords="1895,574,1895,608,1890,608,1890,574"/>
+<area shape="rect" id="Node000039" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects." alt="" coords="1993,621,2155,647"/>
+<area shape="poly" id="edge15_Node000003_Node000039" title=" " alt="" coords="1923,571,2033,614,2031,619,1921,576"/>
+<area shape="rect" id="Node000040" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects." alt="" coords="2179,621,2375,647"/>
+<area shape="poly" id="edge16_Node000003_Node000040" title=" " alt="" coords="1955,571,2201,616,2201,621,1954,576"/>
+<area shape="rect" id="Node000041" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it." alt="" coords="2399,621,2618,647"/>
+<area shape="poly" id="edge17_Node000003_Node000041" title=" " alt="" coords="1987,570,2397,617,2396,622,1987,575"/>
+<area shape="rect" id="Node000042" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class." alt="" coords="2642,621,2794,647"/>
+<area shape="poly" id="edge18_Node000003_Node000042" title=" " alt="" coords="1987,565,2270,586,2628,619,2628,624,2270,592,1987,571"/>
+<area shape="rect" id="Node000043" href="$gsVector_8h.html" title="Provides declaration of Vector class." alt="" coords="2819,621,2969,647"/>
+<area shape="poly" id="edge19_Node000003_Node000043" title=" " alt="" coords="1987,563,2342,583,2570,599,2805,619,2804,624,2570,604,2342,588,1987,569"/>
+<area shape="rect" id="Node000044" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects." alt="" coords="2994,621,3162,647"/>
+<area shape="poly" id="edge20_Node000003_Node000044" title=" " alt="" coords="1987,562,2413,581,2693,597,2981,619,2980,624,2693,603,2412,586,1987,568"/>
+<area shape="rect" id="Node000045" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class." alt="" coords="3187,621,3383,647"/>
+<area shape="poly" id="edge21_Node000003_Node000045" title=" " alt="" coords="1987,562,2489,580,2826,597,3173,619,3173,624,2826,602,2489,585,1987,567"/>
+<area shape="rect" id="Node000046" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen)" alt="" coords="3407,621,3602,647"/>
+<area shape="poly" id="edge22_Node000003_Node000046" title=" " alt="" coords="1987,561,2576,577,2979,594,3394,619,3393,624,2978,599,2575,582,1987,566"/>
+<area shape="rect" id="Node000047" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers" alt="" coords="3626,621,3821,647"/>
+<area shape="poly" id="edge23_Node000003_Node000047" title=" " alt="" coords="1987,560,2661,575,3129,592,3612,619,3612,624,3129,597,2661,580,1987,566"/>
+<area shape="rect" id="Node000048" href="$gsPoint_8h.html" title="Provides declaration of Point class." alt="" coords="647,621,789,647"/>
+<area shape="poly" id="edge24_Node000003_Node000048" title=" " alt="" coords="1799,567,1372,584,1091,601,803,624,803,619,1091,596,1372,579,1799,562"/>
+<area shape="rect" id="Node000005" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs." alt="" coords="2177,695,2409,720"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="622,643,634,644,851,661,1073,675,1506,693,1886,701,2163,704,2163,709,1886,707,1506,698,1073,680,851,667,634,649,622,648"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="525,695,588,720"/>
+<area shape="poly" id="edge6_Node000004_Node000031" title=" " alt="" coords="559,647,559,681,554,681,554,647"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="325,695,404,720"/>
+<area shape="poly" id="edge7_Node000004_Node000026" title=" " alt="" coords="527,649,410,692,408,687,525,644"/>
+<area shape="rect" id="Node000014" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="473,768,611,793"/>
+<area shape="poly" id="edge5_Node000005_Node000014" title=" " alt="" coords="2177,716,625,779,625,773,2176,711"/>
+<area shape="poly" id="edge26_Node000049_Node000050" title=" " alt="" coords="438,500,438,534,433,534,433,500"/>
+<area shape="rect" id="Node000023" href="$gsTemplateTools_8h.html" title="Utilities related to template programming." alt="" coords="123,548,313,573"/>
+<area shape="poly" id="edge28_Node000049_Node000023" title=" " alt="" coords="384,503,264,546,262,541,382,498"/>
+<area shape="rect" id="Node000051" href="$gsAABB_8h.html" title="Declarations of the class gsAABB, i.e., the axis&#45;aligned bounding box." alt="" coords="305,621,467,647"/>
+<area shape="poly" id="edge27_Node000050_Node000051" title=" " alt="" coords="429,575,404,612,400,609,425,572"/>
+<area shape="poly" id="edge32_Node000023_Node000026" title=" " alt="" coords="229,572,295,645,340,684,337,688,291,649,225,575"/>
+<area shape="rect" id="Node000024" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="89,621,229,647"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="210,575,179,613,175,609,206,572"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="5,621,65,647"/>
+<area shape="poly" id="edge31_Node000023_Node000025" title=" " alt="" coords="190,576,79,619,77,614,188,571"/>
+<area shape="poly" id="edge30_Node000024_Node000014" title=" " alt="" coords="178,644,237,680,314,718,393,744,469,763,468,768,391,749,312,722,234,685,175,649"/>
+<area shape="poly" id="edge34_Node000052_Node000003" title=" " alt="" coords="1546,490,1821,543,1820,548,1545,495"/>
+<area shape="poly" id="edge35_Node000052_Node000024" title=" " alt="" coords="1407,493,243,626,243,620,1406,488"/>
+<area shape="rect" id="Node000055" href="$gsTensorBasis_8h.html" title="Provides declaration of TensorBasis class." alt="" coords="1638,291,1825,317"/>
+<area shape="poly" id="edge39_Node000054_Node000055" title=" " alt="" coords="1509,147,1543,188,1593,234,1640,262,1687,284,1685,289,1638,267,1590,238,1539,192,1505,150"/>
+<area shape="rect" id="Node000061" href="$gsBSplineBasis_8h.html" title="Provides declaration of BSplineBasis class." alt="" coords="2288,203,2479,229"/>
+<area shape="poly" id="edge46_Node000054_Node000061" title=" " alt="" coords="1614,144,2274,202,2274,208,1614,150"/>
+<area shape="rect" id="Node000089" href="$gsTensorBSpline_8h.html" title="Represents a tensor&#45;product B&#45;spline patch." alt="" coords="1331,203,1529,229"/>
+<area shape="poly" id="edge62_Node000054_Node000089" title=" " alt="" coords="1483,150,1443,194,1439,190,1479,146"/>
+<area shape="rect" id="Node000091" title=" " alt="" coords="1603,196,1825,236"/>
+<area shape="poly" id="edge67_Node000054_Node000091" title=" " alt="" coords="1530,146,1650,189,1648,194,1529,151"/>
+<area shape="poly" id="edge44_Node000055_Node000052" title=" " alt="" coords="1671,319,1578,343,1539,358,1513,374,1501,392,1493,413,1488,454,1483,453,1488,411,1496,389,1509,370,1536,353,1577,338,1670,314"/>
+<area shape="rect" id="Node000056" href="$gsBasis_8h.html" title="Provides declaration of Basis abstract interface." alt="" coords="1523,379,1657,405"/>
+<area shape="poly" id="edge40_Node000055_Node000056" title=" " alt="" coords="1714,319,1622,374,1619,370,1711,315"/>
+<area shape="rect" id="Node000060" title=" " alt="" coords="1681,372,1904,412"/>
+<area shape="poly" id="edge45_Node000055_Node000060" title=" " alt="" coords="1742,315,1773,359,1769,362,1737,318"/>
+<area shape="poly" id="edge43_Node000056_Node000052" title=" " alt="" coords="1578,407,1512,461,1509,456,1574,403"/>
+<area shape="rect" id="Node000057" href="$gsFunctionSet_8h.html" title="This is the interface of all objects that computes functions on points like gsBasis,..." alt="" coords="1671,467,1845,493"/>
+<area shape="poly" id="edge41_Node000056_Node000057" title=" " alt="" coords="1614,402,1724,458,1722,463,1611,407"/>
+<area shape="poly" id="edge42_Node000057_Node000003" title=" " alt="" coords="1779,491,1862,539,1860,543,1777,495"/>
+<area shape="poly" id="edge47_Node000061_Node000005" title=" " alt="" coords="2479,215,2843,224,3078,234,3319,249,3545,271,3645,285,3733,301,3806,319,3862,340,3898,363,3908,376,3911,390,3911,562,3909,591,3900,614,3884,632,3859,649,3836,656,3794,662,3659,673,3254,690,2792,701,2423,707,2422,702,2792,696,3254,685,3659,668,3793,657,3835,651,3857,644,3880,628,3895,611,3903,590,3906,562,3906,391,3903,379,3894,367,3860,344,3805,324,3732,306,3644,290,3544,276,3319,254,3078,239,2843,229,2479,221"/>
+<area shape="poly" id="edge50_Node000061_Node000055" title=" " alt="" coords="2297,231,1832,292,1831,287,2296,226"/>
+<area shape="rect" id="Node000062" href="$gsConstantBasis_8h.html" title="Provides declaration of a basis of constant functions, consisting of one constant function." alt="" coords="2259,379,2449,405"/>
+<area shape="poly" id="edge48_Node000061_Node000062" title=" " alt="" coords="2399,227,2417,245,2435,269,2446,296,2446,311,2442,325,2420,354,2392,375,2389,371,2416,350,2437,323,2441,310,2440,298,2430,272,2413,249,2395,231"/>
+<area shape="rect" id="Node000077" href="$gsTensorDomainIterator_8h.html" title="Iterator over the elements of a tensor&#45;structured grid." alt="" coords="2177,291,2427,317"/>
+<area shape="poly" id="edge51_Node000061_Node000077" title=" " alt="" coords="2374,231,2325,283,2321,279,2370,227"/>
+<area shape="rect" id="Node000084" href="$gsTensorDomainBoundaryIterator_8h.html" title="Iterator over the boundary elements of a tensor&#45;structured grid." alt="" coords="1899,284,2153,324"/>
+<area shape="poly" id="edge56_Node000061_Node000084" title=" " alt="" coords="2336,231,2118,283,2117,278,2335,226"/>
+<area shape="rect" id="Node000085" href="$gsKnotVector_8h.html" title="Knot vector for B&#45;splines." alt="" coords="2681,379,2857,405"/>
+<area shape="poly" id="edge58_Node000061_Node000085" title=" " alt="" coords="2479,221,2555,229,2633,241,2700,258,2726,269,2745,282,2759,301,2767,323,2773,365,2767,366,2762,324,2754,303,2741,286,2724,274,2699,263,2632,246,2554,234,2479,226"/>
+<area shape="rect" id="Node000088" title=" " alt="" coords="2502,284,2731,324"/>
+<area shape="poly" id="edge61_Node000061_Node000088" title=" " alt="" coords="2416,226,2553,277,2551,282,2414,231"/>
+<area shape="poly" id="edge49_Node000062_Node000003" title=" " alt="" coords="2333,407,2238,452,2114,503,2033,528,1957,547,1956,542,2031,523,2112,497,2236,447,2330,402"/>
+<area shape="poly" id="edge52_Node000077_Node000078" title=" " alt="" coords="2266,319,2077,378,2075,373,2264,314"/>
+<area shape="poly" id="edge55_Node000078_Node000052" title=" " alt="" coords="1961,407,1917,415,1576,468,1575,463,1916,409,1960,402"/>
+<area shape="rect" id="Node000079" href="$gsDomain_8h.html" title="Abstracgt Base class representing a domain. i.e. a collection of elements (triangles,..." alt="" coords="1951,467,2101,493"/>
+<area shape="poly" id="edge53_Node000078_Node000079" title=" " alt="" coords="2029,405,2029,453,2023,453,2023,405"/>
+<area shape="poly" id="edge54_Node000079_Node000003" title=" " alt="" coords="2008,495,1925,543,1923,539,2005,491"/>
+<area shape="poly" id="edge57_Node000084_Node000078" title=" " alt="" coords="2029,324,2029,365,2023,365,2023,324"/>
+<area shape="poly" id="edge59_Node000085_Node000005" title=" " alt="" coords="2857,397,3147,424,3326,446,3503,474,3660,507,3726,526,3780,547,3820,569,3845,593,3850,607,3851,620,3845,634,3834,649,3814,658,3773,666,3643,680,3461,690,3246,697,2789,706,2423,708,2423,703,2789,701,3245,692,3461,685,3643,674,3773,661,3812,653,3831,645,3841,632,3845,620,3845,608,3840,596,3817,574,3778,552,3724,532,3659,513,3502,479,3325,452,3147,430,2857,402"/>
+<area shape="poly" id="edge60_Node000085_Node000079" title=" " alt="" coords="2681,406,2115,471,2114,466,2680,401"/>
+<area shape="poly" id="edge65_Node000089_Node000054" title=" " alt="" coords="1445,201,1485,157,1489,161,1449,205"/>
+<area shape="rect" id="Node000064" href="$gsGeometry_8h.html" title="Provides declaration of Geometry abstract interface." alt="" coords="1205,291,1367,317"/>
+<area shape="poly" id="edge63_Node000089_Node000064" title=" " alt="" coords="1412,231,1319,286,1316,282,1409,227"/>
+<area shape="rect" id="Node000090" title=" " alt="" coords="1391,284,1613,324"/>
+<area shape="poly" id="edge66_Node000089_Node000090" title=" " alt="" coords="1442,227,1479,271,1475,275,1438,231"/>
+<area shape="poly" id="edge64_Node000064_Node000052" title=" " alt="" coords="1301,315,1464,456,1461,460,1297,319"/>
+</map>

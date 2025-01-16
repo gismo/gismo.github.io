@@ -1,0 +1,7 @@
+<map id="gsRationalBasis&lt; SrcT &gt;" name="gsRationalBasis&lt; SrcT &gt;">
+<area shape="rect" id="Node000001" title="Class that creates a rational counterpart for a given basis." alt="" coords="8,152,192,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title=" " alt="" coords="5,79,195,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,118,103,152,97,152,97,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="25,5,175,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,103,79,97,79,97,44"/>
+</map>

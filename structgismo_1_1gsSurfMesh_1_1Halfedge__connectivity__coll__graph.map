@@ -1,0 +1,13 @@
+<map id="gsSurfMesh::Halfedge_connectivity" name="gsSurfMesh::Halfedge_connectivity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="29,183,195,223"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1gsSurfMesh_1_1Face.html" title=" " alt="" coords="5,80,56,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,117,69,157,91,181,87,184,65,160,40,119"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsSurfMesh_1_1Base__handle.html" title=" " alt="" coords="59,5,165,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,42,46,82,42,78,87,38"/>
+<area shape="rect" id="Node000004" href="$structgismo_1_1gsSurfMesh_1_1Vertex.html" title=" " alt="" coords="80,80,144,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="115,45,115,80,109,80,109,45"/>
+<area shape="rect" id="Node000005" href="$structgismo_1_1gsSurfMesh_1_1Halfedge.html" title=" " alt="" coords="169,80,250,105"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="140,37,195,77,192,82,137,41"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,119,115,182,109,182,109,119"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="200,119,173,160,144,185,141,181,169,157,196,116"/>
+</map>

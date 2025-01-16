@@ -1,0 +1,5 @@
+<map id="gsXBraidMultigrid&lt; T, CoarseSolver &gt;" name="gsXBraidMultigrid&lt; T, CoarseSolver &gt;">
+<area shape="rect" id="Node000001" title="The p&#45;multigrid class implements a generic p&#45;multigrid solver that can be customized by passing assem..." alt="" coords="35,79,184,119"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1gsXBraidMultigridBase.html" title="The p&#45;multigrid base class provides the basic methods (smoothing, prolongation, restriction) for impl..." alt="" coords="5,5,213,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,44,112,79,107,79,107,44"/>
+</map>
