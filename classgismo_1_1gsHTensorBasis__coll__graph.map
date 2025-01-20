@@ -1,0 +1,7 @@
+<map id="gsHTensorBasis&lt; d, T &gt;" name="gsHTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Class representing a (scalar) hierarchical tensor basis of functions ." alt="" coords="5,152,184,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="39,79,150,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,118,97,152,92,152,92,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="19,5,170,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
+</map>

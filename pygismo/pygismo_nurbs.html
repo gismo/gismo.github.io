@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NURBS module &mdash; pygismo 25.01.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=4ef8d3b9"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="PDE module" href="pygismo_pde.html" />
+    <link rel="prev" title="Mapped Splines module" href="pygismo_msplines.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            pygismo
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                25.01.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pygismo_core.html">Core module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_hsplines.html">HSplines module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_io.html">I/O module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_matrix.html">Matrix module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_modelling.html">Modelling module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_msplines.html">Mapped Splines module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">NURBS module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsBSpline"><code class="docutils literal notranslate"><span class="pre">gsBSpline</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.coefDim"><code class="docutils literal notranslate"><span class="pre">gsBSpline.coefDim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.degree"><code class="docutils literal notranslate"><span class="pre">gsBSpline.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.degreeElevate"><code class="docutils literal notranslate"><span class="pre">gsBSpline.degreeElevate()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.domainEnd"><code class="docutils literal notranslate"><span class="pre">gsBSpline.domainEnd()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.domainStart"><code class="docutils literal notranslate"><span class="pre">gsBSpline.domainStart()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.insertKnot"><code class="docutils literal notranslate"><span class="pre">gsBSpline.insertKnot()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.knots"><code class="docutils literal notranslate"><span class="pre">gsBSpline.knots()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.numCoefs"><code class="docutils literal notranslate"><span class="pre">gsBSpline.numCoefs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSpline.sample"><code class="docutils literal notranslate"><span class="pre">gsBSpline.sample()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.component"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.component()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.dim"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.dim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.eval"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.eval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.evalSingle"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.evalSingle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.evalSingle_into"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.evalSingle_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.function"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.function()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.knots"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.knots()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.numElements"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.numElements()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis.size"><code class="docutils literal notranslate"><span class="pre">gsBSplineBasis.size()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector"><code class="docutils literal notranslate"><span class="pre">gsKnotVector</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.check"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.check()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.degree"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.first"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.first()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.get"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.get()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.greville"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.greville()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.iFind"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.iFind()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.inDomain"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.inDomain()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.insert"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.insert()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.isConsistent"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.isConsistent()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.knot"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.knot()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.last"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.last()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.multiplicities"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.multiplicities()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.numElements"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.numElements()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.size"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.uFind"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.uFind()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.uSize"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.uSize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector.uValue"><code class="docutils literal notranslate"><span class="pre">gsKnotVector.uValue()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoeba"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineAmoeba()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoeba3degree"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineAmoeba3degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoebaBig"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineAmoebaBig()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineAustria"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineAustria()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineCube"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineCube()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineCubeGrid"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineCubeGrid()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineE"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineE()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatCircle"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineFatCircle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatDisk"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineFatDisk()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatQuarterAnnulus"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineFatQuarterAnnulus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineFish"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineFish()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineHalfCube"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineHalfCube()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShapeMultiPatch_p2"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineLShapeMultiPatch_p2()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p1"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineLShape_p1()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C0"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineLShape_p2C0()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C1"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineLShape_p2C1()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineLineSegment"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineLineSegment()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineQuarterAnnulus"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineQuarterAnnulus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineRectangle"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineRectangle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineRectangleWithPara"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineRectangleWithPara()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineSaddle"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineSaddle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineSegment"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineSegment()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquare"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineSquare()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquareDeg"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineSquareDeg()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquareGrid"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineSquareGrid()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineTriangle"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineTriangle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.BSplineUnitInterval"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.BSplineUnitInterval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsAmoebaFull"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsAmoebaFull()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsAnnulus"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsAnnulus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsBean"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsBean()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsCircle"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsCircle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsCube"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsCube()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsCurve1"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsCurve1()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsCurve2"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsCurve2()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsDisk"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsDisk()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsQrtPlateWHoleC0"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsQrtPlateWHoleC0()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsQuarterAnnulus"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsQuarterAnnulus()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.NurbsSphere"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.NurbsSphere()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.lift3D"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.lift3D()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsNurbsCreator.lift4D"><code class="docutils literal notranslate"><span class="pre">gsNurbsCreator.lift4D()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline2</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline2.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline2.knots()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline3"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline3</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline3.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline3.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline3.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline3.knots()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline4"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline4</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline4.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline4.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline4.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSpline4.knots()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.active"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.active()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.component"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.component()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.deriv"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.deriv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.deriv2"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.deriv2()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.dim"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.dim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.eval"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.eval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.evalSingle"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.evalSingle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.evalSingle_into"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.evalSingle_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.function"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.function()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.knots()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2.size"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis2.size()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.component"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.component()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.dim"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.dim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.eval"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.eval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.evalSingle"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.evalSingle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.evalSingle_into"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.evalSingle_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.function"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.function()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.knots()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3.size"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis3.size()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.component"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.component()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.degree"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.degree()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.dim"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.dim()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.eval"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.eval()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.evalSingle"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.evalSingle()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.evalSingle_into"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.evalSingle_into()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.function"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.function()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.knots"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.knots()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4.size"><code class="docutils literal notranslate"><span class="pre">gsTensorBSplineBasis4.size()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_pde.html">PDE module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pygismo</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">NURBS module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/pygismo_nurbs.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pygismo.nurbs">
+<span id="nurbs-module"></span><h1>NURBS module<a class="headerlink" href="#module-pygismo.nurbs" title="Link to this heading"></a></h1>
+<p>G+Smo (Geometry + Simulation Modules): NURBS module</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsBSpline</span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.coefDim">
+<span class="sig-name descname"><span class="pre">coefDim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.coefDim" title="Link to this definition"></a></dt>
+<dd><p>Returns the number of coefficients defining this B-Spline</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">direction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree of the B-Spline</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.degreeElevate">
+<span class="sig-name descname"><span class="pre">degreeElevate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.degreeElevate" title="Link to this definition"></a></dt>
+<dd><p>Elevate the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.domainEnd">
+<span class="sig-name descname"><span class="pre">domainEnd</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.domainEnd" title="Link to this definition"></a></dt>
+<dd><p>Returns the right end of the domain</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.domainStart">
+<span class="sig-name descname"><span class="pre">domainStart</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.domainStart" title="Link to this definition"></a></dt>
+<dd><p>Returns the left end of the domain</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.insertKnot">
+<span class="sig-name descname"><span class="pre">insertKnot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">knot</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">i</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.insertKnot" title="Link to this definition"></a></dt>
+<dd><p>Insert a knot with multiplicity i without changing the curve</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsBSpline, direction: int = 0) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Gets the knots</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsBSpline, direction: int = 0) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Gets the knots as a reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.numCoefs">
+<span class="sig-name descname"><span class="pre">numCoefs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.numCoefs" title="Link to this definition"></a></dt>
+<dd><p>Returns the number of coefficients</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSpline.sample">
+<span class="sig-name descname"><span class="pre">sample</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSpline.sample" title="Link to this definition"></a></dt>
+<dd><p>Returns samples on the Bspline curve</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsBSplineBasis</span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.component">
+<span class="sig-name descname"><span class="pre">component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.component" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>component(self: pygismo.nurbs.gsBSplineBasis, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>component(self: pygismo.nurbs.gsBSplineBasis, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.dim">
+<span class="sig-name descname"><span class="pre">dim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.dim" title="Link to this definition"></a></dt>
+<dd><p>Returns the dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.eval">
+<span class="sig-name descname"><span class="pre">eval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.eval" title="Link to this definition"></a></dt>
+<dd><p>Evaluates points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.evalSingle">
+<span class="sig-name descname"><span class="pre">evalSingle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.evalSingle" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.evalSingle_into">
+<span class="sig-name descname"><span class="pre">evalSingle_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.evalSingle_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.function">
+<span class="sig-name descname"><span class="pre">function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasisFun" title="pygismo.core.gsBasisFun"><span class="pre">pygismo.core.gsBasisFun</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.function" title="Link to this definition"></a></dt>
+<dd><p>Returns the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsBSplineBasis, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsBSplineBasis, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.numElements">
+<span class="sig-name descname"><span class="pre">numElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="pygismo_core.html#pygismo.core.boxSide" title="pygismo.core.boxSide"><span class="pre">pygismo.core.boxSide</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.numElements" title="Link to this definition"></a></dt>
+<dd><p>Returns the number of Elements</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsBSplineBasis.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsBSplineBasis" title="pygismo.nurbs.gsBSplineBasis"><span class="pre">pygismo.nurbs.gsBSplineBasis</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsBSplineBasis.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the size</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsKnotVector</span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.check">
+<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.check" title="Link to this definition"></a></dt>
+<dd><p>Checks whether the knot vector is in a consistent state</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree of the knot vector</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.first">
+<span class="sig-name descname"><span class="pre">first</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.first" title="Link to this definition"></a></dt>
+<dd><p>Returns the first knot</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.get">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.get" title="Link to this definition"></a></dt>
+<dd><p>Returns the knot vector data</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.greville">
+<span class="sig-name descname"><span class="pre">greville</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.greville" title="Link to this definition"></a></dt>
+<dd><p>Returns the Greville points</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.iFind">
+<span class="sig-name descname"><span class="pre">iFind</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">__gnu_cxx::__normal_iterator&lt;double</span> <span class="pre">const*,</span> <span class="pre">std::vector&lt;double,</span> <span class="pre">std::allocator&lt;double&gt;</span> <span class="pre">&gt;</span> <span class="pre">&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.iFind" title="Link to this definition"></a></dt>
+<dd><p>Returns pointer to the last occurrence of the knot at the beginning of the knot interval containing the knot</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.inDomain">
+<span class="sig-name descname"><span class="pre">inDomain</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.inDomain" title="Link to this definition"></a></dt>
+<dd><p>Checks, whether the given value is inside the domain</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.insert">
+<span class="sig-name descname"><span class="pre">insert</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.insert" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.isConsistent">
+<span class="sig-name descname"><span class="pre">isConsistent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.isConsistent" title="Link to this definition"></a></dt>
+<dd><p>Sanity check</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.knot">
+<span class="sig-name descname"><span class="pre">knot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.knot" title="Link to this definition"></a></dt>
+<dd><p>Returns the i-th knot</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.last">
+<span class="sig-name descname"><span class="pre">last</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.last" title="Link to this definition"></a></dt>
+<dd><p>Returns the last knot</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.multiplicities">
+<span class="sig-name descname"><span class="pre">multiplicities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.multiplicities" title="Link to this definition"></a></dt>
+<dd><p>Returns vector of multiplicities of the knots</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.numElements">
+<span class="sig-name descname"><span class="pre">numElements</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.numElements" title="Link to this definition"></a></dt>
+<dd><p>Returns the number of knot intervals inside the domain</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the KnotVector number of knots including repetitions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.uFind">
+<span class="sig-name descname"><span class="pre">uFind</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::internal::gsUKnotIterator&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.uFind" title="Link to this definition"></a></dt>
+<dd><p>Returns poiter to the knot at the beginning of the knot interval containing the knot</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.uSize">
+<span class="sig-name descname"><span class="pre">uSize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.uSize" title="Link to this definition"></a></dt>
+<dd><p>Returns the KnotVector number of knots without repetitions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsKnotVector.uValue">
+<span class="sig-name descname"><span class="pre">uValue</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsKnotVector" title="pygismo.nurbs.gsKnotVector"><span class="pre">pygismo.nurbs.gsKnotVector</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsKnotVector.uValue" title="Link to this definition"></a></dt>
+<dd><p>Returns the value of the i-th knot</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsNurbsCreator</span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineAmoeba">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineAmoeba</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoeba" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineAmoeba3degree">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineAmoeba3degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoeba3degree" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineAmoebaBig">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineAmoebaBig</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineAmoebaBig" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineAustria">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineAustria</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineAustria" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineCube">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineCube</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineCube" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>BSplineCube(arg0: float, arg1: float, arg2: float, arg3: float) -&gt; pygismo.nurbs.gsTensorBSpline3</p></li>
+</ol>
+<p>Cube of side  r, with lower left corner at (x,y,z)</p>
+<ol class="arabic simple" start="2">
+<li><p>BSplineCube(arg0: int) -&gt; pygismo.nurbs.gsTensorBSpline3</p></li>
+</ol>
+<p>The unit cube represented as a tensor B-spline of degree  deg</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineCubeGrid">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineCubeGrid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lx</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ly</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lz</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsMultiPatch" title="pygismo.core.gsMultiPatch"><span class="pre">pygismo.core.gsMultiPatch</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineCubeGrid" title="Link to this definition"></a></dt>
+<dd><p>Creates a m n X m m X p rectangle multipatch consisting of B-splines squares with lower left corner at at (lx,ly,lz)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineE">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineE</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineE" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineFatCircle">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineFatCircle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatCircle" title="Link to this definition"></a></dt>
+<dd><p>Inexact circle using B-splines</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineFatDisk">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineFatDisk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatDisk" title="Link to this definition"></a></dt>
+<dd><p>Inexact disk using B-splines</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineFatQuarterAnnulus">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineFatQuarterAnnulus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineFatQuarterAnnulus" title="Link to this definition"></a></dt>
+<dd><p>Fat annulus using B-splines, discarding the weights of the exact NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineFish">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineFish</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineFish" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineHalfCube">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineHalfCube</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline3" title="pygismo.nurbs.gsTensorBSpline3"><span class="pre">pygismo.nurbs.gsTensorBSpline3</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineHalfCube" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineLShapeMultiPatch_p2">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineLShapeMultiPatch_p2</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsMultiPatch" title="pygismo.core.gsMultiPatch"><span class="pre">pygismo.core.gsMultiPatch</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShapeMultiPatch_p2" title="Link to this definition"></a></dt>
+<dd><p>L-Shaped domain represented as a multipatch (3 patches) tensor B-spline of degree 2. 1. Patch is the middel part, 2. Patch is the upper part, 3 Patch is the right part.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineLShape_p1">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineLShape_p1</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p1" title="Link to this definition"></a></dt>
+<dd><p>L-Shaped domain represented as a tensor B-spline of degree 1</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C0">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineLShape_p2C0</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C0" title="Link to this definition"></a></dt>
+<dd><p>L-Shaped domain represented as a tensor B-spline of degree 2, with C0-continuity across the diagonal.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C1">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineLShape_p2C1</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineLShape_p2C1" title="Link to this definition"></a></dt>
+<dd><p>L-Shaped domain represented as a tensor B-spline of degree 2, with C1-continuity and double control points at the corners.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineLineSegment">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineLineSegment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineLineSegment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineQuarterAnnulus">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineQuarterAnnulus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><span class="pre">pygismo.core.gsGeometry</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineQuarterAnnulus" title="Link to this definition"></a></dt>
+<dd><p>Inexact annulus using B-splines</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineRectangle">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineRectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">low_x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">low_y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upp_x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upp_y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">turn_def</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineRectangle" title="Link to this definition"></a></dt>
+<dd><p>2d-rectange [low_x,upp_x] x [low_y,upp_y], rotated by turndeg degrees.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineRectangleWithPara">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineRectangleWithPara</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">low_x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">low_y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upp_x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">upp_y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineRectangleWithPara" title="Link to this definition"></a></dt>
+<dd><p>Rectangle described by the identity mapping over the given parameter domain, using tensor product B-splines.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineSaddle">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineSaddle</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;3,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineSaddle" title="Link to this definition"></a></dt>
+<dd><p>Saddle using B-splines</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineSegment">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineSegment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">u0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">u1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineSegment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineSquare">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineSquare</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquare" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>BSplineSquare(arg0: numpy.ndarray[numpy.float64[m, n]]) -&gt; pygismo.nurbs.gsTensorBSpline2</p></li>
+</ol>
+<p>Square of side defined by two corners (columsn)</p>
+<ol class="arabic simple" start="2">
+<li><p>BSplineSquare(arg0: float, arg1: float, arg2: float) -&gt; pygismo.nurbs.gsTensorBSpline2</p></li>
+</ol>
+<p>Square of side r, with lower left corner at (x,y)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineSquareDeg">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineSquareDeg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deg</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">scale</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquareDeg" title="Link to this definition"></a></dt>
+<dd><p>The unit square represented as a tensor B-spline of degree deg</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineSquareGrid">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineSquareGrid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">m</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lx</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ly</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsMultiPatch" title="pygismo.core.gsMultiPatch"><span class="pre">pygismo.core.gsMultiPatch</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineSquareGrid" title="Link to this definition"></a></dt>
+<dd><p>Creates a m n X m m rectangle multipatch consisting of B-splines squares with lower left corner at at (lx,ly)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineTriangle">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineTriangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineTriangle" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>BSplineTriangle(H: float = 1, W: float = 0) -&gt; pygismo.nurbs.gsTensorBSpline2</p></li>
+</ol>
+<p>Makes a Isosceles triangle with height H and width W</p>
+<ol class="arabic simple" start="2">
+<li><p>BSplineTriangle(H: float = 1, W: float = 0) -&gt; pygismo.nurbs.gsTensorBSpline2</p></li>
+</ol>
+<p>Makes a star with N patches, outer radius R0 and inner radius R1</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.BSplineUnitInterval">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">BSplineUnitInterval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsBSpline" title="pygismo.nurbs.gsBSpline"><span class="pre">pygismo.nurbs.gsBSpline</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.BSplineUnitInterval" title="Link to this definition"></a></dt>
+<dd><p>Creates a B-Spline unit interval</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsAmoebaFull">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsAmoebaFull</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsNurbs&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsAmoebaFull" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsAnnulus">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsAnnulus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;2,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsAnnulus" title="Link to this definition"></a></dt>
+<dd><p>Exact full annulus using NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsBean">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsBean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsNurbs&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsBean" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsCircle">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsCircle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsNurbs&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsCircle" title="Link to this definition"></a></dt>
+<dd><p>Circle using NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsCube">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsCube</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;3,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsCube" title="Link to this definition"></a></dt>
+<dd><p>Cube of side  r, with lower left corner at (x,y,z) using NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsCurve1">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsCurve1</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsNurbs&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsCurve1" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsCurve2">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsCurve2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsNurbs&lt;double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsCurve2" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsDisk">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsDisk</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;2,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsDisk" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsQrtPlateWHoleC0">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsQrtPlateWHoleC0</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsQrtPlateWHoleC0" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsQuarterAnnulus">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsQuarterAnnulus</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;2,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsQuarterAnnulus" title="Link to this definition"></a></dt>
+<dd><p>Exact annulus using NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.NurbsSphere">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">NurbsSphere</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">z</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">gismo::gsTensorNurbs&lt;2,</span> <span class="pre">double&gt;</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.NurbsSphere" title="Link to this definition"></a></dt>
+<dd><p>Sphere using NURBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.lift3D">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">lift3D</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.lift3D" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>lift3D(arg0: pygismo.nurbs.gsTensorBSpline2, arg1: float) -&gt; pygismo.nurbs.gsTensorBSpline3</p></li>
+</ol>
+<p>Lifts a 2D geometry into 3D space</p>
+<ol class="arabic simple" start="2">
+<li><p>lift3D(arg0: gismo::gsTensorNurbs&lt;2, double&gt;, arg1: float) -&gt; gismo::gsTensorNurbs&lt;3, double&gt;</p></li>
+</ol>
+<p>Lifts a 2D geometry into 3D space</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsNurbsCreator.lift4D">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">lift4D</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsNurbsCreator.lift4D" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>lift4D(arg0: pygismo.nurbs.gsTensorBSpline3, arg1: float) -&gt; pygismo.nurbs.gsTensorBSpline4</p></li>
+</ol>
+<p>Lifts a 3D geometry into 4D space</p>
+<ol class="arabic simple" start="2">
+<li><p>lift4D(arg0: gismo::gsTensorNurbs&lt;3, double&gt;, arg1: float) -&gt; gismo::gsTensorNurbs&lt;4, double&gt;</p></li>
+</ol>
+<p>Lifts a 3D geometry into 4D space</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSpline2</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline2.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline2" title="pygismo.nurbs.gsTensorBSpline2"><span class="pre">pygismo.nurbs.gsTensorBSpline2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline2.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline2.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline2.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline2, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline2, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSpline3</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline3.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline3" title="pygismo.nurbs.gsTensorBSpline3"><span class="pre">pygismo.nurbs.gsTensorBSpline3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline3.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline3.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline3.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline3, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline3, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSpline4</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsGeometry</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline4.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSpline4" title="pygismo.nurbs.gsTensorBSpline4"><span class="pre">pygismo.nurbs.gsTensorBSpline4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline4.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSpline4.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSpline4.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline4, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSpline4, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSplineBasis2</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.active">
+<span class="sig-name descname"><span class="pre">active</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.int32</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.active" title="Link to this definition"></a></dt>
+<dd><p>Gives actives at points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.component">
+<span class="sig-name descname"><span class="pre">component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.component" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis2, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis2, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.deriv">
+<span class="sig-name descname"><span class="pre">deriv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.deriv" title="Link to this definition"></a></dt>
+<dd><p>Evaluates derivatives at points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.deriv2">
+<span class="sig-name descname"><span class="pre">deriv2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.deriv2" title="Link to this definition"></a></dt>
+<dd><p>Evaluates second derivatives at points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.dim">
+<span class="sig-name descname"><span class="pre">dim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.dim" title="Link to this definition"></a></dt>
+<dd><p>Returns the dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.eval">
+<span class="sig-name descname"><span class="pre">eval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.eval" title="Link to this definition"></a></dt>
+<dd><p>Evaluates points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.evalSingle">
+<span class="sig-name descname"><span class="pre">evalSingle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.evalSingle" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.evalSingle_into">
+<span class="sig-name descname"><span class="pre">evalSingle_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.evalSingle_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.function">
+<span class="sig-name descname"><span class="pre">function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasisFun" title="pygismo.core.gsBasisFun"><span class="pre">pygismo.core.gsBasisFun</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.function" title="Link to this definition"></a></dt>
+<dd><p>Returns the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis2, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis2, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis2.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis2" title="pygismo.nurbs.gsTensorBSplineBasis2"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis2</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis2.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the size</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSplineBasis3</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.component">
+<span class="sig-name descname"><span class="pre">component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.component" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis3, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis3, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.dim">
+<span class="sig-name descname"><span class="pre">dim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.dim" title="Link to this definition"></a></dt>
+<dd><p>Returns the dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.eval">
+<span class="sig-name descname"><span class="pre">eval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.eval" title="Link to this definition"></a></dt>
+<dd><p>Evaluates points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.evalSingle">
+<span class="sig-name descname"><span class="pre">evalSingle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.evalSingle" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.evalSingle_into">
+<span class="sig-name descname"><span class="pre">evalSingle_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.evalSingle_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.function">
+<span class="sig-name descname"><span class="pre">function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasisFun" title="pygismo.core.gsBasisFun"><span class="pre">pygismo.core.gsBasisFun</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.function" title="Link to this definition"></a></dt>
+<dd><p>Returns the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis3, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis3, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis3.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis3" title="pygismo.nurbs.gsTensorBSplineBasis3"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis3</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis3.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the size</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.nurbs.</span></span><span class="sig-name descname"><span class="pre">gsTensorBSplineBasis4</span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasis" title="pygismo.core.gsBasis"><code class="xref py py-class docutils literal notranslate"><span class="pre">gsBasis</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.component">
+<span class="sig-name descname"><span class="pre">component</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.component" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis4, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>component(self: pygismo.nurbs.gsTensorBSplineBasis4, arg0: int) -&gt; pygismo.nurbs.gsBSplineBasis</p></li>
+</ol>
+<p>Returns the basis component as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.degree">
+<span class="sig-name descname"><span class="pre">degree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.degree" title="Link to this definition"></a></dt>
+<dd><p>Returns the degree</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.dim">
+<span class="sig-name descname"><span class="pre">dim</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.dim" title="Link to this definition"></a></dt>
+<dd><p>Returns the dimension</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.eval">
+<span class="sig-name descname"><span class="pre">eval</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.eval" title="Link to this definition"></a></dt>
+<dd><p>Evaluates points into a matrix</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.evalSingle">
+<span class="sig-name descname"><span class="pre">evalSingle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.evalSingle" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.evalSingle_into">
+<span class="sig-name descname"><span class="pre">evalSingle_into</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.evalSingle_into" title="Link to this definition"></a></dt>
+<dd><p>Evaluates the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.function">
+<span class="sig-name descname"><span class="pre">function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsBasisFun" title="pygismo.core.gsBasisFun"><span class="pre">pygismo.core.gsBasisFun</span></a></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.function" title="Link to this definition"></a></dt>
+<dd><p>Returns the basis function i</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.knots">
+<span class="sig-name descname"><span class="pre">knots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.knots" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis4, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a reference</p>
+<ol class="arabic simple" start="2">
+<li><p>knots(self: pygismo.nurbs.gsTensorBSplineBasis4, arg0: int) -&gt; pygismo.nurbs.gsKnotVector</p></li>
+</ol>
+<p>Get the knot vector as a const reference</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.nurbs.gsTensorBSplineBasis4.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.nurbs.gsTensorBSplineBasis4" title="pygismo.nurbs.gsTensorBSplineBasis4"><span class="pre">pygismo.nurbs.gsTensorBSplineBasis4</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.nurbs.gsTensorBSplineBasis4.size" title="Link to this definition"></a></dt>
+<dd><p>Returns the size</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pygismo_msplines.html" class="btn btn-neutral float-left" title="Mapped Splines module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pygismo_pde.html" class="btn btn-neutral float-right" title="PDE module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+      <span class="lastupdated">Last updated on Jan 16, 2025.
+      </span></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

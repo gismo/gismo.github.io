@@ -1,0 +1,26 @@
+var classgismo_1_1gsCurvatureSmoothing =
+[
+    [ "gsCurvatureSmoothing", "classgismo_1_1gsCurvatureSmoothing.html#ac0acea70f39f771c5acc31e5f795481e", null ],
+    [ "gsCurvatureSmoothing", "classgismo_1_1gsCurvatureSmoothing.html#ae15b4f616f1b0bc465173b0300d746e3", null ],
+    [ "~gsCurvatureSmoothing", "classgismo_1_1gsCurvatureSmoothing.html#a6cf3d7f8e404aa6c85adc2e11206d77c", null ],
+    [ "compute_AllValues", "classgismo_1_1gsCurvatureSmoothing.html#a15d1c363b8b6c1d0e14a085c604440a7", null ],
+    [ "compute_ObjectiveFunction", "classgismo_1_1gsCurvatureSmoothing.html#a6e3bd53cee68d935190113cea1e1a982", null ],
+    [ "computeApproxError", "classgismo_1_1gsCurvatureSmoothing.html#a5c823cbff57e6c2509f97b8ccf68f57c", null ],
+    [ "computeApproxErrorCoef", "classgismo_1_1gsCurvatureSmoothing.html#a300c74e69920d88bc090fa1fd375fd9f", null ],
+    [ "computeApproxErrorL2", "classgismo_1_1gsCurvatureSmoothing.html#ae7fd249b8ccbc8deca340fe5ad891a5a", null ],
+    [ "computeApproxErrorLMax", "classgismo_1_1gsCurvatureSmoothing.html#a412f2df8134cf54c756fb9fffaa197a7", null ],
+    [ "computeCurvatureError", "classgismo_1_1gsCurvatureSmoothing.html#add2203cd3e921314e8dcd554b8f5bc5e", null ],
+    [ "curveOriginal", "classgismo_1_1gsCurvatureSmoothing.html#aa17f6870c43296bea28b0a8fbf93e03b", null ],
+    [ "curveSmooth", "classgismo_1_1gsCurvatureSmoothing.html#ad5a8c9a226919c0f6ad53ac85b4e8f69", null ],
+    [ "reset", "classgismo_1_1gsCurvatureSmoothing.html#a9ffb41fba1159aed1b3b19997ad58abc", null ],
+    [ "smoothAllHadenfeld", "classgismo_1_1gsCurvatureSmoothing.html#a0b1b19a9f15b92635ee8921d9ebc8f01", null ],
+    [ "smoothHadenfeld", "classgismo_1_1gsCurvatureSmoothing.html#a7c01eb5bf98798a17d6b7b83a146956e", null ],
+    [ "smoothTotalVariation", "classgismo_1_1gsCurvatureSmoothing.html#a41dbbc97eaa94f75ff95c5b01ac4beb0", null ],
+    [ "smoothTotalVariationSelectLamda", "classgismo_1_1gsCurvatureSmoothing.html#ae6eaa0055c600a566699115d13ced2f5", null ],
+    [ "smoothTotalVariationSelectLamda", "classgismo_1_1gsCurvatureSmoothing.html#a10d35063685d96e54a714af7c79f16ea", null ],
+    [ "write", "classgismo_1_1gsCurvatureSmoothing.html#ad767c83fcdb3d1866ddcf9a7377a8046", null ],
+    [ "m_curve_original", "classgismo_1_1gsCurvatureSmoothing.html#a04532d5c2e882f41e75d4fe16210e60d", null ],
+    [ "m_curve_smooth", "classgismo_1_1gsCurvatureSmoothing.html#a3fae45ac26d4b29f83cd4bb65f57decb", null ],
+    [ "m_param_values", "classgismo_1_1gsCurvatureSmoothing.html#a046467afad8dc0268cdd2818fb641c76", null ],
+    [ "m_points", "classgismo_1_1gsCurvatureSmoothing.html#aeb603c75c9fd7740795166c7a208c2b7", null ]
+];

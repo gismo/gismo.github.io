@@ -1,0 +1,9 @@
+<map id="gsBlockOp&lt; T &gt;" name="gsBlockOp&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Simple class create a block operator structure." alt="" coords="84,197,213,223"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsLinearOperator.html" title="Simple abstract class for discrete operators." alt="" coords="5,95,177,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,131,144,196,140,199,103,134"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="201,95,357,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,131,165,199,162,195,252,126"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="201,5,357,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="282,59,282,94,277,94,277,59"/>
+</map>

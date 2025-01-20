@@ -1,0 +1,7 @@
+<map id="gsFeSpaceData&lt; T &gt;" name="gsFeSpaceData&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Struct containing information for matrix assembly." alt="" coords="48,93,208,119"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="5,5,115,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,40,121,91,116,94,76,43"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="139,5,256,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,43,161,71,140,95,136,91,157,68,178,40"/>
+</map>

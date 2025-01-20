@@ -1,0 +1,11 @@
+<map id="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsModeling/gsSolidHalfFace.h" name="/home/gitlab&#45;runner/builds/t3_JWeu5_/0/gismo/gismo/src/gsModeling/gsSolidHalfFace.h">
+<area shape="rect" id="Node000001" title="Provides gsSolidHalfFace &#45; a (half&#45;)face of a gsSolid." alt="" coords="7,5,219,75"/>
+<area shape="rect" id="Node000002" href="$gsSolidElement_8h.html" title="Provides gsSolidElement class &#45; interface for an element (vertex, edge or face) of a solid." alt="" coords="5,123,220,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,75,115,109,110,109,110,75"/>
+<area shape="rect" id="Node000003" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="43,196,183,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,148,115,182,110,182,110,148"/>
+<area shape="rect" id="Node000004" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="43,269,182,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="115,222,115,256,110,256,110,222"/>
+<area shape="rect" id="Node000005" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="33,343,193,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="115,295,115,329,110,329,110,295"/>
+</map>

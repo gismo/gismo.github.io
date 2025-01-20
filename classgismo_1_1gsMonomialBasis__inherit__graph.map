@@ -1,0 +1,7 @@
+<map id="gsMonomialBasis&lt; T &gt;" name="gsMonomialBasis&lt; T &gt;">
+<area shape="rect" id="Node000001" title="An univariate monomial polynomial basis. If the degree is p the basis is given by: [ 1,..." alt="" coords="5,152,180,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="37,79,148,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,118,95,152,90,152,90,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="17,5,168,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
+</map>

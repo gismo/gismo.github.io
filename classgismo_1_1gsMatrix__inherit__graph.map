@@ -1,0 +1,31 @@
+<map id="gsMatrix&lt; T, _Rows, _Cols, _Options &gt;" name="gsMatrix&lt; T, _Rows, _Cols, _Options &gt;">
+<area shape="rect" id="Node000001" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,319,161,359"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="212,5,379,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,305,98,248,120,177,136,139,156,103,179,70,208,40,225,29,228,33,211,44,184,73,160,106,141,142,125,178,103,249,92,306"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="223,55,368,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,305,104,257,128,199,162,140,183,113,208,89,227,78,229,82,211,93,187,117,166,143,132,201,109,259,95,307"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="217,104,373,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="94,305,111,267,136,222,168,177,208,139,228,127,231,132,211,143,172,180,140,225,116,269,99,307"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="227,153,363,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="101,306,145,246,174,214,208,188,231,176,234,181,211,192,178,218,149,249,105,309"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="221,203,369,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="113,308,156,271,208,237,236,226,238,230,211,242,159,275,116,312"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="213,252,377,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="142,311,208,286,245,275,247,280,210,291,144,316"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="209,301,381,327"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="174,326,209,322,209,327,175,331"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="215,351,376,376"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="175,347,215,352,214,357,175,352"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="218,401,373,441"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="150,362,243,398,242,403,148,367"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="229,465,362,491"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="113,368,156,411,211,450,239,463,237,468,208,455,153,415,109,372"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="218,515,373,540"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="103,370,147,436,176,471,211,500,235,512,233,517,208,504,173,474,142,440,99,373"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="233,564,358,589"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="98,371,114,412,138,460,171,508,211,549,234,562,231,567,208,553,166,512,134,463,109,414,93,373"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="217,613,373,639"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="94,372,108,422,131,483,165,546,186,574,211,599,231,611,229,616,208,603,182,577,160,548,126,486,103,424,89,373"/>
+<area shape="rect" id="Node000015" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="219,663,371,688"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="91,372,102,432,124,506,140,545,159,582,183,617,211,648,230,660,227,665,208,652,179,621,155,585,135,547,119,508,97,433,86,373"/>
+</map>

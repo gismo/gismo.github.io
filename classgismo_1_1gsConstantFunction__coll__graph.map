@@ -1,0 +1,11 @@
+<map id="gsConstantFunction&lt; T &gt;" name="gsConstantFunction&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Class defining a globally constant function." alt="" coords="97,243,285,268"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsGeometry.html" title="Abstract base class representing a geometry map." alt="" coords="121,168,261,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,208,194,242,189,242,189,208"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="15,80,146,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,112,178,166,175,170,105,116"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,5,156,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,45,83,80,78,80,78,45"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="170,80,287,105"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="221,119,199,169,194,166,216,117"/>
+</map>

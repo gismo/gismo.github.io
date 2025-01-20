@@ -1,0 +1,87 @@
+<map id="gsFunction&lt; T &gt;" name="gsFunction&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="204,623,335,648"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsAbsError.html" title="Generates a field with value the absolute difference (error) between and isogeometric function and a ..." alt="" coords="434,5,565,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,608,277,487,296,317,311,229,329,150,352,85,366,59,381,40,405,24,433,16,434,21,407,29,384,44,370,62,357,87,335,151,316,230,302,317,283,488,275,609"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsAffineFunction.html" title="Representation of an affine function." alt="" coords="415,55,583,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="270,609,279,497,300,341,314,261,332,189,354,130,367,107,381,89,396,78,414,70,416,75,399,82,385,93,371,110,359,132,338,191,319,263,305,342,285,497,275,609"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsBasisFun.html" title="Represents an individual function in a function set, or a certain component of a vector&#45;valued functi..." alt="" coords="433,104,566,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="270,609,281,506,303,365,318,293,335,228,356,175,381,139,405,123,432,115,433,120,407,128,385,143,361,177,341,230,323,294,308,366,287,506,276,609"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsCPPInterface.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface,..." alt="" coords="420,153,579,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="271,608,284,515,306,389,321,325,339,267,358,220,381,188,399,175,419,168,421,173,401,180,385,192,363,223,344,269,326,326,312,390,289,516,276,609"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsCauchyStressFunction.html" title="Compute Cauchy stresses for a previously computed/defined displacement field. Can be pushed into gsPi..." alt="" coords="390,203,609,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="267,609,269,535,282,435,296,381,317,328,344,280,381,237,397,226,400,230,384,241,349,283,321,331,301,383,288,436,274,535,272,609"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsDetFunction.html" title="Compute jacobian determinant of the geometry mapping. Can be pushed into gsPiecewiseFunction to const..." alt="" coords="423,252,576,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="268,609,273,543,289,456,303,410,323,365,348,323,381,287,400,274,422,266,423,271,402,279,384,291,352,326,327,367,308,412,294,457,278,544,273,609"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsElementErrorPlotter.html" title="This class provides a function that returns a constant error on each element." alt="" coords="398,301,601,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="270,608,277,551,296,478,310,439,329,401,352,366,381,336,398,325,401,329,384,340,356,369,333,404,315,441,301,479,283,552,275,609"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsFsiLoad.html" title="Loading function to transfer fluid action to the solid. Used in Fluid&#45;Structure Interaction simulatio..." alt="" coords="437,351,562,376"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="272,609,283,561,303,500,334,438,356,410,381,385,407,371,436,363,437,368,409,376,384,389,360,413,339,441,307,502,288,562,277,610"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsFuncCoordinate.html" title="Represents a certain component of a vector&#45;valued function." alt="" coords="411,400,587,425"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="275,608,289,569,310,522,341,474,360,453,381,434,410,420,412,425,384,439,363,457,345,478,315,524,294,571,280,610"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsFunctionExpr.html" title="Class defining a multivariate (real or vector) function given by a string mathematical expression." alt="" coords="420,449,579,475"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="280,609,319,545,347,512,381,484,419,468,421,473,384,488,351,515,323,548,285,611"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsGeometry.html" title="Abstract base class representing a geometry map." alt="" coords="429,499,569,524"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="288,610,328,570,354,550,382,533,428,517,430,522,384,538,357,554,332,574,292,614"/>
+<area shape="rect" id="Node000028" href="$classgismo_1_1gsGeometrySlice.html" title="gsGeometrySlice is a class representing an iso parametric slice of a geometry object...." alt="" coords="414,548,585,573"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="307,614,382,583,428,571,430,576,384,589,309,619"/>
+<area shape="rect" id="Node000029" href="$classgismo_1_1gsGeometryTransform.html" title="Representation of a transformed geometry." alt="" coords="397,597,602,623"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="348,624,396,619,397,624,349,629"/>
+<area shape="rect" id="Node000030" href="$classgismo_1_1gsGradientField.html" title="Generates a field with value being the gradient of an isogeometric function." alt="" coords="418,647,581,672"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="349,641,418,648,418,654,349,646"/>
+<area shape="rect" id="Node000031" href="$classgismo_1_1gsJacDetField.html" title="Generates a field with value the Jacobian determinant of a geometry." alt="" coords="425,696,573,721"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="309,652,384,682,426,693,425,699,382,687,307,657"/>
+<area shape="rect" id="Node000032" href="$classgismo_1_1gsMappedSingleSpline.html" title="Class gsMappedSingleSpline represents an individual .....of a." alt="" coords="415,746,584,786"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="293,656,333,695,384,732,415,745,413,750,381,736,329,699,289,660"/>
+<area shape="rect" id="Node000033" href="$classgismo_1_1gsMaterialMatrixEvalSingle.html" title="This class serves as the evaluator of material matrices, based on gsMaterialMatrixBase." alt="" coords="399,810,600,850"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="284,660,322,728,350,765,384,796,405,808,402,812,381,800,346,768,317,731,279,662"/>
+<area shape="rect" id="Node000034" href="$classgismo_1_1gsMaterialMatrixIntegrateSingle.html" title="This class serves as the integrator of material matrices, based on gsMaterialMatrixBase." alt="" coords="403,874,595,914"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="279,661,291,705,312,759,343,813,362,838,384,860,404,873,401,877,381,864,358,842,338,816,307,761,286,707,274,663"/>
+<area shape="rect" id="Node000035" href="$classgismo_1_1gsNormalField.html" title="Generates the normal field of a geometry." alt="" coords="422,939,577,964"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="275,661,283,717,302,788,316,826,334,862,357,895,384,924,402,935,423,943,421,948,400,940,381,928,353,899,330,864,311,828,297,790,278,718,270,662"/>
+<area shape="rect" id="Node000036" href="$classgismo_1_1gsParamField.html" title="Generates a field that attaches the parameter values on each physical point." alt="" coords="426,988,573,1013"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="274,661,279,726,295,811,309,856,328,900,353,940,384,975,404,987,426,995,425,1000,402,992,381,979,349,943,323,902,304,858,289,812,273,726,268,662"/>
+<area shape="rect" id="Node000037" href="$classgismo_1_1gsPatchIdField.html" title="Generates a field that indicates the boundary sides on the geometry." alt="" coords="423,1037,576,1063"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="272,661,274,734,288,832,302,885,322,936,349,983,384,1024,402,1036,423,1044,421,1049,400,1041,381,1028,345,986,317,938,297,886,283,833,269,734,267,662"/>
+<area shape="rect" id="Node000038" href="$classgismo_1_1gsPiecewiseFunction.html" title="A function depending on an index i, typically referring to a patch/sub&#45;domain. On each patch a differ..." alt="" coords="402,1087,597,1112"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="276,661,289,754,312,878,327,941,344,997,363,1043,385,1073,403,1086,400,1091,381,1077,359,1046,339,999,322,942,307,879,284,755,271,662"/>
+<area shape="rect" id="Node000039" href="$classgismo_1_1gsRemapInterface.html" title="Provides a mapping between the corresponding sides of two patches sharing an interface." alt="" coords="410,1136,589,1161"/>
+<area shape="poly" id="edge38_Node000001_Node000039" title=" " alt="" coords="276,662,287,764,308,903,323,973,341,1037,361,1088,385,1123,411,1139,408,1144,381,1127,357,1091,336,1038,318,974,303,904,282,764,270,662"/>
+<area shape="rect" id="Node000040" href="$classgismo_1_1gsScaledOuterNormalField.html" title="Function returning the (unit) outer normal vector scaled by values of a given scalar field." alt="" coords="383,1185,616,1211"/>
+<area shape="poly" id="edge39_Node000001_Node000040" title=" " alt="" coords="275,662,285,773,305,927,320,1005,338,1076,359,1134,385,1172,399,1183,396,1187,381,1176,355,1136,333,1078,315,1006,300,928,280,774,270,662"/>
+<area shape="rect" id="Node000042" href="$classgismo_1_1gsShellStressFunction.html" title="Compute Cauchy stresses for a previously computed/defined displacement field. Can be pushed into gsPi..." alt="" coords="398,1235,601,1260"/>
+<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="275,662,283,782,302,950,316,1037,335,1115,358,1179,371,1203,385,1221,399,1233,396,1237,381,1225,366,1206,353,1181,330,1117,311,1038,297,951,278,782,269,662"/>
+<area shape="rect" id="Node000043" href="$classgismo_1_1gsSquaredDistance.html" title="Squared distance function from a fixed point to a gsGeometry." alt="" coords="407,1284,592,1309"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="274,662,281,791,299,974,313,1068,332,1154,356,1224,369,1251,384,1271,408,1286,405,1291,381,1275,365,1254,351,1226,327,1156,308,1069,293,975,276,791,269,662"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,623,156,648"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,633,204,633,204,638,170,638"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsTensorBSpline.html" title=" " alt="" coords="683,163,901,203"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="582,503,599,496,614,484,637,452,645,419,644,385,638,352,632,317,631,283,639,248,662,214,681,199,684,203,666,217,644,250,636,283,637,317,643,351,649,385,650,419,641,454,618,488,602,500,584,508"/>
+<area shape="rect" id="Node000015" href="$classgismo_1_1gsBSpline.html" title="A B&#45;spline function of one argument, with arbitrary target dimension." alt="" coords="730,228,854,253"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="582,503,599,495,614,484,633,458,641,431,641,403,637,375,633,347,633,318,642,290,662,263,677,252,694,244,729,236,731,241,696,249,680,256,666,267,647,293,639,319,639,347,642,375,646,403,646,432,638,460,618,488,602,500,584,508"/>
+<area shape="rect" id="Node000016" href="$classgismo_1_1gsBulk.html" title="Abstract base class representing a 4D bulk." alt="" coords="740,277,844,303"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="581,503,599,495,614,484,630,464,637,443,637,400,637,355,645,333,662,312,679,300,699,292,739,285,740,290,700,297,682,305,666,316,650,336,643,356,642,400,642,444,635,466,618,488,602,500,583,507"/>
+<area shape="rect" id="Node000017" href="$classgismo_1_1gsConstantFunction.html" title="Class defining a globally constant function." alt="" coords="698,327,886,352"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="582,501,614,484,627,470,633,455,637,424,641,392,649,376,662,361,697,343,699,348,666,365,653,379,646,394,642,425,639,457,631,473,618,488,584,506"/>
+<area shape="rect" id="Node000018" href="$classgismo_1_1gsCurve.html" title="Abstract base class representing a curve." alt="" coords="735,376,849,401"/>
+<area shape="poly" id="edge17_Node000013_Node000018" title=" " alt="" coords="581,499,614,484,630,467,637,448,645,429,662,410,698,394,735,387,736,392,699,400,666,415,650,432,642,450,635,470,618,488,584,504"/>
+<area shape="rect" id="Node000019" href="$classgismo_1_1gsHBSpline.html" title="A hierarchical B&#45;Spline function, in d dimensions." alt="" coords="717,425,867,451"/>
+<area shape="poly" id="edge18_Node000013_Node000019" title=" " alt="" coords="582,493,615,484,639,471,663,460,715,446,717,451,665,464,641,476,617,488,584,498"/>
+<area shape="rect" id="Node000020" href="$classgismo_1_1gsLagrangePoly.html" title="The geometry class of a Lagrange Polyomial curve." alt="" coords="711,475,873,500"/>
+<area shape="poly" id="edge19_Node000013_Node000020" title=" " alt="" coords="583,502,710,491,711,497,583,507"/>
+<area shape="rect" id="Node000021" href="$classgismo_1_1gsNurbs.html" title="A NURBS function of one argument, with arbitrary target dimension." alt="" coords="735,524,849,549"/>
+<area shape="poly" id="edge20_Node000013_Node000021" title=" " alt="" coords="583,516,735,529,735,534,583,521"/>
+<area shape="rect" id="Node000022" href="$classgismo_1_1gsRationalTHBSpline.html" title="A rational truncated hierarchical B&#45;Spline function of parametric dimension d, with arbitrary target ..." alt="" coords="713,574,871,614"/>
+<area shape="poly" id="edge21_Node000013_Node000022" title=" " alt="" coords="584,523,617,533,641,545,665,558,713,574,712,579,663,563,639,550,615,538,582,528"/>
+<area shape="rect" id="Node000023" href="$classgismo_1_1gsSurface.html" title="Abstract base class representing a surface." alt="" coords="730,639,854,664"/>
+<area shape="poly" id="edge22_Node000013_Node000023" title=" " alt="" coords="584,517,618,533,629,544,636,556,643,580,649,603,655,614,666,624,696,639,730,647,729,652,694,644,662,628,651,617,644,605,637,581,631,558,625,548,614,538,581,521"/>
+<area shape="rect" id="Node000024" href="$classgismo_1_1gsTHBSpline.html" title="A truncated hierarchical B&#45;Spline function, in d dimensions." alt="" coords="713,688,871,713"/>
+<area shape="poly" id="edge23_Node000013_Node000024" title=" " alt="" coords="583,515,602,522,618,533,633,551,640,569,643,606,645,642,652,659,666,675,688,688,713,696,712,701,686,693,662,679,647,661,640,643,637,606,635,570,628,554,614,537,599,527,581,520"/>
+<area shape="rect" id="Node000025" href="$classgismo_1_1gsTensorBSpline.html" title="A tensor product of d B&#45;spline functions, with arbitrary target dimension." alt="" coords="701,737,883,763"/>
+<area shape="poly" id="edge24_Node000013_Node000025" title=" " alt="" coords="584,514,602,522,618,533,636,557,644,582,645,607,642,631,640,655,641,679,649,702,666,724,682,736,701,743,699,748,680,740,662,728,644,704,636,680,635,655,637,631,639,606,639,583,631,560,614,537,599,526,582,519"/>
+<area shape="rect" id="Node000026" href="$classgismo_1_1gsTensorNurbs.html" title="A tensor product Non&#45;Uniform Rational B&#45;spline function (NURBS) of parametric dimension d,..." alt="" coords="707,787,877,812"/>
+<area shape="poly" id="edge25_Node000013_Node000026" title=" " alt="" coords="584,514,602,521,618,533,639,564,648,594,647,625,642,656,638,686,637,716,645,745,666,773,685,787,707,795,705,800,682,792,662,777,640,747,632,717,632,686,637,655,642,625,642,595,634,566,614,537,599,526,582,519"/>
+<area shape="rect" id="Node000027" href="$classgismo_1_1gsVolume.html" title="Provides declaration of Volume abstract interface." alt="" coords="730,836,854,861"/>
+<area shape="poly" id="edge26_Node000013_Node000027" title=" " alt="" coords="584,513,602,521,618,533,633,552,643,570,651,607,649,644,642,681,635,717,633,753,642,788,652,806,666,823,679,834,695,841,730,849,729,854,693,846,677,838,662,827,647,809,637,790,628,754,630,717,637,680,644,643,646,607,638,572,628,555,614,537,599,526,582,518"/>
+<area shape="rect" id="Node000041" href="$classgismo_1_1gsDiffScaledOuterNormalField.html" title="Function returning the (unit) outer normal vector scaled by the difference of a target value and valu..." alt="" coords="664,1185,920,1211"/>
+<area shape="poly" id="edge40_Node000040_Node000041" title=" " alt="" coords="630,1195,664,1195,664,1201,630,1201"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gsLagrangePoly&lt; T &gt;" name="gsLagrangePoly&lt; T &gt;">
+<area shape="rect" id="Node000001" title="The geometry class of a Lagrange Polyomial curve." alt="" coords="5,225,168,251"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsGeometry.html" title="Abstract base class representing a geometry map." alt="" coords="27,152,146,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,191,89,225,84,225,84,191"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="21,79,152,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,118,89,152,84,152,84,118"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="11,5,162,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
+</map>

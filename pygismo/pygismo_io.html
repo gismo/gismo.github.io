@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I/O module &mdash; pygismo 25.01.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=4ef8d3b9"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Matrix module" href="pygismo_matrix.html" />
+    <link rel="prev" title="HSplines module" href="pygismo_hsplines.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            pygismo
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                25.01.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="pygismo_core.html">Core module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_hsplines.html">HSplines module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">I/O module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsCmdLine"><code class="docutils literal notranslate"><span class="pre">gsCmdLine</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addMultiInt"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addMultiInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addMultiReal"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addMultiReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addMultiString"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addMultiString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addNewInt"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addNewInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addPlainString"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addPlainString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addReal"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addString"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.addSwitch"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.addSwitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getExceptionHandling"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getExceptionHandling()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getInt"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getMessage"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getMessage()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getMultiString"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getMultiString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getString"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.getValues"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.getValues()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.printVersion"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.printVersion()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.setExceptionHandling"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.setExceptionHandling()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsCmdLine.valid"><code class="docutils literal notranslate"><span class="pre">gsCmdLine.valid()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsFileData"><code class="docutils literal notranslate"><span class="pre">gsFileData</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.add"><code class="docutils literal notranslate"><span class="pre">gsFileData.add()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.addComment"><code class="docutils literal notranslate"><span class="pre">gsFileData.addComment()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.bufferSize"><code class="docutils literal notranslate"><span class="pre">gsFileData.bufferSize()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.clear"><code class="docutils literal notranslate"><span class="pre">gsFileData.clear()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.contents"><code class="docutils literal notranslate"><span class="pre">gsFileData.contents()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.dump"><code class="docutils literal notranslate"><span class="pre">gsFileData.dump()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.getAll"><code class="docutils literal notranslate"><span class="pre">gsFileData.getAll()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.getAnyFirst"><code class="docutils literal notranslate"><span class="pre">gsFileData.getAnyFirst()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.getFloatPrecision"><code class="docutils literal notranslate"><span class="pre">gsFileData.getFloatPrecision()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.getId"><code class="docutils literal notranslate"><span class="pre">gsFileData.getId()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.getMatrix"><code class="docutils literal notranslate"><span class="pre">gsFileData.getMatrix()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.lastPath"><code class="docutils literal notranslate"><span class="pre">gsFileData.lastPath()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.numData"><code class="docutils literal notranslate"><span class="pre">gsFileData.numData()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.numTags"><code class="docutils literal notranslate"><span class="pre">gsFileData.numTags()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.print"><code class="docutils literal notranslate"><span class="pre">gsFileData.print()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.read"><code class="docutils literal notranslate"><span class="pre">gsFileData.read()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.save"><code class="docutils literal notranslate"><span class="pre">gsFileData.save()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.saveCompressed"><code class="docutils literal notranslate"><span class="pre">gsFileData.saveCompressed()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsFileData.setFloatPrecision"><code class="docutils literal notranslate"><span class="pre">gsFileData.setFloatPrecision()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsOptionList"><code class="docutils literal notranslate"><span class="pre">gsOptionList</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addIfUnknown"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addIfUnknown</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addMultiInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addMultiInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addReal"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addString"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.addSwitch"><code class="docutils literal notranslate"><span class="pre">gsOptionList.addSwitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.askInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.askInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.askReal"><code class="docutils literal notranslate"><span class="pre">gsOptionList.askReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.askString"><code class="docutils literal notranslate"><span class="pre">gsOptionList.askString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.askSwitch"><code class="docutils literal notranslate"><span class="pre">gsOptionList.askSwitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.assign"><code class="docutils literal notranslate"><span class="pre">gsOptionList.assign()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getAllEntries"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getAllEntries()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getGroup"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getGroup()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getMultiInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getMultiInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getMultiReal"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getMultiReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getMultiString"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getMultiString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getReal"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getString"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.getSwitch"><code class="docutils literal notranslate"><span class="pre">gsOptionList.getSwitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.hasGlobals"><code class="docutils literal notranslate"><span class="pre">gsOptionList.hasGlobals()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.hasGroup"><code class="docutils literal notranslate"><span class="pre">gsOptionList.hasGroup()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.ignoreIfUnknown"><code class="docutils literal notranslate"><span class="pre">gsOptionList.ignoreIfUnknown</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.print"><code class="docutils literal notranslate"><span class="pre">gsOptionList.print()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.remove"><code class="docutils literal notranslate"><span class="pre">gsOptionList.remove()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.setInt"><code class="docutils literal notranslate"><span class="pre">gsOptionList.setInt()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.setReal"><code class="docutils literal notranslate"><span class="pre">gsOptionList.setReal()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.setString"><code class="docutils literal notranslate"><span class="pre">gsOptionList.setString()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.setSwitch"><code class="docutils literal notranslate"><span class="pre">gsOptionList.setSwitch()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.size"><code class="docutils literal notranslate"><span class="pre">gsOptionList.size()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.swap"><code class="docutils literal notranslate"><span class="pre">gsOptionList.swap()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.update"><code class="docutils literal notranslate"><span class="pre">gsOptionList.update()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.updateType"><code class="docutils literal notranslate"><span class="pre">gsOptionList.updateType</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pygismo.io.gsOptionList.updateType.addIfUnknown"><code class="docutils literal notranslate"><span class="pre">gsOptionList.updateType.addIfUnknown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pygismo.io.gsOptionList.updateType.ignoreIfUnknown"><code class="docutils literal notranslate"><span class="pre">gsOptionList.updateType.ignoreIfUnknown</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pygismo.io.gsOptionList.updateType.name"><code class="docutils literal notranslate"><span class="pre">gsOptionList.updateType.name</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pygismo.io.gsOptionList.updateType.value"><code class="docutils literal notranslate"><span class="pre">gsOptionList.updateType.value</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionList.wrapIntoGroup"><code class="docutils literal notranslate"><span class="pre">gsOptionList.wrapIntoGroup()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry.desc"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry.desc</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry.label"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry.label</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry.print"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry.print()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry.type"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry.type</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pygismo.io.gsOptionListOptionListEntry.val"><code class="docutils literal notranslate"><span class="pre">gsOptionListOptionListEntry.val</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsReadFile"><code class="docutils literal notranslate"><span class="pre">gsReadFile</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsWriteParaview"><code class="docutils literal notranslate"><span class="pre">gsWriteParaview()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pygismo.io.gsWriteParaviewPoints"><code class="docutils literal notranslate"><span class="pre">gsWriteParaviewPoints()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_matrix.html">Matrix module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_modelling.html">Modelling module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_msplines.html">Mapped Splines module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_nurbs.html">NURBS module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pygismo_pde.html">PDE module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pygismo</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">I/O module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/pygismo_io.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-pygismo.io">
+<span id="i-o-module"></span><h1>I/O module<a class="headerlink" href="#module-pygismo.io" title="Link to this heading"></a></h1>
+<p>G+Smo (Geometry + Simulation Modules): IO module</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsCmdLine</span></span><a class="headerlink" href="#pygismo.io.gsCmdLine" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addMultiInt">
+<span class="sig-name descname"><span class="pre">addMultiInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addMultiInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addMultiReal">
+<span class="sig-name descname"><span class="pre">addMultiReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addMultiReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addMultiString">
+<span class="sig-name descname"><span class="pre">addMultiString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addMultiString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addNewInt">
+<span class="sig-name descname"><span class="pre">addNewInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addNewInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addPlainString">
+<span class="sig-name descname"><span class="pre">addPlainString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addPlainString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addReal">
+<span class="sig-name descname"><span class="pre">addReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addString">
+<span class="sig-name descname"><span class="pre">addString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.addString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.addSwitch">
+<span class="sig-name descname"><span class="pre">addSwitch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsCmdLine.addSwitch" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>addSwitch(self: pygismo.io.gsCmdLine, arg0: str, arg1: str, arg2: str, arg3: bool) -&gt; None</p></li>
+<li><p>addSwitch(self: pygismo.io.gsCmdLine, arg0: str, arg1: str, arg2: bool) -&gt; None</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getExceptionHandling">
+<span class="sig-name descname"><span class="pre">getExceptionHandling</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getExceptionHandling" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getInt">
+<span class="sig-name descname"><span class="pre">getInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getMessage">
+<span class="sig-name descname"><span class="pre">getMessage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getMessage" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getMultiString">
+<span class="sig-name descname"><span class="pre">getMultiString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getMultiString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getString">
+<span class="sig-name descname"><span class="pre">getString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.getValues">
+<span class="sig-name descname"><span class="pre">getValues</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.getValues" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.printVersion">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">printVersion</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.printVersion" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.setExceptionHandling">
+<span class="sig-name descname"><span class="pre">setExceptionHandling</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.setExceptionHandling" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsCmdLine.valid">
+<span class="sig-name descname"><span class="pre">valid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsCmdLine" title="pygismo.io.gsCmdLine"><span class="pre">pygismo.io.gsCmdLine</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsCmdLine.valid" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsFileData</span></span><a class="headerlink" href="#pygismo.io.gsFileData" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.add">
+<span class="sig-name descname"><span class="pre">add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsFileData.add" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>add(self: pygismo.io.gsFileData, object: pygismo.core.gsMultiPatch, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsMultiPatch to the filedata.</p>
+<ol class="arabic simple" start="2">
+<li><p>add(self: pygismo.io.gsFileData, object: pygismo.core.gsMultiBasis, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsMultiBasis to the filedata.</p>
+<ol class="arabic simple" start="3">
+<li><p>add(self: pygismo.io.gsFileData, object: gismo::gsBSpline&lt;double&gt;, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsBSpline to the filedata.</p>
+<ol class="arabic simple" start="4">
+<li><p>add(self: pygismo.io.gsFileData, object: gismo::gsTensorBSpline&lt;2, double&gt;, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsTensorBSpline to the filedata.</p>
+<ol class="arabic simple" start="5">
+<li><p>add(self: pygismo.io.gsFileData, object: gismo::gsBoundaryConditions&lt;double&gt;, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsBoundaryConditions to the filedata.</p>
+<ol class="arabic simple" start="6">
+<li><p>add(self: pygismo.io.gsFileData, object: pygismo.core.gsFunctionExpr, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsFunctionExpr to the filedata.</p>
+<ol class="arabic simple" start="7">
+<li><p>add(self: pygismo.io.gsFileData, object: gismo::gsOptionList, id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsOptionList to the filedata.</p>
+<ol class="arabic simple" start="8">
+<li><p>add(self: pygismo.io.gsFileData, object: numpy.ndarray[numpy.float64[m, n]], id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsMatrix to the filedata.</p>
+<ol class="arabic simple" start="9">
+<li><p>add(self: pygismo.io.gsFileData, object: scipy.sparse.csc_matrix[numpy.float64], id: int = -1) -&gt; None</p></li>
+</ol>
+<p>Add gsSparseMatrix to the filedata.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.addComment">
+<span class="sig-name descname"><span class="pre">addComment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.addComment" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.bufferSize">
+<span class="sig-name descname"><span class="pre">bufferSize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.bufferSize" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.clear">
+<span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.clear" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.contents">
+<span class="sig-name descname"><span class="pre">contents</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.contents" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.dump">
+<span class="sig-name descname"><span class="pre">dump</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'dump'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.dump" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.getAll">
+<span class="sig-name descname"><span class="pre">getAll</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="pygismo_core.html#pygismo.core.gsGeometry" title="pygismo.core.gsGeometry"><span class="pre">pygismo.core.gsGeometry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.getAll" title="Link to this definition"></a></dt>
+<dd><p>Get gsGeometry to the filedata.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.getAnyFirst">
+<span class="sig-name descname"><span class="pre">getAnyFirst</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="pygismo_core.html#pygismo.core.gsMultiPatch" title="pygismo.core.gsMultiPatch"><span class="pre">pygismo.core.gsMultiPatch</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.getAnyFirst" title="Link to this definition"></a></dt>
+<dd><p>Get gsMultiPatch to the filedata.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.getFloatPrecision">
+<span class="sig-name descname"><span class="pre">getFloatPrecision</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.getFloatPrecision" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.getId">
+<span class="sig-name descname"><span class="pre">getId</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsFileData.getId" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: pygismo.core.gsMultiPatch) -&gt; None</p></li>
+</ol>
+<p>Gets a gsMultiPatch by id</p>
+<ol class="arabic simple" start="2">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: pygismo.core.gsGeometry) -&gt; None</p></li>
+</ol>
+<p>Gets a gsGeometry by id</p>
+<ol class="arabic simple" start="3">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsBSpline&lt;double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsBSpline by id</p>
+<ol class="arabic simple" start="4">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSpline&lt;2, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="5">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSpline&lt;3, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="6">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSpline&lt;4, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="7">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsBSplineBasis&lt;double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsBSplineBasis by id</p>
+<ol class="arabic simple" start="8">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSplineBasis&lt;2, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+<ol class="arabic simple" start="9">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSplineBasis&lt;3, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+<ol class="arabic simple" start="10">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int, arg1: gismo::gsTensorBSplineBasis&lt;4, double&gt;) -&gt; None</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+<ol class="arabic simple" start="11">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; pygismo.core.gsMultiPatch</p></li>
+</ol>
+<p>Gets a gsMultiPatch by id</p>
+<ol class="arabic simple" start="12">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; pygismo.core.gsGeometry</p></li>
+</ol>
+<p>Gets a gsGeometry by id</p>
+<ol class="arabic simple" start="13">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsBSpline&lt;double&gt;</p></li>
+</ol>
+<p>Gets a gsBSpline by id</p>
+<ol class="arabic simple" start="14">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSpline&lt;2, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="15">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSpline&lt;3, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="16">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSpline&lt;4, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSpline by id</p>
+<ol class="arabic simple" start="17">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsBSplineBasis&lt;double&gt;</p></li>
+</ol>
+<p>Gets a gsBSplineBasis by id</p>
+<ol class="arabic simple" start="18">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSplineBasis&lt;2, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+<ol class="arabic simple" start="19">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSplineBasis&lt;3, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+<ol class="arabic simple" start="20">
+<li><p>getId(self: pygismo.io.gsFileData, arg0: int) -&gt; gismo::gsTensorBSplineBasis&lt;4, double&gt;</p></li>
+</ol>
+<p>Gets a gsTensorBSplineBasis by id</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.getMatrix">
+<span class="sig-name descname"><span class="pre">getMatrix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">numpy.ndarray</span><span class="p"><span class="pre">[</span></span><span class="pre">numpy.float64</span><span class="p"><span class="pre">[</span></span><span class="pre">m</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">n</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.getMatrix" title="Link to this definition"></a></dt>
+<dd><p>Get any first gsMatrix.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.lastPath">
+<span class="sig-name descname"><span class="pre">lastPath</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.lastPath" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.numData">
+<span class="sig-name descname"><span class="pre">numData</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.numData" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.numTags">
+<span class="sig-name descname"><span class="pre">numTags</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.numTags" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.print">
+<span class="sig-name descname"><span class="pre">print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self:</span> <span class="pre">pygismo.io.gsFileData</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0:</span> <span class="pre">std::ostream</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">std::ostream</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.print" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.read" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.save">
+<span class="sig-name descname"><span class="pre">save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'dump'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">compress</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.save" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.saveCompressed">
+<span class="sig-name descname"><span class="pre">saveCompressed</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'dump'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.saveCompressed" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsFileData.setFloatPrecision">
+<span class="sig-name descname"><span class="pre">setFloatPrecision</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsFileData" title="pygismo.io.gsFileData"><span class="pre">pygismo.io.gsFileData</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsFileData.setFloatPrecision" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsOptionList</span></span><a class="headerlink" href="#pygismo.io.gsOptionList" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addIfUnknown">
+<span class="sig-name descname"><span class="pre">addIfUnknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;updateType.addIfUnknown:</span> <span class="pre">1&gt;</span></em><a class="headerlink" href="#pygismo.io.gsOptionList.addIfUnknown" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addInt">
+<span class="sig-name descname"><span class="pre">addInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.addInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addMultiInt">
+<span class="sig-name descname"><span class="pre">addMultiInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.addMultiInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addReal">
+<span class="sig-name descname"><span class="pre">addReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.addReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addString">
+<span class="sig-name descname"><span class="pre">addString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.addString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.addSwitch">
+<span class="sig-name descname"><span class="pre">addSwitch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.addSwitch" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.askInt">
+<span class="sig-name descname"><span class="pre">askInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionList.askInt" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>askInt(self: pygismo.io.gsOptionList, arg0: str) -&gt; str</p></li>
+<li><p>askInt(self: pygismo.io.gsOptionList, arg0: str, arg1: int) -&gt; str</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.askReal">
+<span class="sig-name descname"><span class="pre">askReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionList.askReal" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>askReal(self: pygismo.io.gsOptionList, arg0: str) -&gt; str</p></li>
+<li><p>askReal(self: pygismo.io.gsOptionList, arg0: str, arg1: float) -&gt; str</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.askString">
+<span class="sig-name descname"><span class="pre">askString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionList.askString" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>askString(self: pygismo.io.gsOptionList, arg0: str) -&gt; str</p></li>
+<li><p>askString(self: pygismo.io.gsOptionList, arg0: str, arg1: str) -&gt; str</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.askSwitch">
+<span class="sig-name descname"><span class="pre">askSwitch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionList.askSwitch" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>askSwitch(self: pygismo.io.gsOptionList, arg0: str) -&gt; str</p></li>
+<li><p>askSwitch(self: pygismo.io.gsOptionList, arg0: str, arg1: bool) -&gt; str</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.assign">
+<span class="sig-name descname"><span class="pre">assign</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.assign" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getAllEntries">
+<span class="sig-name descname"><span class="pre">getAllEntries</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List[gismo::gsOptionList::OptionListEntry]</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getAllEntries" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getGroup">
+<span class="sig-name descname"><span class="pre">getGroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getGroup" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getInt">
+<span class="sig-name descname"><span class="pre">getInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getMultiInt">
+<span class="sig-name descname"><span class="pre">getMultiInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getMultiInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getMultiReal">
+<span class="sig-name descname"><span class="pre">getMultiReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getMultiReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getMultiString">
+<span class="sig-name descname"><span class="pre">getMultiString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getMultiString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getReal">
+<span class="sig-name descname"><span class="pre">getReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getString">
+<span class="sig-name descname"><span class="pre">getString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.getSwitch">
+<span class="sig-name descname"><span class="pre">getSwitch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.getSwitch" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.hasGlobals">
+<span class="sig-name descname"><span class="pre">hasGlobals</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.hasGlobals" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.hasGroup">
+<span class="sig-name descname"><span class="pre">hasGroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.hasGroup" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.ignoreIfUnknown">
+<span class="sig-name descname"><span class="pre">ignoreIfUnknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;updateType.ignoreIfUnknown:</span> <span class="pre">0&gt;</span></em><a class="headerlink" href="#pygismo.io.gsOptionList.ignoreIfUnknown" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.print">
+<span class="sig-name descname"><span class="pre">print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self:</span> <span class="pre">pygismo.io.gsOptionList</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0:</span> <span class="pre">std::ostream</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">std::ostream</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.print" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.remove">
+<span class="sig-name descname"><span class="pre">remove</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.remove" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.setInt">
+<span class="sig-name descname"><span class="pre">setInt</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.setInt" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.setReal">
+<span class="sig-name descname"><span class="pre">setReal</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.setReal" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.setString">
+<span class="sig-name descname"><span class="pre">setString</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.setString" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.setSwitch">
+<span class="sig-name descname"><span class="pre">setSwitch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.setSwitch" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.size">
+<span class="sig-name descname"><span class="pre">size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.size" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.swap">
+<span class="sig-name descname"><span class="pre">swap</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.swap" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.update">
+<span class="sig-name descname"><span class="pre">update</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionList.update" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>update(self: pygismo.io.gsOptionList, arg0: pygismo.io.gsOptionList) -&gt; None</p></li>
+<li><p>update(self: pygismo.io.gsOptionList, arg0: pygismo.io.gsOptionList, arg1: gismo::gsOptionList::updateType) -&gt; None</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.updateType">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">updateType</span></span><a class="headerlink" href="#pygismo.io.gsOptionList.updateType" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<p>Members:</p>
+<p>ignoreIfUnknown</p>
+<p>addIfUnknown</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.updateType.addIfUnknown">
+<span class="sig-name descname"><span class="pre">addIfUnknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;updateType.addIfUnknown:</span> <span class="pre">1&gt;</span></em><a class="headerlink" href="#pygismo.io.gsOptionList.updateType.addIfUnknown" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.updateType.ignoreIfUnknown">
+<span class="sig-name descname"><span class="pre">ignoreIfUnknown</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;updateType.ignoreIfUnknown:</span> <span class="pre">0&gt;</span></em><a class="headerlink" href="#pygismo.io.gsOptionList.updateType.ignoreIfUnknown" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.updateType.name">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#pygismo.io.gsOptionList.updateType.name" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.updateType.value">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">value</span></span><a class="headerlink" href="#pygismo.io.gsOptionList.updateType.value" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionList.wrapIntoGroup">
+<span class="sig-name descname"><span class="pre">wrapIntoGroup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">arg0</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pygismo.io.gsOptionList" title="pygismo.io.gsOptionList"><span class="pre">pygismo.io.gsOptionList</span></a></span></span><a class="headerlink" href="#pygismo.io.gsOptionList.wrapIntoGroup" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsOptionListOptionListEntry</span></span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry.desc">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">desc</span></span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry.desc" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry.label">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">label</span></span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry.label" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry.print">
+<span class="sig-name descname"><span class="pre">print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry.print" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>print(self: pygismo.io.gsOptionListOptionListEntry, arg0: std::ostream) -&gt; std::ostream</p></li>
+<li><p>print(self: pygismo.io.gsOptionListOptionListEntry, arg0: std::ostream, arg1: int) -&gt; std::ostream</p></li>
+</ol>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry.type">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry.type" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pygismo.io.gsOptionListOptionListEntry.val">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">val</span></span><a class="headerlink" href="#pygismo.io.gsOptionListOptionListEntry.val" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pygismo.io.gsReadFile">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsReadFile</span></span><a class="headerlink" href="#pygismo.io.gsReadFile" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pybind11_object</span></code></p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pygismo.io.gsWriteParaview">
+<span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsWriteParaview</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsWriteParaview" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>gsWriteParaview(Geo: pygismo.core.gsGeometry, fn: str, npts: int = 1000, mesh: bool = False, ctrlNet: bool = False) -&gt; None</p></li>
+</ol>
+<p>Writes a geometry to Paraview</p>
+<ol class="arabic simple" start="2">
+<li><p>gsWriteParaview(basis: pygismo.core.gsBasis, fn: str, npts: int = 1000, mesh: bool = False) -&gt; None</p></li>
+</ol>
+<p>Writes a basis to Paraview</p>
+<ol class="arabic simple" start="3">
+<li><p>gsWriteParaview(fun: pygismo.core.gsFunctionSet, fn: str, npts: int = 1000) -&gt; None</p></li>
+</ol>
+<p>Writes a geometry to Paraview</p>
+<ol class="arabic simple" start="4">
+<li><p>gsWriteParaview(geo: pygismo.core.gsFunctionSet, func: pygismo.core.gsFunctionSet, fn: str, npts: int = 1000, pDelim: str = ‘’) -&gt; None</p></li>
+</ol>
+<p>Writes a geometry to Paraview</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="pygismo.io.gsWriteParaviewPoints">
+<span class="sig-prename descclassname"><span class="pre">pygismo.io.</span></span><span class="sig-name descname"><span class="pre">gsWriteParaviewPoints</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pygismo.io.gsWriteParaviewPoints" title="Link to this definition"></a></dt>
+<dd><p>Overloaded function.</p>
+<ol class="arabic simple">
+<li><p>gsWriteParaviewPoints(arg0: numpy.ndarray[numpy.float64[m, n]], arg1: numpy.ndarray[numpy.float64[m, n]], arg2: str) -&gt; None</p></li>
+</ol>
+<p>Writes points to Paraview</p>
+<ol class="arabic simple" start="2">
+<li><p>gsWriteParaviewPoints(arg0: numpy.ndarray[numpy.float64[m, n]], arg1: numpy.ndarray[numpy.float64[m, n]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: str) -&gt; None</p></li>
+</ol>
+<p>Writes points to Paraview</p>
+<ol class="arabic simple" start="3">
+<li><p>gsWriteParaviewPoints(arg0: numpy.ndarray[numpy.float64[m, n]], arg1: numpy.ndarray[numpy.float64[m, n]], arg2: numpy.ndarray[numpy.float64[m, n]], arg3: numpy.ndarray[numpy.float64[m, n]], arg4: str) -&gt; None</p></li>
+</ol>
+<p>Writes points to Paraview</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="pygismo_hsplines.html" class="btn btn-neutral float-left" title="HSplines module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pygismo_matrix.html" class="btn btn-neutral float-right" title="Matrix module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+      <span class="lastupdated">Last updated on Jan 16, 2025.
+      </span></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

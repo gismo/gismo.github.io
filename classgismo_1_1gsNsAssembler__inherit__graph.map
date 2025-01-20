@@ -1,0 +1,7 @@
+<map id="gsNsAssembler&lt; T &gt;" name="gsNsAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="TODO: write." alt="" coords="13,152,174,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver...." alt="" coords="5,79,181,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,118,96,152,91,152,91,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="21,5,165,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,44,96,79,91,79,91,44"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="gsINSPrecondBlock&lt; T &gt;" name="gsINSPrecondBlock&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A base class for individual blocks of block preconditioners." alt="" coords="225,77,411,102"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsINSPrecondBlockF.html" title="Class for block F of block preconditioner of the form." alt="" coords="488,5,643,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="380,71,487,43,488,48,382,76"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsINSPrecondBlockFwhole.html" title="Class for block F of block preconditioner of the form." alt="" coords="468,69,663,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="424,87,468,87,468,92,424,92"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsINSPrecondBlockMod.html" title="Base class for block F of (modified) block preconditioner of the form." alt="" coords="459,134,672,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="388,103,510,131,509,137,386,108"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsLinearOperator.html" title="Simple abstract class for discrete operators." alt="" coords="5,77,177,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,87,225,87,225,92,191,92"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsINSPrecondBlockFdiag.html" title="Base class for block F of block preconditioner of the form." alt="" coords="721,95,903,135"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="676,130,720,124,721,129,677,135"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsINSPrecondBlockFmod.html" title="Base class for block F of (modified) block preconditioner of the form." alt="" coords="720,159,904,199"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="677,159,720,164,720,169,677,164"/>
+</map>

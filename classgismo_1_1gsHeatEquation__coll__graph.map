@@ -1,0 +1,18 @@
+<map id="gsHeatEquation&lt; T &gt;" name="gsHeatEquation&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Constructs the assembler for the discretized isogeometric heat equation." alt="" coords="247,419,409,444"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="181,344,325,369"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,377,318,416,314,420,273,381"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="42,256,145,281"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,286,176,318,227,342,224,346,173,322,120,291"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSparseSystem.html" title=" " alt="" coords="169,256,337,281"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="256,295,256,343,251,343,251,295"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="327,95,489,120"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="406,134,387,233,358,341,334,419,329,418,352,340,381,231,401,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="344,128,318,146,304,166,300,186,296,208,286,233,267,257,263,254,282,231,291,207,294,185,299,164,314,142,341,123"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,95,123,120"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="81,130,119,179,144,206,172,230,218,253,216,258,169,234,141,210,115,183,77,133"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="147,95,303,120"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="225,134,225,180,233,231,246,254,241,257,228,233,219,180,220,134"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="147,5,303,45"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="228,59,228,94,223,94,223,59"/>
+</map>

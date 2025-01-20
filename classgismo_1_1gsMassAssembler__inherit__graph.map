@@ -1,0 +1,7 @@
+<map id="gsMassAssembler&lt; T &gt;" name="gsMassAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Assembles the mass matrix and right&#45;hand side vector for linear and nonlinear elasticity for 2D plain..." alt="" coords="5,152,184,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver...." alt="" coords="7,79,183,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,118,97,152,92,152,92,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="23,5,167,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,44,97,79,92,79,92,44"/>
+</map>

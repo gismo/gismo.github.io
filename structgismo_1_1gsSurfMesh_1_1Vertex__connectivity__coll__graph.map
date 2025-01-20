@@ -1,0 +1,7 @@
+<map id="gsSurfMesh::Vertex_connectivity" name="gsSurfMesh::Vertex_connectivity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,168,153,208"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1gsSurfMesh_1_1Halfedge.html" title=" " alt="" coords="39,80,120,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,119,82,168,77,168,77,119"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsSurfMesh_1_1Base__handle.html" title=" " alt="" coords="27,5,132,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,45,82,80,77,80,77,45"/>
+</map>

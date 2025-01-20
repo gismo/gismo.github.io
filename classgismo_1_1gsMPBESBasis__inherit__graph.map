@@ -1,0 +1,7 @@
+<map id="gsMPBESBasis&lt; d, T &gt;" name="gsMPBESBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Purely abstract class gsMappedBasis, which gives means of combining basis functions to new,..." alt="" coords="98,5,269,31"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMPBESBSplineBasis.html" title="A univariate Lagrange basis." alt="" coords="5,79,172,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,41,113,81,110,76,157,37"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMPBESHSplineBasis.html" title="A univariate Lagrange basis." alt="" coords="196,79,363,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,37,258,76,254,81,206,41"/>
+</map>

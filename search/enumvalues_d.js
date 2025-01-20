@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['need_5f2nd_5ffform_0',['NEED_2ND_FFORM',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabceafa9b7ca2d8171a34ae9a4272bbdcf775',1,'gismo']]],
+  ['need_5factive_1',['NEED_ACTIVE',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabceabe6a7ce50e41d5d7d782a4105995a9ee',1,'gismo']]],
+  ['need_5fcurl_2',['NEED_CURL',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea07329ede7c6bcf3eee45eab7578de07b',1,'gismo']]],
+  ['need_5fderiv_3',['NEED_DERIV',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea5b35568617bd3519bc8a500c802594ae',1,'gismo']]],
+  ['need_5fderiv2_4',['NEED_DERIV2',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea3deaaeb3fff3322eda2d7d73d6f066b9',1,'gismo']]],
+  ['need_5fdiv_5',['NEED_DIV',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea8e71b4dd832873325821e2a4be6bbd15',1,'gismo']]],
+  ['need_5fgrad_5ftransform_6',['NEED_GRAD_TRANSFORM',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea87cea55c69c658f9aa425dfd003cf594',1,'gismo']]],
+  ['need_5fhessian_7',['NEED_HESSIAN',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea20463f82225ac2557c3abb5a27199329',1,'gismo']]],
+  ['need_5fjacobian_8',['NEED_JACOBIAN',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea761472ca3276132dc362046f0dc18b54',1,'gismo']]],
+  ['need_5flaplacian_9',['NEED_LAPLACIAN',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea018a912df54ec16ed897fa99b2cf4904',1,'gismo']]],
+  ['need_5fmeasure_10',['NEED_MEASURE',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabceaa65069efca84fdcb3f92de1fe3fbc010',1,'gismo']]],
+  ['need_5fnormal_11',['NEED_NORMAL',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea95e31d8f6ddc14dbd17a78de6b55296e',1,'gismo']]],
+  ['need_5fouter_5fnormal_12',['NEED_OUTER_NORMAL',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabceab8746b40a486515ba1927ae32dbab096',1,'gismo']]],
+  ['need_5fvalue_13',['NEED_VALUE',['../namespacegismo.html#a7bd29d9d0446a00cc69062679dcdabcea31743fa9b43c252caa67ecec7ef7f5f7',1,'gismo']]],
+  ['neo_5fhooke_5fln_14',['neo_hooke_ln',['../structgismo_1_1material__law.html#ab3fed296830f924db8afe5aeac4904cea3f8bb8dc2c4bbf3a33869efa48b54033',1,'gismo::material_law']]],
+  ['neo_5fhooke_5fquad_15',['neo_hooke_quad',['../structgismo_1_1material__law.html#ab3fed296830f924db8afe5aeac4904cea2b4d22394c9f106dfd348ead92c7e7e5',1,'gismo::material_law']]],
+  ['neumann_16',['neumann',['../structgismo_1_1trilinos_1_1solver_1_1AztecPreconds.html#a1e8054db89feba236b2235d16d0bd1ada2d800ee9173ede696b1d91d5b665d5b3',1,'gismo::trilinos::solver::AztecPreconds::Neumann'],['../structgismo_1_1condition__type.html#a7aead736a07eaf25623ad7bfa1f0ee2da8e855db37d5c0fbd8eda96b2f51b8b20',1,'gismo::condition_type::neumann']]],
+  ['neveraffine_17',['neverAffine',['../classgismo_1_1gsRemapInterface.html#adf764cbdea00d65edcd07bb9953ad2b7a743d498e76aeaa2127534c589fe13334',1,'gismo::gsRemapInterface']]],
+  ['newton_5fnext_18',['newton_next',['../structgismo_1_1ns__assembly.html#a7aead736a07eaf25623ad7bfa1f0ee2daa6eea85fdf0780aea9aed79a0d967b9f',1,'gismo::ns_assembly']]],
+  ['newton_5fupdate_19',['newton_update',['../structgismo_1_1ns__assembly.html#a7aead736a07eaf25623ad7bfa1f0ee2daa930da35ecabd9d9056ae890834f1922',1,'gismo::ns_assembly']]],
+  ['next_20',['next',['../structgismo_1_1iteration__type.html#a7aead736a07eaf25623ad7bfa1f0ee2da4519d7e9526e5ae11b7905e7976ea5ec',1,'gismo::iteration_type']]],
+  ['none_21',['none',['../structgismo_1_1stabilizerCDR.html#abed946c62f140eb7ff2ac742e6ad9497ab7e4e0120a041dbe6528b050c04269e0',1,'gismo::stabilizerCDR::none'],['../structgismo_1_1trilinos_1_1solver_1_1AztecPreconds.html#a1e8054db89feba236b2235d16d0bd1adac9d3e887722f2bc482bcca9d41c512af',1,'gismo::trilinos::solver::AztecPreconds::None']]],
+  ['normal_5f3d_5fvector_22',['normal_3D_vector',['../structgismo_1_1stress__components.html#a34a2c423b3ea385bdb64e0dbba3f901ba42d72b43c83940d75b1201ccc951e93e',1,'gismo::stress_components']]],
+  ['notconverged_23',['NotConverged',['../namespacegismo.html#a0d8f9e2df53cb03bf5fc3e25ba77f208adbbde5ea220b09db210c62e8926a02c5',1,'gismo']]],
+  ['notstarted_24',['NotStarted',['../namespacegismo.html#a0d8f9e2df53cb03bf5fc3e25ba77f208afa7be7845bc42b3491d9d0377958be94',1,'gismo']]]
+];

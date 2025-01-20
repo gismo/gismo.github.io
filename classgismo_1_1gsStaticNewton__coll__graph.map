@@ -1,0 +1,16 @@
+<map id="gsStaticNewton&lt; T &gt;" name="gsStaticNewton&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Static solver using a newton method." alt="" coords="345,329,507,355"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsStaticBase.html" title="Base class for static solvers." alt="" coords="187,241,331,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,271,405,327,402,331,293,275"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="5,95,108,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,132,91,175,108,197,128,215,156,231,188,241,186,246,154,236,124,219,104,200,87,178,63,134"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="343,95,459,120"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="408,133,410,144,422,251,428,329,423,329,417,252,405,144,403,134"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="340,127,312,146,299,163,294,179,290,197,282,218,269,242,264,240,277,216,285,195,288,177,294,160,308,142,337,123"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="323,5,479,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="403,59,403,94,398,94,398,59"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSparseSolver.html" title=" " alt="" coords="133,95,293,120"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="210,134,207,174,209,196,216,216,226,229,239,239,235,243,222,233,212,219,204,197,202,174,204,133"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="508,241,669,267"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="556,275,449,331,447,327,554,271"/>
+</map>

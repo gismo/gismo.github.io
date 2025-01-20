@@ -1,0 +1,5 @@
+<map id="gsOverlapCompare&lt; d, T &gt;" name="gsOverlapCompare&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Checks if the coarsening neighborhood of a box is empty and if it overlaps with a refinement mask." alt="" coords="5,79,207,104"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsHBoxCheck.html" title="Base class for performing checks on gsHBox objects." alt="" coords="23,5,189,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,109,79,103,79,103,44"/>
+</map>

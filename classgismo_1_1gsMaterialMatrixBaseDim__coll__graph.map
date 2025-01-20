@@ -1,0 +1,7 @@
+<map id="gsMaterialMatrixBaseDim&lt; dim, T &gt;" name="gsMaterialMatrixBaseDim&lt; dim, T &gt;">
+<area shape="rect" id="Node000001" title="This class defines the base class for material matrices." alt="" coords="11,168,203,208"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMaterialMatrixBase.html" title="This class defines the base class for material matrices." alt="" coords="5,93,208,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,132,109,168,104,168,104,132"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="55,5,158,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,45,109,93,104,93,104,45"/>
+</map>

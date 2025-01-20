@@ -1,0 +1,35 @@
+<map id="gsGeometry&lt; T &gt;" name="gsGeometry&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Abstract base class representing a geometry map." alt="" coords="383,342,523,367"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsTensorBSpline.html" title=" " alt="" coords="571,5,789,45"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="454,328,463,272,483,198,498,160,517,122,541,86,569,55,586,43,589,48,572,59,545,90,522,124,503,162,488,200,469,273,459,329"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsBSpline.html" title="A B&#45;spline function of one argument, with arbitrary target dimension." alt="" coords="618,70,742,95"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="456,328,467,280,489,219,522,157,543,129,569,105,592,91,617,84,619,89,594,96,572,109,547,133,526,160,494,221,473,282,461,329"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsBulk.html" title="Abstract base class representing a 4D bulk." alt="" coords="628,119,732,145"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="459,328,474,289,497,241,528,194,569,154,597,140,627,132,628,137,599,145,572,158,532,197,501,244,479,291,464,330"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsConstantFunction.html" title="Class defining a globally constant function." alt="" coords="586,169,774,194"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="464,328,505,265,534,231,569,203,593,192,595,197,572,208,538,235,509,268,469,331"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsCurve.html" title="Abstract base class representing a curve." alt="" coords="623,218,737,243"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="472,330,514,290,541,269,569,252,596,242,622,235,624,240,597,247,572,257,544,274,518,294,476,334"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsHBSpline.html" title="A hierarchical B&#45;Spline function, in d dimensions." alt="" coords="605,267,755,293"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="491,334,570,301,611,290,613,295,572,307,493,339"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsLagrangePoly.html" title="The geometry class of a Lagrange Polyomial curve." alt="" coords="599,317,761,342"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="537,343,598,336,599,341,537,348"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsNurbs.html" title="A NURBS function of one argument, with arbitrary target dimension." alt="" coords="623,366,737,391"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="537,361,623,370,623,375,536,366"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsRationalTHBSpline.html" title="A rational truncated hierarchical B&#45;Spline function of parametric dimension d, with arbitrary target ..." alt="" coords="601,416,759,456"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="495,371,572,401,608,413,606,418,570,407,493,375"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsSurface.html" title="Abstract base class representing a surface." alt="" coords="618,481,742,506"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="474,376,515,423,542,446,572,466,619,483,617,488,569,470,539,450,512,426,470,380"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsTHBSpline.html" title="A truncated hierarchical B&#45;Spline function, in d dimensions." alt="" coords="601,530,759,555"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="467,379,483,411,506,448,536,486,572,516,601,530,599,535,569,521,532,489,502,451,479,413,462,381"/>
+<area shape="rect" id="Node000015" href="$classgismo_1_1gsTensorBSpline.html" title="A tensor product of d B&#45;spline functions, with arbitrary target dimension." alt="" coords="589,579,771,605"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="463,380,477,421,499,472,530,523,550,546,572,566,592,577,589,582,569,570,546,550,526,526,494,475,472,423,458,381"/>
+<area shape="rect" id="Node000016" href="$classgismo_1_1gsTensorNurbs.html" title="A tensor product Non&#45;Uniform Rational B&#45;spline function (NURBS) of parametric dimension d,..." alt="" coords="595,629,765,654"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="460,380,471,431,492,495,525,560,546,590,572,615,596,629,593,633,569,619,542,593,520,563,487,497,466,432,455,381"/>
+<area shape="rect" id="Node000017" href="$classgismo_1_1gsVolume.html" title="Provides declaration of Volume abstract interface." alt="" coords="618,678,742,703"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="458,381,466,440,485,517,500,558,519,597,543,633,572,665,594,678,619,685,617,690,592,683,569,669,539,637,514,600,495,560,480,519,461,441,453,381"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="204,342,335,367"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="348,352,382,352,382,357,348,357"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,342,156,367"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="170,352,204,352,204,357,170,357"/>
+</map>

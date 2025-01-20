@@ -1,0 +1,9 @@
+<map id="gsPrimalSystem&lt; T &gt;" name="gsPrimalSystem&lt; T &gt;">
+<area shape="rect" id="Node000001" title="This class represents the primal system for a IETI&#45;DP algorithm." alt="" coords="177,108,344,133"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="5,5,156,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,52,157,82,217,105,215,110,154,86,111,57"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="180,13,341,38"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,52,263,108,258,108,258,52"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="366,13,483,38"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="408,50,388,69,365,86,337,100,308,110,306,105,334,95,362,82,385,65,404,46"/>
+</map>

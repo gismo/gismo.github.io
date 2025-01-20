@@ -1,0 +1,9 @@
+<map id="gsFlowLinSystSolver&lt; T, MatOrder &gt;" name="gsFlowLinSystSolver&lt; T, MatOrder &gt;">
+<area shape="rect" id="Node000001" title="Interface for classes solving linear systems inside the incompressible flow solvers (classes derived ..." alt="" coords="5,41,161,81"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFlowLinSystSolver__direct.html" title="Direct solver for linear systems inside the incompressible flow solvers (classes derived from gsFlowS..." alt="" coords="209,5,383,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,43,209,37,210,43,175,48"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFlowLinSystSolver__iter.html" title="G+Smo/Eigen iterative solver for linear systems inside the incompressible flow solvers (classes deriv..." alt="" coords="218,70,374,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,74,218,82,217,87,175,79"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFlowLinSystSolver__iterSP.html" title="G+Smo/Eigen iterative solver for saddle&#45;point linear systems inside the incompressible flow solvers (..." alt="" coords="431,70,593,125"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="388,95,431,95,431,100,388,100"/>
+</map>

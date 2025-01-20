@@ -1,0 +1,14 @@
+<map id="gsStaticDR&lt; T &gt;" name="gsStaticDR&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Static solver using the Dynamic Relaxation method." alt="" coords="301,364,431,389"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsStaticBase.html" title="Base class for static solvers." alt="" coords="187,265,331,291"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,298,355,362,352,366,281,302"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="5,95,108,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="70,131,94,174,110,196,129,215,174,244,220,263,218,268,171,249,126,219,106,199,89,177,65,134"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="343,95,459,120"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="409,133,410,144,413,181,410,218,392,302,373,364,368,363,387,301,405,217,407,181,405,144,403,134"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="339,127,312,146,290,197,266,266,261,264,285,195,308,142,336,123"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="323,5,479,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="403,59,403,94,398,94,398,59"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSparseSolver.html" title=" " alt="" coords="133,95,293,120"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="211,134,209,174,217,216,231,243,249,264,245,267,227,246,211,218,204,174,206,134"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="gsAffineFunction&lt; T &gt;" name="gsAffineFunction&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Representation of an affine function." alt="" coords="145,212,313,237"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="15,95,146,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,126,216,210,212,214,105,131"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,13,156,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,52,83,95,78,95,78,52"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="170,95,287,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,133,231,212,226,212,226,133"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="312,95,428,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="353,132,326,161,293,190,254,214,251,209,290,186,322,157,349,129"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="292,5,448,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="373,59,373,94,367,94,367,59"/>
+</map>

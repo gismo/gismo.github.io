@@ -1,0 +1,9 @@
+<map id="gsStokesPde&lt; T &gt;" name="gsStokesPde&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A stationary Stokes PDE." alt="" coords="135,79,278,104"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsNavStokesPde.html" title=" " alt="" coords="5,152,203,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,114,122,154,119,150,177,110"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsNavStokesPde.html" title="An incompressible Navier&#45;Stokes PDE." alt="" coords="227,152,395,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="236,110,295,150,292,154,233,114"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPde.html" title="Abstract class representing a PDE (partial differential equation)." alt="" coords="157,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,44,209,79,204,79,204,44"/>
+</map>

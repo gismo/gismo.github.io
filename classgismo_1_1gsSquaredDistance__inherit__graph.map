@@ -1,0 +1,7 @@
+<map id="gsSquaredDistance&lt; T &gt;" name="gsSquaredDistance&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Squared distance function from a fixed point to a gsGeometry." alt="" coords="5,152,191,177"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="33,79,163,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,118,101,152,95,152,95,118"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="23,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,44,101,79,95,79,95,44"/>
+</map>
