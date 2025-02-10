@@ -1,0 +1,5 @@
+<map id="gsConvDiffRePde&lt; T &gt;" name="gsConvDiffRePde&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A convection&#45;diffusion&#45;reaction PDE, including source term on the right&#45;hand side." alt="" coords="5,80,165,107"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPde.html" title="Abstract class representing a PDE (partial differential equation)." alt="" coords="40,5,130,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,48,88,80,82,80,82,48"/>
+</map>

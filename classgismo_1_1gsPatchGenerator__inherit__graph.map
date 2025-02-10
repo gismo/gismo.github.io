@@ -1,0 +1,9 @@
+<map id="gsPatchGenerator&lt; T &gt;" name="gsPatchGenerator&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Abstract class that accepts a set of input boundaries and computes a new geometry." alt="" coords="165,5,324,32"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsCoonsPatch.html" title="Computes a Coons&#39; patch parametrization given a set of boundary geometries. Parametrization is not gu..." alt="" coords="5,80,145,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,41,106,82,104,77,200,36"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsCrossApPatch.html" title="Computes a parametrization based on low rank cross approximation, given a set of boundary geometries." alt="" coords="168,80,321,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,48,247,80,242,80,242,48"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSpringPatch.html" title="Computes a parametrization based on the spring patch technique, given a set of boundary geometries." alt="" coords="345,80,483,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,36,385,77,383,82,287,41"/>
+</map>

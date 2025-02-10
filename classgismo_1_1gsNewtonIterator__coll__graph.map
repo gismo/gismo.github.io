@@ -1,0 +1,7 @@
+<map id="gsNewtonIterator&lt; T &gt;" name="gsNewtonIterator&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Performs Newton iterations to solve a nonlinear system of PDEs." alt="" coords="54,96,207,123"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,5,109,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,46,79,70,107,94,104,98,75,74,61,48"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsSparseSolver.html" title="Abstract class for solvers. The solver interface is base on 3 methods: &#45;compute set the system matrix..." alt="" coords="132,5,278,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,47,178,74,151,97,148,93,174,70,191,44"/>
+</map>

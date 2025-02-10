@@ -1,0 +1,13 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/src/gsCore/gsTemplateTools.h" name="/user/amantzaf/home/Workspace/gismo/stable/src/gsCore/gsTemplateTools.h">
+<area shape="rect" id="Node000001" title="Utilities related to template programming." alt="" coords="95,5,298,64"/>
+<area shape="rect" id="Node000002" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="15,112,146,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,66,111,104,108,100,158,62"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="170,112,223,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="199,64,199,96,194,96,194,64"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="247,112,317,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="226,62,261,99,257,102,222,66"/>
+<area shape="rect" id="Node000003" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="15,187,146,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,139,83,171,78,171,78,139"/>
+<area shape="rect" id="Node000004" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="5,261,156,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,214,83,246,78,246,78,214"/>
+</map>

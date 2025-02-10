@@ -1,0 +1,6 @@
+<map id="gsMaterialMatrix&lt; dim, T, matId, comp, mat, imp &gt;" name="gsMaterialMatrix&lt; dim, T, matId, comp, mat, imp &gt;">
+<area shape="rect" id="node1" title="This class defines hyperelastic material matrices." alt="" coords="18,261,173,317"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsMaterialMatrixBaseDim.html" title="This class defines the base class for material matrices." alt="" coords="9,171,181,212"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsMaterialMatrixBase.html" title="This class defines the base class for material matrices." alt="" coords="5,95,185,121"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="48,5,143,32"/>
+</map>

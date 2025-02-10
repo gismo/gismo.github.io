@@ -1,0 +1,31 @@
+<map id="gsMatrix&lt; T, _Rows, _Cols, _Options &gt;" name="gsMatrix&lt; T, _Rows, _Cols, _Options &gt;">
+<area shape="rect" id="Node000001" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,327,148,369"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="200,5,350,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,311,90,252,111,180,144,106,167,72,194,42,211,30,214,35,197,46,171,76,149,109,116,182,95,254,85,312"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="210,56,340,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,311,96,262,118,203,150,144,170,117,194,93,212,81,215,85,197,97,174,120,155,147,123,206,101,263,88,312"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="205,107,345,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="87,311,103,272,126,227,156,182,194,143,213,132,216,136,197,147,160,185,131,230,108,274,92,313"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="214,157,336,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="94,311,135,251,163,220,194,194,216,182,218,187,197,198,166,224,139,255,99,314"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="208,208,342,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="107,313,147,278,194,244,220,233,222,238,197,249,150,282,111,317"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="201,259,349,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="139,318,195,295,228,283,229,288,197,300,141,322"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="198,309,352,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="162,334,197,330,198,335,163,340"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="203,360,347,387"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="163,356,203,362,202,367,162,362"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="215,411,335,437"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="141,374,197,396,229,408,228,413,195,401,139,378"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="207,461,343,488"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="111,379,150,414,197,447,222,458,220,463,194,452,147,418,107,383"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="196,512,354,539"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="99,382,139,441,166,472,197,498,218,509,216,514,194,502,163,476,135,445,94,385"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="219,563,331,589"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="92,383,108,422,131,466,160,511,197,549,220,561,217,566,194,553,156,514,126,469,103,424,87,385"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="205,613,345,640"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="88,384,101,433,123,490,155,549,174,576,197,599,215,611,212,615,194,603,170,579,150,552,118,493,96,434,83,385"/>
+<area shape="rect" id="Node000015" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="207,664,343,691"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="85,384,95,442,116,514,149,587,171,620,197,650,214,661,211,666,194,654,167,624,144,590,111,516,90,444,79,385"/>
+</map>

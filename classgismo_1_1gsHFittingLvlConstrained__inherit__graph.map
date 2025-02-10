@@ -1,0 +1,7 @@
+<map id="gsHFittingLvlConstrained&lt; d, T &gt;" name="gsHFittingLvlConstrained&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="This class applies hierarchical fitting of parametrized point clouds." alt="" coords="5,155,174,197"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsHFitting.html" title="This class applies hierarchical fitting of parametrized point clouds." alt="" coords="25,80,154,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,122,92,154,87,154,87,122"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFitting.html" title="Class for performing a fit of a parametrized point cloud with a gsGeometry." alt="" coords="38,5,141,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,48,92,80,87,80,87,48"/>
+</map>

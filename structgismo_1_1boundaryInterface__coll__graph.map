@@ -1,0 +1,15 @@
+<map id="boundaryInterface" name="boundaryInterface">
+<area shape="rect" id="Node000001" title="Struct which represents an interface between two patches." alt="" coords="500,65,626,92"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1patchSide.html" title="Struct which represents a certain side of a patch." alt="" coords="227,9,306,36"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="322,28,477,55,509,62,508,67,476,60,321,33"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="42,7,111,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,18,226,19,226,25,126,23"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="197,65,336,92"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="352,76,500,76,500,81,352,81"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,57,148,100"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="163,76,196,76,196,81,163,81"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="206,124,327,151"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="342,123,476,97,507,90,509,95,477,103,343,128"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,124,148,167"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="163,139,206,137,206,143,164,144"/>
+</map>

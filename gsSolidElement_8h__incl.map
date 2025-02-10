@@ -1,0 +1,9 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/src/gsModeling/gsSolidElement.h" name="/user/amantzaf/home/Workspace/gismo/stable/src/gsModeling/gsSolidElement.h">
+<area shape="rect" id="Node000001" title="Provides gsSolidElement class &#45; interface for an element (vertex, edge or face) of a solid." alt="" coords="5,5,225,64"/>
+<area shape="rect" id="Node000002" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="50,112,180,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,64,118,96,112,96,112,64"/>
+<area shape="rect" id="Node000003" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="50,187,180,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,139,118,171,112,171,112,139"/>
+<area shape="rect" id="Node000004" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="40,261,190,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,214,118,246,112,246,112,214"/>
+</map>

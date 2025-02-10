@@ -1,0 +1,42 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/src/misc/gsStackWalker.cpp" name="/user/amantzaf/home/Workspace/gismo/stable/src/misc/gsStackWalker.cpp">
+<area shape="rect" id="Node000001" title="Provides implementation of gsStackwalker." alt="" coords="777,5,969,64"/>
+<area shape="rect" id="Node000002" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo." alt="" coords="209,112,340,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="777,53,355,115,355,110,776,48"/>
+<area shape="rect" id="Node000008" href="$gsStackWalker_8h.html" title="Provides declaration of gsStackwalker." alt="" coords="533,112,653,139"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="783,67,648,109,647,104,781,62"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="676,112,734,139"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="820,67,743,107,741,102,817,62"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="758,112,818,139"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="847,66,812,102,809,99,844,62"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="841,112,905,139"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="876,64,876,96,870,96,870,64"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="929,112,975,139"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="900,63,932,98,928,102,896,66"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="999,112,1080,139"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="928,62,1004,102,1001,107,926,67"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1104,112,1165,139"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="959,62,1090,106,1089,111,957,67"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1189,112,1259,139"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="970,57,1174,109,1173,114,969,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,195,77,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,142,89,189,84,191,82,186,87,184,230,137"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="100,195,169,221"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,141,170,189,168,184,251,137"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="193,195,260,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="269,141,244,183,239,180,265,138"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="283,195,362,221"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="284,138,310,180,305,183,280,141"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="386,195,453,221"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="298,137,385,185,383,189,296,142"/>
+<area shape="rect" id="Node000009" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="476,277,606,304"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="568,141,540,161,518,188,513,206,514,226,528,263,523,265,509,227,508,206,513,185,536,157,565,137"/>
+<area shape="rect" id="Node000011" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="528,195,658,221"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="596,139,596,179,590,179,590,139"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="683,195,749,221"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="614,137,686,184,683,188,611,141"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="773,187,989,229"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="639,137,793,179,791,184,637,142"/>
+<area shape="rect" id="Node000010" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="466,352,616,379"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="544,305,544,336,538,336,538,305"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="587,223,559,266,555,263,583,220"/>
+</map>

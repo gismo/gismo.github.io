@@ -1,0 +1,21 @@
+<map id="gsMPBESBasis&lt; d, T &gt;::distances" name="gsMPBESBasis&lt; d, T &gt;::distances">
+<area shape="rect" id="Node000001" title="Private stract that has the purpose of storing distance information of c^0 parts around special verti..." alt="" coords="728,101,878,144"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1boundaryInterface.html" title="Struct which represents an interface between two patches." alt="" coords="500,71,626,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,94,727,108,727,113,641,99"/>
+<area shape="rect" id="Node000003" href="$structgismo_1_1patchSide.html" title="Struct which represents a certain side of a patch." alt="" coords="227,8,306,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="322,27,477,56,519,67,517,73,476,61,321,32"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="42,5,111,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="126,17,226,18,226,23,126,22"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="197,64,336,91"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="352,77,500,80,500,85,352,82"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,56,148,99"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="163,75,196,75,196,80,163,80"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="206,115,327,141"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="343,119,476,101,506,95,507,101,477,107,344,124"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="5,123,148,165"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="163,134,205,130,206,136,164,139"/>
+<area shape="rect" id="Node000009" href="$structgismo_1_1patchCorner.html" title="Struct which represents a certain corner of a patch." alt="" coords="517,148,609,175"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="624,152,703,141,727,137,728,142,704,147,625,158"/>
+<area shape="rect" id="Node000010" href="$structgismo_1_1boxCorner.html" title="Struct which represents a certain corner of a hyper&#45;cube." alt="" coords="226,165,307,192"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="323,173,516,161,517,167,323,178"/>
+</map>

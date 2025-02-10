@@ -1,0 +1,9 @@
+<map id="gsOptProblem&lt; T &gt;" name="gsOptProblem&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Class defining an optimization problem." alt="" coords="84,236,221,263"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="24,97,129,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,139,70,175,73,194,81,211,93,224,108,233,106,238,89,228,76,213,68,195,65,175,67,139"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,5,148,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,64,79,97,74,97,74,64"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="178,97,282,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,140,220,176,203,214,177,237,173,233,198,210,215,175,224,139"/>
+</map>

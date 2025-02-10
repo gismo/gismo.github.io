@@ -1,0 +1,9 @@
+<map id="gsRationalTHBSplineBasis&lt; d, T &gt;" name="gsRationalTHBSplineBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="A rational Truncated Hierarchical B&#45;Spline basis." alt="" coords="18,245,198,288"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsRationalBasis.html" title=" " alt="" coords="5,155,211,197"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,213,111,245,105,245,105,213"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBasis.html" title=" " alt="" coords="21,80,195,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,122,111,154,105,154,105,122"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="39,5,177,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="111,48,111,80,105,80,105,48"/>
+</map>

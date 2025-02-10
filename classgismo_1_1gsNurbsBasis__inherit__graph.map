@@ -1,0 +1,9 @@
+<map id="gsNurbsBasis&lt; T &gt;" name="gsNurbsBasis&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A univariate NURBS basis." alt="" coords="31,245,167,272"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsRationalBasis.html" title=" " alt="" coords="5,155,193,197"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,213,102,245,96,245,96,213"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBasis.html" title=" " alt="" coords="12,80,186,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,122,102,154,96,154,96,122"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="30,5,168,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="102,48,102,80,96,80,96,48"/>
+</map>

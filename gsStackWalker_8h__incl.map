@@ -1,0 +1,14 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/src/misc/gsStackWalker.h" name="/user/amantzaf/home/Workspace/gismo/stable/src/misc/gsStackWalker.h">
+<area shape="rect" id="Node000001" title="Provides declaration of gsStackwalker." alt="" coords="105,5,283,64"/>
+<area shape="rect" id="Node000002" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="15,203,146,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,67,80,87,57,113,52,132,53,151,67,189,62,191,47,152,46,131,53,111,77,83,107,62"/>
+<area shape="rect" id="Node000004" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="67,120,198,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,66,151,108,146,105,174,63"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="222,120,288,147"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="214,63,241,105,237,108,210,66"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="312,112,529,155"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="262,62,359,103,357,108,260,67"/>
+<area shape="rect" id="Node000003" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="5,277,156,304"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,230,83,262,78,262,78,230"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="127,149,99,191,95,188,122,146"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="gsINSSolverParams&lt; T &gt;" name="gsINSSolverParams&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A class that holds all parameters needed by the incompressible flow solver." alt="" coords="61,112,233,139"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1gsAssemblerOptions.html" title=" " alt="" coords="5,5,148,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,92,67,103,86,128,109,124,113,99,90,87,69,80,48"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="172,5,266,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,48,192,90,167,113,164,110,188,86,208,46"/>
+</map>

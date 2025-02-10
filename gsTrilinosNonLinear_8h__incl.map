@@ -1,0 +1,111 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/optional/gsTrilinos/gsTrilinosNonLinear.h" name="/user/amantzaf/home/Workspace/gismo/stable/optional/gsTrilinos/gsTrilinosNonLinear.h">
+<area shape="rect" id="Node000001" title="Wrappers for Trilinos NOX/LOCA." alt="" coords="3015,5,3205,80"/>
+<area shape="rect" id="Node000002" href="$Vector_8h.html" title="Wrapper for Trilinos/Epetra vector." alt="" coords="3046,128,3175,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3113,80,3113,112,3108,112,3108,80"/>
+<area shape="rect" id="Node000003" href="$gsForwardDeclarations_8h.html" title="Provides forward declarations of types and structs." alt="" coords="2993,443,3206,469"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="3159,153,3229,177,3267,193,3301,213,3330,236,3349,261,3356,290,3353,305,3346,321,3330,344,3310,365,3265,398,3216,423,3169,440,3167,435,3214,418,3262,394,3307,361,3326,341,3341,319,3348,304,3350,290,3344,264,3326,239,3298,217,3264,198,3227,182,3157,158"/>
+<area shape="rect" id="Node000029" href="$gsLinearAlgebra_8h.html" title="This is the main header file that collects wrappers of Eigen for linear algebra." alt="" coords="1794,285,1965,312"/>
+<area shape="poly" id="edge34_Node000002_Node000029" title=" " alt="" coords="3045,154,1981,287,1981,282,3045,148"/>
+<area shape="rect" id="Node000049" href="$SparseMatrix_8h.html" title="Wrapper for Trilinos/Epetra operators." alt="" coords="3026,203,3195,229"/>
+<area shape="poly" id="edge56_Node000002_Node000049" title=" " alt="" coords="3113,155,3113,187,3108,187,3108,155"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="2948,517,3006,544"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="3079,472,3013,511,3010,507,3077,468"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="3273,517,3334,544"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="3136,467,3259,511,3257,516,3134,472"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="3443,517,3482,544"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="3183,467,3298,488,3424,515,3428,516,3427,521,3423,520,3297,493,3182,473"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="3506,517,3552,544"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="3206,466,3339,484,3491,514,3490,520,3338,489,3206,471"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="2542,517,2596,544"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="2993,467,2818,486,2716,500,2611,520,2610,514,2715,495,2817,480,2993,462"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="2620,517,2694,544"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="3001,473,2867,492,2710,519,2709,514,2866,487,3001,467"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="2718,517,2796,544"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="3036,473,2811,519,2810,514,3035,467"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="2820,517,2872,544"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="3056,472,2888,520,2886,515,3055,467"/>
+<area shape="rect" id="Node000012" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="3078,816,3209,843"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="3207,463,3275,477,3309,489,3340,503,3367,522,3388,544,3402,572,3407,604,3407,682,3403,711,3390,737,3370,759,3345,777,3286,804,3225,820,3223,815,3284,799,3342,773,3366,755,3385,734,3398,710,3402,681,3402,604,3397,573,3384,548,3364,526,3337,508,3307,494,3274,483,3206,468"/>
+<area shape="rect" id="Node000014" href="$gsDebug_8h.html" title="This file contains the debugging and messaging system of G+Smo." alt="" coords="3024,592,3154,619"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="3121,468,3138,482,3155,501,3164,522,3162,545,3147,567,3127,585,3123,581,3143,564,3157,543,3159,523,3150,504,3135,486,3117,472"/>
+<area shape="rect" id="Node000020" href="$gsMemory_8h.html" title="Provides utility function related to memory management." alt="" coords="2635,592,2772,619"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="3062,472,2938,520,2886,546,2763,590,2762,584,2884,542,2936,515,3061,467"/>
+<area shape="rect" id="Node000026" href="$gsUtils_8h.html" title="Several utility functions for miscellaneous tasks." alt="" coords="3030,517,3148,544"/>
+<area shape="poly" id="edge26_Node000003_Node000026" title=" " alt="" coords="3100,470,3096,502,3090,502,3095,469"/>
+<area shape="rect" id="Node000013" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="3068,891,3219,917"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="3146,843,3146,875,3141,875,3141,843"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="3012,667,3083,693"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="3084,621,3064,655,3060,652,3079,618"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="2920,667,2988,693"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="3067,622,2993,661,2990,656,3064,617"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="3108,667,3174,693"/>
+<area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="3100,618,3125,653,3121,656,3096,621"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="3198,667,3276,693"/>
+<area shape="poly" id="edge17_Node000014_Node000018" title=" " alt="" coords="3116,617,3198,657,3196,662,3113,622"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="3301,667,3368,693"/>
+<area shape="poly" id="edge18_Node000014_Node000019" title=" " alt="" coords="3132,617,3287,662,3285,667,3131,622"/>
+<area shape="rect" id="Node000021" href="$gsTemplateTools_8h.html" title="Utilities related to template programming." alt="" coords="2575,667,2752,693"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="2699,621,2680,654,2675,652,2694,618"/>
+<area shape="rect" id="Node000025" title=" " alt="" coords="2776,667,2844,693"/>
+<area shape="poly" id="edge25_Node000020_Node000025" title=" " alt="" coords="2724,617,2780,655,2777,660,2721,621"/>
+<area shape="rect" id="Node000022" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="2817,741,2947,768"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="2702,691,2830,733,2829,738,2701,696"/>
+<area shape="rect" id="Node000023" title=" " alt="" coords="2637,741,2690,768"/>
+<area shape="poly" id="edge23_Node000021_Node000023" title=" " alt="" coords="2666,694,2666,726,2661,726,2661,694"/>
+<area shape="rect" id="Node000024" title=" " alt="" coords="2523,741,2593,768"/>
+<area shape="poly" id="edge24_Node000021_Node000024" title=" " alt="" coords="2647,696,2591,734,2588,730,2644,692"/>
+<area shape="poly" id="edge22_Node000022_Node000012" title=" " alt="" coords="2928,766,3084,809,3082,814,2927,771"/>
+<area shape="poly" id="edge30_Node000026_Node000014" title=" " alt="" coords="3092,545,3092,576,3086,576,3086,545"/>
+<area shape="poly" id="edge27_Node000026_Node000016" title=" " alt="" coords="3071,546,3043,567,3013,594,2989,625,2970,655,2966,652,2985,621,3010,590,3039,563,3068,542"/>
+<area shape="poly" id="edge31_Node000026_Node000020" title=" " alt="" coords="3030,546,2787,591,2786,586,3029,541"/>
+<area shape="poly" id="edge29_Node000026_Node000022" title=" " alt="" coords="3061,547,3025,566,2983,592,2943,627,2910,668,2897,697,2889,726,2884,725,2892,695,2905,665,2939,623,2980,588,3022,561,3059,542"/>
+<area shape="rect" id="Node000027" title=" " alt="" coords="2797,592,2864,619"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="3044,547,2880,593,2878,588,3043,542"/>
+<area shape="rect" id="Node000028" href="$gsOpenMP_8h.html" title="OpenMP stub routines to be used when omp.h is not available." alt="" coords="3179,592,3335,619"/>
+<area shape="poly" id="edge32_Node000026_Node000028" title=" " alt="" coords="3119,542,3215,583,3212,588,3117,547"/>
+<area shape="poly" id="edge33_Node000028_Node000003" title=" " alt="" coords="3245,593,3216,559,3178,519,3129,481,3132,476,3181,515,3220,555,3249,590"/>
+<area shape="rect" id="Node000030" href="$gsMath_8h.html" title="Mathematical functions for use in G+Smo." alt="" coords="2314,368,2435,395"/>
+<area shape="poly" id="edge35_Node000029_Node000030" title=" " alt="" coords="1958,310,2298,365,2297,370,1958,315"/>
+<area shape="rect" id="Node000032" href="$gsEigenDeclarations_8h.html" title="Extra forward declarations related to the Eigen library." alt="" coords="1687,368,1893,395"/>
+<area shape="poly" id="edge39_Node000029_Node000032" title=" " alt="" coords="1867,314,1817,360,1813,356,1864,311"/>
+<area shape="rect" id="Node000033" title=" " alt="" coords="1917,368,2018,395"/>
+<area shape="poly" id="edge40_Node000029_Node000033" title=" " alt="" coords="1895,311,1945,356,1941,360,1891,314"/>
+<area shape="rect" id="Node000034" title=" " alt="" coords="2042,368,2152,395"/>
+<area shape="poly" id="edge41_Node000029_Node000034" title=" " alt="" coords="1914,310,2049,360,2048,365,1913,315"/>
+<area shape="rect" id="Node000035" title=" " alt="" coords="2176,368,2290,395"/>
+<area shape="poly" id="edge42_Node000029_Node000035" title=" " alt="" coords="1936,310,2163,361,2162,367,1935,315"/>
+<area shape="rect" id="Node000036" title=" " alt="" coords="2458,368,2589,395"/>
+<area shape="poly" id="edge43_Node000029_Node000036" title=" " alt="" coords="1966,307,2443,365,2442,370,1965,312"/>
+<area shape="rect" id="Node000037" title=" " alt="" coords="2612,368,2742,395"/>
+<area shape="poly" id="edge44_Node000029_Node000037" title=" " alt="" coords="1966,304,2243,327,2597,365,2596,370,2242,332,1966,309"/>
+<area shape="rect" id="Node000038" href="$Adjugate_8h.html" title="Adjugate extension for Eigen matrix objects." alt="" coords="2766,368,2903,395"/>
+<area shape="poly" id="edge45_Node000029_Node000038" title=" " alt="" coords="1965,302,2304,325,2524,343,2750,365,2750,370,2524,348,2304,330,1965,307"/>
+<area shape="rect" id="Node000039" href="$BlockDiag_8h.html" title="BlockDiag extension for Eigen matrix objects." alt="" coords="2926,368,3073,395"/>
+<area shape="poly" id="edge46_Node000029_Node000039" title=" " alt="" coords="1966,301,2370,322,2637,340,2911,365,2911,370,2637,346,2370,327,1966,306"/>
+<area shape="rect" id="Node000040" href="$BlockTranspose_8h.html" title="BlockTranspose extension for Eigen matrix objects." alt="" coords="5,368,186,395"/>
+<area shape="poly" id="edge47_Node000029_Node000040" title=" " alt="" coords="1794,304,1528,309,1137,320,676,340,201,370,201,365,676,335,1137,315,1528,304,1794,298"/>
+<area shape="rect" id="Node000041" href="$gsMatrixBlockView_8h.html" title="Wraps a matrix and attaches a block structure to it." alt="" coords="209,368,406,395"/>
+<area shape="poly" id="edge48_Node000029_Node000041" title=" " alt="" coords="1793,305,1222,325,828,344,421,371,421,365,828,339,1222,319,1793,299"/>
+<area shape="rect" id="Node000042" href="$gsMatrix_8h.html" title="Provides declaration of Matrix class." alt="" coords="430,368,566,395"/>
+<area shape="poly" id="edge49_Node000029_Node000042" title=" " alt="" coords="1793,304,1582,310,1284,322,938,341,582,370,582,365,938,336,1284,316,1582,305,1793,299"/>
+<area shape="rect" id="Node000043" href="$gsVector_8h.html" title="Provides declaration of Vector class." alt="" coords="591,368,728,395"/>
+<area shape="poly" id="edge50_Node000029_Node000043" title=" " alt="" coords="1793,305,1348,325,1050,344,744,371,743,365,1050,339,1348,320,1793,300"/>
+<area shape="rect" id="Node000044" href="$gsAsMatrix_8h.html" title="Wraps pointers as matrix objects." alt="" coords="753,368,905,395"/>
+<area shape="poly" id="edge51_Node000029_Node000044" title=" " alt="" coords="1794,307,1419,329,1174,347,921,370,921,365,1173,342,1419,324,1794,302"/>
+<area shape="rect" id="Node000045" href="$gsSparseMatrix_8h.html" title="Provides declaration of the gsSparseMatrix class." alt="" coords="930,368,1107,395"/>
+<area shape="poly" id="edge52_Node000029_Node000045" title=" " alt="" coords="1793,310,1500,334,1122,370,1122,365,1500,329,1793,304"/>
+<area shape="rect" id="Node000046" href="$gsSparseVector_8h.html" title="Provides declaration of SparseVector class (wrapping Eigen)" alt="" coords="1130,368,1309,395"/>
+<area shape="poly" id="edge53_Node000029_Node000046" title=" " alt="" coords="1794,313,1324,370,1324,365,1793,308"/>
+<area shape="rect" id="Node000047" href="$gsSparseSolver_8h.html" title="abstract interfaces for solvers and wrapper around Eigen solvers" alt="" coords="1332,368,1510,395"/>
+<area shape="poly" id="edge54_Node000029_Node000047" title=" " alt="" coords="1808,315,1509,367,1508,362,1807,310"/>
+<area shape="rect" id="Node000048" href="$gsPoint_8h.html" title="Provides declaration of Point class." alt="" coords="1533,368,1663,395"/>
+<area shape="poly" id="edge55_Node000029_Node000048" title=" " alt="" coords="1836,315,1658,366,1656,361,1835,310"/>
+<area shape="poly" id="edge36_Node000030_Node000003" title=" " alt="" coords="2436,391,2446,392,2732,423,2978,444,2977,449,2732,428,2446,397,2435,396"/>
+<area shape="poly" id="edge38_Node000030_Node000024" title=" " alt="" coords="2394,393,2422,415,2452,447,2476,485,2483,507,2486,529,2486,606,2491,641,2504,674,2521,704,2539,728,2535,731,2517,706,2500,676,2486,643,2481,607,2481,529,2478,508,2471,487,2448,450,2418,419,2391,397"/>
+<area shape="rect" id="Node000031" title=" " alt="" coords="2346,443,2403,469"/>
+<area shape="poly" id="edge37_Node000030_Node000031" title=" " alt="" coords="2377,395,2377,427,2372,427,2372,395"/>
+<area shape="poly" id="edge57_Node000049_Node000003" title=" " alt="" coords="3112,230,3103,427,3098,427,3107,229"/>
+<area shape="poly" id="edge58_Node000049_Node000029" title=" " alt="" coords="3025,226,1981,293,1981,288,3025,220"/>
+<area shape="rect" id="Node000050" href="$gsTrilinosForwardDecl_8h.html" title="Forward declarations for Trilinos extensions." alt="" coords="3147,277,3332,320"/>
+<area shape="poly" id="edge59_Node000049_Node000050" title=" " alt="" coords="3132,228,3195,267,3192,271,3129,232"/>
+</map>

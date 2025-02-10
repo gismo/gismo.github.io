@@ -1,0 +1,19 @@
+<map id="gsINSBlockVisitorNitsche&lt; T &gt;" name="gsINSBlockVisitorNitsche&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A parent class for incompressible Navier&#45;Stokes Nitsche visitors." alt="" coords="376,295,581,321"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsINSBlockVisitorBnd.html" title="A parent class for incompressible Navier&#45;Stokes boundary visitors." alt="" coords="387,219,570,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="481,260,481,294,476,294,476,260"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsINSBlockVisitor.html" title="A parent class for incompressible Navier&#45;Stokes element visitors." alt="" coords="213,128,374,155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,159,453,216,451,220,332,164"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsINSVisitorBase.html" title="A base class for incompressible Navier&#45;Stokes element visitors." alt="" coords="5,13,163,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="122,46,271,125,269,130,120,50"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="186,13,286,40"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="252,53,289,126,285,129,247,55"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="310,13,413,40"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="357,56,348,81,334,106,312,129,308,126,330,102,343,78,352,54"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="426,128,531,155"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="481,170,481,218,476,218,476,170"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="437,5,579,48"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="501,64,484,129,479,127,496,62"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="555,128,624,155"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="577,170,554,197,514,220,512,216,550,193,573,166"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gsCauchyStressFunction&lt; T &gt;" name="gsCauchyStressFunction&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Compute Cauchy stresses for a previously computed/defined displacement field. Can be pushed into gsPi..." alt="" coords="70,172,270,199"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFunction.html" title="A function &#160;from a n&#45;dimensional domain to an m&#45;dimensional image." alt="" coords="15,81,133,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,117,158,169,154,173,97,121"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="5,5,143,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,47,77,81,71,81,71,47"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="156,81,251,108"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="196,124,177,172,172,170,191,122"/>
+</map>

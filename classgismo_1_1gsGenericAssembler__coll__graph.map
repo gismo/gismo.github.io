@@ -1,0 +1,17 @@
+<map id="gsGenericAssembler&lt; T &gt;" name="gsGenericAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Assembles mass and stiffness matrices and right&#45;hand sides on a given domain." alt="" coords="37,435,211,461"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="60,359,189,385"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,400,127,434,122,434,122,400"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="30,268,125,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,308,120,357,115,359,89,310"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSparseSystem.html" title=" " alt="" coords="149,268,302,295"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="204,307,171,337,142,360,139,356,168,333,200,303"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="5,97,150,124"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="92,137,121,189,141,217,164,242,199,265,196,270,160,246,137,220,116,191,87,139"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="174,97,277,124"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="228,139,228,268,223,268,223,139"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="301,97,441,124"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="357,139,320,190,273,246,245,270,241,266,269,242,316,187,352,136"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="300,5,442,48"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="374,64,374,97,368,97,368,64"/>
+</map>

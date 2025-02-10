@@ -1,0 +1,9 @@
+<map id="gsFlowAssemblerBase&lt; T, MatOrder &gt;" name="gsFlowAssemblerBase&lt; T, MatOrder &gt;">
+<area shape="rect" id="Node000001" title="A base class for all assemblers in gsIncompressibleFlow." alt="" coords="104,5,260,48"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsINSAssembler.html" title="A base class for incompressible Navier&#45;Stokes assemblers." alt="" coords="111,96,253,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,64,185,96,179,96,179,64"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsINSAssemblerSteady.html" title="The steady incompressible Navier–Stokes assembler." alt="" coords="5,187,167,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,151,110,188,106,184,147,147"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsINSAssemblerUnsteady.html" title="The unsteady incompressible Navier–Stokes assembler." alt="" coords="191,187,368,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="218,147,258,184,255,188,214,151"/>
+</map>

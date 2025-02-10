@@ -1,0 +1,13 @@
+<map id="gsVisitorNitscheBiharmonic&lt; T &gt;" name="gsVisitorNitscheBiharmonic&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Visitor for the weak imposition of the first&#45;type dirichlet boundary condition." alt="" coords="114,268,328,295"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="5,97,74,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="49,138,71,191,89,218,111,242,131,255,154,265,152,270,129,260,107,246,84,222,67,194,44,140"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="97,97,201,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="146,140,144,190,149,218,160,243,171,255,187,265,184,270,168,260,155,245,144,219,139,191,141,139"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="224,97,362,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="294,140,287,191,278,219,266,246,243,269,239,266,261,242,273,217,282,190,289,139"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="386,97,491,124"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="428,139,396,193,373,222,345,246,320,260,294,270,292,265,318,255,342,242,369,218,392,190,424,137"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="367,5,509,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="441,64,441,97,436,97,436,64"/>
+</map>

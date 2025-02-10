@@ -1,0 +1,21 @@
+<map id="gsMassAssembler&lt; T &gt;" name="gsMassAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Assembles the mass matrix and right&#45;hand side vector for linear and nonlinear elasticity for 2D plain..." alt="" coords="192,511,353,537"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver...." alt="" coords="193,435,352,461"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="275,476,275,510,270,510,270,476"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsAssembler.html" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="208,359,337,385"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="275,400,275,434,270,434,270,400"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="293,268,387,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,309,284,360,280,356,319,306"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsSparseSystem.html" title=" " alt="" coords="116,268,269,295"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="210,306,230,333,257,356,253,360,227,336,206,309"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="5,97,150,124"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="77,140,76,180,79,230,89,284,111,333,139,367,173,394,209,416,241,432,239,436,206,421,170,399,135,371,107,336,84,285,73,231,70,180,72,139"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,137,99,147,117,197,126,218,143,242,171,265,167,270,139,246,122,221,112,199,94,149,89,139"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="355,97,459,124"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="412,140,413,211,410,253,401,295,383,345,351,387,322,415,293,436,290,432,318,411,348,384,379,343,396,294,404,253,408,211,407,140"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="382,136,367,150,344,177,329,200,311,223,284,246,261,260,237,270,235,265,259,255,281,242,308,219,324,197,340,174,364,146,378,132"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="173,97,313,124"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="237,140,198,268,193,267,232,138"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="172,5,314,48"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="246,64,246,97,240,97,240,64"/>
+</map>

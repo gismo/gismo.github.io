@@ -1,0 +1,9 @@
+<map id="gsFlowLinSystSolver_direct&lt; T, MatOrder &gt;" name="gsFlowLinSystSolver_direct&lt; T, MatOrder &gt;">
+<area shape="rect" id="Node000001" title="Direct solver for linear systems inside the incompressible flow solvers (classes derived from gsFlowS..." alt="" coords="85,219,238,261"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsFlowLinSystSolver.html" title="Interface for classes solving linear systems inside the incompressible flow solvers (classes derived ..." alt="" coords="5,112,150,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,165,147,216,143,220,101,168"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsGenericStopwatch.html" title=" " alt="" coords="6,5,149,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,64,80,111,75,111,75,64"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSparseSolver.html" title=" " alt="" coords="174,120,320,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,160,180,220,176,216,225,157"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="gsDynamicXBraid&lt; T &gt;" name="gsDynamicXBraid&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Performs the arc length method to solve a nonlinear system of equations." alt="" coords="64,188,222,215"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsXBraid_3_01gsMatrix_3_01T_01_4_01_4.html" title="Specializations for gsXBraid&lt;gsMatrix&lt;T&gt;&gt;" alt="" coords="5,81,142,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,135,136,186,132,189,95,138"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsXBraid.html" title="Class defining the XBraid wrapper." alt="" coords="20,5,127,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,48,76,81,71,81,71,48"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsOptionList.html" title="Class which holds a list of parameters/options, and provides easy access to them." alt="" coords="166,89,261,116"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,130,154,189,150,186,193,127"/>
+</map>

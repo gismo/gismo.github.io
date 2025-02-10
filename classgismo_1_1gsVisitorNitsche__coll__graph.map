@@ -1,0 +1,15 @@
+<map id="gsVisitorNitsche&lt; T &gt;" name="gsVisitorNitsche&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Visitor for adding the terms associated to weak (Nitsche&#45;type) imposition of the Dirichlet boundary c..." alt="" coords="158,236,308,263"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1patchSide.html" title="Struct which represents a certain side of a patch." alt="" coords="5,97,85,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,136,92,174,131,210,155,223,181,233,179,238,153,228,128,214,88,177,58,139"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="11,13,79,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="48,55,48,97,42,97,42,55"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="109,97,213,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,137,229,234,224,237,172,139"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="236,97,374,124"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="302,140,291,176,273,213,251,237,247,234,268,211,286,174,297,139"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="398,97,503,124"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="434,137,397,177,349,214,321,228,292,238,290,233,319,223,346,210,394,173,430,134"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="379,5,522,48"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="453,64,453,97,448,97,448,64"/>
+</map>

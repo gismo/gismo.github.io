@@ -1,0 +1,11 @@
+<map id="gsSparseSystem&lt; T, symm &gt;" name="gsSparseSystem&lt; T, symm &gt;">
+<area shape="rect" id="Node000001" title="A sparse linear system indexed by sets of degrees of freedom." alt="" coords="154,268,297,311"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="5,97,150,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,136,122,188,164,242,192,265,189,269,160,246,118,191,88,139"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="174,97,277,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,140,228,268,223,268,223,140"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="301,97,441,124"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="356,139,319,189,273,246,250,269,246,266,269,242,315,186,351,135"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="300,5,442,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="374,64,374,97,368,97,368,64"/>
+</map>

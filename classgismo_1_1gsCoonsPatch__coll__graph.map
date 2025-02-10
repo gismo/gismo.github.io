@@ -1,0 +1,5 @@
+<map id="gsCoonsPatch&lt; T &gt;" name="gsCoonsPatch&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Computes a Coons&#39; patch parametrization given a set of boundary geometries. Parametrization is not gu..." alt="" coords="15,80,154,107"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsPatchGenerator.html" title="Abstract class that accepts a set of input boundaries and computes a new geometry." alt="" coords="5,5,164,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,48,87,80,82,80,82,48"/>
+</map>

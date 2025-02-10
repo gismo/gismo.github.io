@@ -1,0 +1,14 @@
+<map id="gsPatchRule&lt; T &gt;" name="gsPatchRule&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Class that represents the (tensor) patch quadrature rule." alt="" coords="168,279,296,305"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsQuadRule.html" title="Class representing a reference quadrature rule." alt="" coords="58,188,184,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,222,217,276,214,280,147,227"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,97,109,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="56,139,61,163,72,176,87,185,84,190,69,180,56,165,50,140"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="155,97,260,124"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="214,139,216,148,233,278,227,278,210,148,209,140"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="167,134,148,150,135,169,127,189,122,187,130,167,144,146,163,130"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="137,5,279,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="210,64,210,97,205,97,205,64"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSparseSolver.html" title=" " alt="" coords="299,188,444,215"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="340,226,253,280,250,276,338,221"/>
+</map>

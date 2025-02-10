@@ -1,0 +1,19 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/src/gsHSplines/gsHDomainSliceIter.h" name="/user/amantzaf/home/Workspace/gismo/stable/src/gsHSplines/gsHDomainSliceIter.h">
+<area shape="rect" id="Node000001" title="Provides declaration of HDomainSliceIter class." alt="" coords="114,5,330,80"/>
+<area shape="rect" id="Node000002" href="$gsKdNode_8h.html" title="Provides declaration of the tree node." alt="" coords="43,128,207,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,82,150,119,147,115,183,78"/>
+<area shape="rect" id="Node000004" href="$gsTemplateTools_8h.html" title="Utilities related to template programming." alt="" coords="253,128,429,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,78,315,116,312,120,266,83"/>
+<area shape="rect" id="Node000003" href="$gsAABB_8h.html" title="Declarations of the class gsAABB, i.e., the axis&#45;aligned bounding box." alt="" coords="5,203,159,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,157,99,191,95,188,115,154"/>
+<area shape="rect" id="Node000005" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="182,203,313,229"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="326,157,277,195,274,191,323,153"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="337,203,390,229"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="347,154,357,187,352,189,342,156"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="414,203,484,229"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="361,153,419,191,416,196,358,157"/>
+<area shape="rect" id="Node000006" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="182,277,313,304"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="250,230,250,262,245,262,245,230"/>
+<area shape="rect" id="Node000007" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="172,352,323,379"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="250,305,250,336,245,336,245,305"/>
+</map>

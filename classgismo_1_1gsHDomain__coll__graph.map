@@ -1,0 +1,16 @@
+<map id="gsHDomain&lt; d, Z &gt;" name="gsHDomain&lt; d, Z &gt;">
+<area shape="rect" id="Node000001" title="Class with a hierarchical domain structure represented by a box k&#45;d&#45;tree." alt="" coords="118,423,255,449"/>
+<area shape="rect" id="Node000002" href="$structgismo_1_1gsKdNode.html" title="Struct representing a kd&#45;tree node." alt="" coords="18,321,147,348"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,357,176,421,172,425,104,360"/>
+<area shape="poly" id="edge5_Node000002_Node000002" title=" " alt="" coords="164,325,174,335,166,344,148,347,147,342,163,339,169,335,161,329"/>
+<area shape="rect" id="Node000003" href="$structgismo_1_1gsAABB.html" title="Struct of for an Axis&#45;aligned bounding box." alt="" coords="23,212,142,239"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,255,85,321,80,321,80,255"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="5,97,160,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,140,85,212,80,212,80,140"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="11,5,154,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="85,64,85,97,80,97,80,64"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="232,321,352,348"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="270,360,202,424,198,420,266,357"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="221,204,363,247"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="295,262,295,321,289,321,289,262"/>
+</map>

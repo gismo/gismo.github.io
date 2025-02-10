@@ -1,0 +1,27 @@
+<map id="gsSurfMesh::Face_around_vertex_circulator" name="gsSurfMesh::Face_around_vertex_circulator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="547,392,721,435"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsSurfMesh.html" title="A halfedge data structure for polygonal meshes." alt="" coords="348,297,439,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,328,583,389,581,394,440,333"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title=" " alt="" coords="5,5,240,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,52,241,58,289,86,307,103,326,128,352,173,371,221,392,296,387,297,366,223,347,175,321,131,303,107,286,90,238,62,227,57"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsSurfMesh_1_1Halfedge__property.html" title=" " alt="" coords="41,72,204,131"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="219,126,275,152,302,170,326,190,348,217,366,246,389,296,384,298,361,249,343,220,322,194,299,174,273,157,217,130"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title=" " alt="" coords="10,155,235,197"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="240,200,284,217,325,239,359,267,383,295,379,298,355,271,322,244,282,222,239,205"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title=" " alt="" coords="42,221,203,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="219,248,325,276,367,294,365,299,323,281,218,254"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsSurfMesh_1_1Edge__property.html" title=" " alt="" coords="46,272,199,299"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="215,291,347,304,347,309,214,297"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title=" " alt="" coords="46,323,199,349"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="214,332,323,323,347,319,348,324,324,328,214,337"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title=" " alt="" coords="39,373,206,400"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="221,376,272,366,323,351,350,337,373,322,376,327,352,342,325,356,274,371,222,381"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsSurfMesh_1_1Vertex__property.html" title=" " alt="" coords="33,424,212,451"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="227,425,276,411,322,390,341,375,358,357,382,323,386,326,362,360,345,379,325,394,278,416,228,430"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsSurfMesh_1_1Face__property.html" title=" " alt="" coords="37,475,208,501"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="222,478,275,463,300,452,322,437,338,417,355,386,384,323,389,326,360,388,342,420,325,441,302,456,277,468,224,483"/>
+<area shape="rect" id="Node000012" href="$structgismo_1_1gsSurfMesh_1_1Halfedge.html" title=" " alt="" coords="357,424,430,451"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="445,435,523,431,546,428,547,433,523,436,445,440"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsSurfMesh_1_1Base__handle.html" title=" " alt="" coords="74,525,171,552"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="186,541,254,536,289,528,322,515,342,501,359,484,383,449,387,452,363,487,346,505,325,520,291,533,255,542,186,546"/>
+</map>

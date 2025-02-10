@@ -1,0 +1,11 @@
+<map id="gsHTensorBasis&lt; d, T &gt;" name="gsHTensorBasis&lt; d, T &gt;">
+<area shape="rect" id="Node000001" title="Class representing a (scalar) hierarchical tensor basis of functions ." alt="" coords="107,155,271,181"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsHBSplineBasis.html" title="A hierarchical B&#45;spline basis of parametric dimension d." alt="" coords="5,229,176,256"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,193,109,231,106,227,158,189"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsTHBSplineBasis.html" title="Truncated hierarchical B&#45;spline basis." alt="" coords="200,229,378,256"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="220,189,273,227,270,231,217,193"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBasis.html" title="A basis represents a family of scalar basis functions defined over a common parameter domain." alt="" coords="139,80,239,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,122,192,154,187,154,187,122"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsFunctionSet.html" title="Interface for the set of functions defined on a domain (the total number of functions in the set equa..." alt="" coords="121,5,258,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="192,48,192,80,187,80,187,48"/>
+</map>

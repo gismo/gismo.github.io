@@ -1,0 +1,9 @@
+<map id="gsBoxTopology" name="gsBoxTopology">
+<area shape="rect" id="Node000001" title="Defines a topological arrangement of a collection of &quot;boxes&quot; (e.g., parameter domains that map to phy..." alt="" coords="192,5,303,32"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsMultiPatch.html" title=" " alt="" coords="5,80,159,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,41,112,82,110,77,203,36"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMultiPatch.html" title="Container class for a set of geometry patches and their topology, that is, the interface connections ..." alt="" coords="183,80,312,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,48,250,80,245,80,245,48"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsTemplate.html" title="Class gsTemplate object." alt="" coords="337,80,457,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="288,37,372,77,369,82,286,42"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="gsNewtonCotesRule&lt; T &gt;" name="gsNewtonCotesRule&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Class that represents the (tensor) Newton&#45;Cotes quadrature rule." alt="" coords="14,264,188,291"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsQuadRule.html" title="Class representing a reference quadrature rule." alt="" coords="38,188,164,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,230,104,264,98,264,98,230"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,97,109,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,137,81,163,95,186,90,189,76,165,65,139"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="132,97,238,124"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="165,137,138,166,115,189,111,186,134,162,161,134"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="114,5,256,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="188,64,188,97,182,97,182,64"/>
+</map>

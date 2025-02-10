@@ -1,0 +1,24 @@
+<map id="gsINSBlockAVisitorNitsche&lt; T &gt;" name="gsINSBlockAVisitorNitsche&lt; T &gt;">
+<area shape="rect" id="Node000001" title="The Nitsche element visitor for the viscous term of the incompressible Navier&#45;Stokes equations." alt="" coords="484,423,696,449"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsINSBlockVisitorNitsche.html" title="A parent class for incompressible Navier&#45;Stokes Nitsche visitors." alt="" coords="319,332,525,359"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="461,364,567,420,565,424,458,369"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsINSBlockVisitorBnd.html" title="A parent class for incompressible Navier&#45;Stokes boundary visitors." alt="" coords="202,237,386,264"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,271,406,329,403,334,322,275"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsINSBlockVisitor.html" title="A parent class for incompressible Navier&#45;Stokes element visitors." alt="" coords="300,128,461,155"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="363,169,306,238,302,235,359,165"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsINSVisitorBase.html" title="A base class for incompressible Navier&#45;Stokes element visitors." alt="" coords="171,13,329,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="278,48,368,126,364,130,274,52"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsDofMapper.html" title="Maintains a mapping from patch&#45;local dofs to global dof indices and allows the elimination of individ..." alt="" coords="352,13,452,40"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="390,55,384,73,381,102,382,128,377,128,376,102,379,71,385,53"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="517,13,620,40"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="579,54,588,94,592,140,593,347,593,422,587,422,587,347,587,140,583,95,574,55"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="518,48,470,74,455,89,440,106,405,130,402,125,436,102,451,86,467,70,515,44"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="171,128,276,155"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="242,167,288,235,283,238,238,170"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="5,5,148,48"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="117,56,209,125,205,130,114,60"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1boxSide.html" title="Struct which represents a certain side of a box." alt="" coords="78,128,147,155"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="147,161,199,192,272,234,270,239,196,197,144,165"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="628,332,765,359"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="671,371,607,424,603,420,668,367"/>
+</map>

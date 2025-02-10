@@ -1,0 +1,17 @@
+<map id="/user/amantzaf/home/Workspace/gismo/stable/optional/gsCoDiPack/gsCoDiPack.h" name="/user/amantzaf/home/Workspace/gismo/stable/optional/gsCoDiPack/gsCoDiPack.h">
+<area shape="rect" id="Node000001" title="Header for CoDiPack package." alt="" coords="5,5,243,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,112,86,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,66,73,101,69,98,98,63"/>
+<area shape="rect" id="Node000003" href="$gsTemplateTools_8h.html" title="Utilities related to template programming." alt="" coords="111,112,287,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="150,63,180,98,176,101,146,66"/>
+<area shape="rect" id="Node000004" href="$gsExport_8h.html" title="Handles shared library creation and other class attributes." alt="" coords="18,187,148,213"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="180,141,117,180,115,176,177,137"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="173,187,225,213"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="201,139,201,171,196,171,196,139"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="249,187,319,213"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="215,137,260,175,256,179,212,141"/>
+<area shape="rect" id="Node000005" href="$gsConfig_8h.html" title="Provides preprocessor directives configuration of G+Smo." alt="" coords="18,261,148,288"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="85,214,85,246,80,246,80,214"/>
+<area shape="rect" id="Node000006" href="$gsConfigExt_8h_source.html" title=" " alt="" coords="8,336,158,363"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="85,289,85,320,80,320,80,289"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="gsIterativeSolver&lt; T &gt;" name="gsIterativeSolver&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Abstract class for iterative solvers." alt="" coords="5,132,157,159"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBiCgStab.html" title="Biconjugate gradient stabilized solver." alt="" coords="231,5,354,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,119,148,79,203,42,231,30,233,35,206,46,151,83,108,123"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsConjugateGradient.html" title="The conjugate gradient method." alt="" coords="205,56,380,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,123,204,92,239,81,241,86,206,97,128,128"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsGMRes.html" title="The generalized minimal residual (GMRES) method." alt="" coords="236,107,349,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,132,235,124,236,129,172,137"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsGradientMethod.html" title="The gradient method." alt="" coords="213,157,372,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,154,213,158,212,164,172,159"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMinResQLP.html" title="The minimal residual (MinRes&#45;QLP) method." alt="" coords="223,208,362,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="128,163,206,193,241,205,239,210,204,199,126,168"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsMinimalResidual.html" title="The minimal residual (MinRes) method." alt="" coords="211,259,374,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="108,168,151,207,206,244,233,256,231,261,203,249,148,211,104,172"/>
+</map>

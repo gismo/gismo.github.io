@@ -1,0 +1,8 @@
+<map id="AndersonAcceleration&lt; Scalar &gt;" name="AndersonAcceleration&lt; Scalar &gt;">
+<area shape="rect" id="node1" title="Anderson acceleration solver and its (preconditioned) variants." alt="" coords="302,244,451,285"/>
+<area shape="rect" id="node2" href="$classgismo_1_1gsSparseMatrix.html" title=" " alt="" coords="5,96,180,123"/>
+<area shape="rect" id="node3" href="$classgismo_1_1gsVector.html" title=" " alt="" coords="205,96,341,123"/>
+<area shape="rect" id="node4" href="$classgismo_1_1gsMatrix.html" title="A matrix with arbitrary coefficient type and fixed or dynamic size." alt="" coords="201,5,344,47"/>
+<area shape="rect" id="node5" href="$classgismo_1_1gsMatrix.html" title=" " alt="" coords="365,96,500,123"/>
+<area shape="rect" id="node6" href="$classpreAAParam.html" title=" " alt="" coords="528,96,687,123"/>
+</map>

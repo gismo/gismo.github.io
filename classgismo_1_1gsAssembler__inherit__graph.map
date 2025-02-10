@@ -1,0 +1,30 @@
+<map id="gsAssembler&lt; T &gt;" name="gsAssembler&lt; T &gt;">
+<area shape="rect" id="Node000001" title="The assembler class provides generic routines for volume and boundary integrals that are used for for..." alt="" coords="5,187,135,213"/>
+<area shape="rect" id="Node000002" href="$classgismo_1_1gsBaseAssembler.html" title="Extends the gsAssembler class by adding functionality necessary for a general nonlinear solver...." alt="" coords="191,136,351,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,180,214,161,216,166,141,185"/>
+<area shape="rect" id="Node000003" href="$classgismo_1_1gsBiharmonicAssembler.html" title="Implementation of a homogeneous Biharmonic Assembler." alt="" coords="418,5,580,48"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="98,175,137,148,181,122,241,96,303,74,417,42,418,47,305,79,243,101,184,126,139,152,101,179"/>
+<area shape="rect" id="Node000011" href="$classgismo_1_1gsGenericAssembler.html" title="Assembles mass and stiffness matrices and right&#45;hand sides on a given domain." alt="" coords="184,187,358,213"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="150,197,183,197,183,203,150,203"/>
+<area shape="rect" id="Node000012" href="$classgismo_1_1gsHeatEquation.html" title="Constructs the assembler for the discretized isogeometric heat equation." alt="" coords="198,237,344,264"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="141,215,216,234,214,239,140,220"/>
+<area shape="rect" id="Node000013" href="$classgismo_1_1gsPoissonAssembler.html" title="Implementation of an (multiple right&#45;hand side) Poisson assembler." alt="" coords="183,300,359,327"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="102,220,184,274,234,297,232,302,181,278,99,225"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,124,349,91,406,58,431,46,433,51,408,62,352,95,304,129"/>
+<area shape="rect" id="Node000004" href="$classgismo_1_1gsElTimeIntegrator.html" title="Time integation for equations of dynamic elasticity with implicit schemes." alt="" coords="417,72,580,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="334,129,406,108,447,97,448,102,408,113,335,134"/>
+<area shape="rect" id="Node000005" href="$classgismo_1_1gsElasticityAssembler.html" title="Assembles the stiffness matrix and the right&#45;hand side vector for linear and nonlinear elasticity for..." alt="" coords="407,123,590,149"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="366,141,407,139,407,144,366,146"/>
+<area shape="rect" id="Node000008" href="$classgismo_1_1gsMassAssembler.html" title="Assembles the mass matrix and right&#45;hand side vector for linear and nonlinear elasticity for 2D plain..." alt="" coords="418,173,579,200"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="366,162,418,171,417,176,365,167"/>
+<area shape="rect" id="Node000009" href="$classgismo_1_1gsNsAssembler.html" title="TODO: write." alt="" coords="426,224,572,251"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="347,166,360,172,385,191,408,210,436,221,434,226,406,214,381,195,358,177,344,171"/>
+<area shape="rect" id="Node000010" href="$classgismo_1_1gsNsTimeIntegrator.html" title="Time integation for incompressible Navier&#45;Stokes equations." alt="" coords="415,275,583,301"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="354,168,361,173,379,195,385,218,392,240,409,261,427,272,425,276,405,265,387,242,380,220,374,198,357,177,351,172"/>
+<area shape="rect" id="Node000006" href="$classgismo_1_1gsMuscleAssembler.html" title="Assembler for incompressible nonlinear elasticity problem with a muscle material model...." alt="" coords="639,97,811,124"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="606,121,639,118,639,123,606,127"/>
+<area shape="rect" id="Node000007" href="$classgismo_1_1gsThermoAssembler.html" title="Assembles stiffness and mass matrices and right&#45;hand side vector for linear and nonlinear elasticity ..." alt="" coords="638,148,812,175"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="606,145,638,149,638,154,606,151"/>
+<area shape="rect" id="Node000014" href="$classgismo_1_1gsCDRAssembler.html" title="Implementation of an (multiple righ&#45;hand side) Poisson solver." alt="" coords="419,325,578,352"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="374,322,419,327,418,332,374,327"/>
+</map>
